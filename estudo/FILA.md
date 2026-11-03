@@ -4,7 +4,7 @@ Ordem enviada pelo usuário em 3 de novembro de 2026. Esta é a fila oficial des
 
 | Ordem | Repositório | Estado | Objetivo inicial a confirmar no estudo |
 | --- | --- | --- | --- |
-| 1 | [mojs/mojs](https://github.com/mojs/mojs) | Em andamento | Investigar shapes, bursts e timeline para motion por quadro |
+| 1 | [mojs/mojs](https://github.com/mojs/mojs) | Concluída | [Estudo, integração e validação](mojs/README.md) de Shape/Burst por quadro |
 | 2 | [theatre-js/theatre](https://github.com/theatre-js/theatre) | Na fila | Investigar sequenciamento, propriedades animadas e estado de projeto |
 | 3 | [jonobr1/two.js](https://github.com/jonobr1/two.js) | Na fila | Investigar desenho vetorial, cena e render 2D |
 | 4 | [d3/d3](https://github.com/d3/d3) | Na fila | Investigar visualização de dados, geometria e motion de gráficos |
@@ -41,4 +41,4 @@ A etapa só recebe “Concluída” quando o escopo de integração definido dur
 
 ## Checkpoint atual
 
-Base anterior: Remotion e Anime.js já estudados e testados localmente; ainda sem commits no início deste lote. Próximo trabalho: publicar a base e concluir mo.js. Nenhum dos outros sete repositórios foi iniciado neste lote.
+Base anterior publicada no commit `ed066313be69369e142bb69e5ba28286fb095431`. Etapa mo.js validada com 1.699 testes upstream, 16 testes locais e export verificado; este arquivo integra seu checkpoint de publicação. Próximo item: Theatre.js, ainda não iniciado. Confirmar o SHA remoto depois de enviar cada checkpoint; não inferir publicação apenas pela existência do commit local.

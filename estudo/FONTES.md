@@ -8,6 +8,7 @@ Os repositórios de edição serão enviados pelo usuário. Este índice disting
 | SRC-002 | [Post indicado pelo usuário — @chesny](https://x.com/chesny/status/2116976201080213799) | Primeiro material solicitado para estudo teórico | Post `2116976201080213799`; conteúdo não recuperado | Recebida; acesso bloqueado pela política de rede | [Registro de acesso](analises/SRC-002-material-chesny.md) |
 | SRC-003 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | Composição, tempo, mídia, motion, render e integração com Codex | `fe9f0c372706f2039da6b2a0a92b92aa746e69cf`, versão 4.0.540 | Inspeção de código e documentação; experimento com pacotes publicados executado | [Estudo aprofundado](remotion/README.md) |
 | SRC-004 | [juliangarnier/anime](https://github.com/juliangarnier/anime) | Timeline, easing, stagger e integração de motion por quadro | `01b81be1df6843ccfe0a71c0699a746bf740dd77`, versão 4.5.0 | Código inspecionado; 10/12 testes Node upstream aprovados; ponte e render no nosso projeto validados | [Estudo e resultados](animejs/README.md) |
+| SRC-005 | [mojs/mojs](https://github.com/mojs/mojs) | Shape, Burst, deltas e timeline normalizada | `0a9cf9a87dd5637e6fa770755e79048489bcf817`, manifest 1.7.1 | 1.699 testes upstream; ponte e export validados | [Estudo e resultados](mojs/README.md) |
 
 ## Fila de entrada
 

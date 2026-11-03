@@ -1,0 +1,32 @@
+> @mojs/core@1.7.1 pretest
+> webpack --config webpack.umd.js --env mode=test
+
+asset mo.umd.js 110 KiB [emitted] [minimized] (name: main)
+orphan modules 125 KiB [orphan] 16 modules
+runtime modules 396 bytes 2 modules
+cacheable modules 310 KiB
+  modules by path ./src/ 307 KiB 24 modules
+  modules by path ./node_modules/@babel/runtime/helpers/esm/*.js 3.74 KiB
+    ./node_modules/@babel/runtime/helpers/esm/typeof.js 366 bytes [built] [code generated]
+    ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js 156 bytes [built] [code generated]
+    ./node_modules/@babel/runtime/helpers/esm/createClass.js 507 bytes [built] [code generated]
+    ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn....(truncated) 606 bytes [built] [code generated]
+    ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js 244 bytes [built] [code generated]
+    + 3 modules
+webpack 5.106.1 compiled successfully in 8257 ms
+
+> @mojs/core@1.7.1 test
+> karma start
+
+03 11 2026 23:35:48.323:INFO [karma-server]: Karma v6.4.4 server started at http://localhost:9876/
+03 11 2026 23:35:48.334:INFO [launcher]: Launching browsers ChromeHeadlessNoSandbox with concurrency 1
+03 11 2026 23:35:48.366:INFO [launcher]: Starting browser ChromeHeadless
+03 11 2026 23:35:50.155:INFO [Chrome Headless 155.0.0.0 (Linux x86_64)]: Connected on socket E98KxU9snya70FZYAAAB with id 60606519
+TOTAL: 1699 SUCCESS
+
+=============================== Coverage summary ===============================
+Statements   : 99.63% ( 14870/14925 )
+Branches     : 59.76% ( 251/420 )
+Functions    : 97.08% ( 2602/2680 )
+Lines        : 99.75% ( 14864/14901 )
+================================================================================

@@ -1,0 +1,133 @@
+{
+  "source": "https://github.com/mojs/mojs",
+  "revision": "0a9cf9a87dd5637e6fa770755e79048489bcf817",
+  "version": "1.7.1",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/README.md",
+      "sha256": "2c91be1237955dd72e11478f14635207ba9618dc97e73b42cdb2a77dd17e4d92",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "LICENSE.md",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/LICENSE.md",
+      "sha256": "a6f47a5b900a568269cd8fcee343662c810e4da05e4e7003102ce20215b5ebe4",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/package.json",
+      "sha256": "9a7ac9c14a9bf66eb53cc3534d2fa5704de0e8f768f8ffca498ce07803213aaa",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "karma.conf.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/karma.conf.js",
+      "sha256": "3e5654b209c7a852fb16a4ef17a42da0639acc394d954ce7936f30ddafa848e4",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "webpack.umd.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/webpack.umd.js",
+      "sha256": "26bbac25a0a6687b8b45d34e5f488f6b79ef7a36b3280ce22f462a70ece89b5f",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/.github/workflows/ci.yml",
+      "sha256": "e6e775c9e0519ddb8672c4e381a642d395af2d593ba25e341475d415468fcd43",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/mojs.babel.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/mojs.babel.js",
+      "sha256": "7ca1ca686266e7b6ec9bc27cada55dc182b4f18737657dc6f7f165e81adaabcb",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/module.babel.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/module.babel.js",
+      "sha256": "1bb226ac8d4ba963c4e4342d48a48d2e948e39c835c52db82005d49afb06c38b",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/shape.babel.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/shape.babel.js",
+      "sha256": "987f1ce89c52fac5f2eb3ba7634f1242db2ee9b6dd8e552606c9ca038b9bd9e8",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/burst.babel.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/burst.babel.js",
+      "sha256": "b1ff0091ef77fb2f01e8513268a919c45b6cbc0c7986e43742c6d0f009cd9cdd",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/shape-swirl.babel.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/shape-swirl.babel.js",
+      "sha256": "b1fb788e3c812c588a069c5a8617aec85b930201065670454441377f553278de",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/h.coffee",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/h.coffee",
+      "sha256": "f2e395d5344fb5cd891657c83c42f11d403e0f05d80a3bc4bb0cdb45e9b1587d",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/tween/tweenable.babel.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/tween/tweenable.babel.js",
+      "sha256": "3bd530569039751e5822e069a66c52857bec41e2e27678431ca5cc6e1066f1d9",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/tween/tween.babel.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/tween/tween.babel.js",
+      "sha256": "2da30c9359b9b380481670022723c12569bed37de9c4ed442a359be8b4988051",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/tween/timeline.babel.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/tween/timeline.babel.js",
+      "sha256": "3eba0d9d25b8a61e34603c20d37d62a12a72d31cf9260afd448e7ea390d3713c",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/tween/tweener.babel.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/tween/tweener.babel.js",
+      "sha256": "99a344909bf5cf8c2a3bb96f9dafc781713d55d546756b3945bf7121e1614ee5",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/delta/delta.babel.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/delta/delta.babel.js",
+      "sha256": "39d9bcf251cea4cb34bf2994f4aff749cfe4cb41fe21db57087010feea337117",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/delta/deltas.babel.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/delta/deltas.babel.js",
+      "sha256": "8aab611e9d77b172f2223543ea890d809cb92b35d577205df37200375a3ceea9",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/shapes/polygon.coffee",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/shapes/polygon.coffee",
+      "sha256": "d98ba4e5309d241db0ec1565105b1ad4311e16e512311c52a0551c00c5965ed3",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "src/shapes/bit.babel.js",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/src/shapes/bit.babel.js",
+      "sha256": "0860a26aff41010786f0d23112390d9828723b8ebfa08ff2e763d08734a95fa1",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    },
+    {
+      "path": "spec/burst.coffee",
+      "url": "https://github.com/mojs/mojs/blob/0a9cf9a87dd5637e6fa770755e79048489bcf817/spec/burst.coffee",
+      "sha256": "9a5ec92ddbcbf517471f5bffc5082853ead4240dba1505c59d3d547401779438",
+      "scope": "Consulta integral ou parcial de trechos relevantes"
+    }
+  ]
+}

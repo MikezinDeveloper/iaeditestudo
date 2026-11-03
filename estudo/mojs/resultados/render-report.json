@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "study": "mojs",
+  "composition": "MojsStudy",
+  "frames": 90,
+  "fps": 30,
+  "durationSeconds": 3.008,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "repeatedFrameAfterEnd": true,
+  "regionMeanPixelChange": 11.232684659090909,
+  "regressions": {
+    "CodexStudy": "passed",
+    "AnimeMotionStudy": "passed"
+  },
+  "elapsedSeconds": 17.634,
+  "hashes": {
+    "video": "9cad8dc6720ab4022c8d3a315e8095dc2ee9beba39218cf459962ad8d217a089",
+    "frame30": "b6dfbb3dbbd5b38bcfabf879b7d0e1e51ec4566dd29d1354d4ee76a4fc0b286b"
+  }
+}

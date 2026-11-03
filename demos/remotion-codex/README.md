@@ -104,3 +104,15 @@ REMOTION_BROWSER_EXECUTABLE=/usr/bin/chromium npm run render:anime
 O comando captura frames fora de ordem, compara o frame 30 após visitar o fim, exporta H.264/AAC e verifica os metadados e a região animada. Quando há baseline local da composição original, compara seu frame 30 e registra o resultado. Saídas em `out/anime/`; relatório em `out/anime/report.json`.
 
 São 14 testes no projeto: seis do contrato original e oito da ponte de motion. A timeline é reconstruída para cada amostra porque o teste com instância reutilizada encontrou valores incorretos ao voltar do fim. Leia o [estudo do Anime.js](../../estudo/animejs/README.md) e a [decisão de integração](../../estudo/decisoes/DEC-001-animejs-por-quadro.md) antes de generalizar o mecanismo.
+
+## Estudos registrados da fila
+
+`scripts/studies.json` é o catálogo executável. Para cada estudo concluído:
+
+```bash
+REMOTION_BROWSER_EXECUTABLE=/usr/bin/chromium npm run render:study -- mojs
+```
+
+O runner verifica frames, codecs, duração, movimento numa região sem contadores, repetição após o fim e regressões quando existem baselines locais. Saídas em `out/studies/<chave>/`. A suíte local soma atualmente 16 testes. O mo.js inicializa sua timeline em zero antes de aplicar o progresso pedido. As bibliotecas controlam somente hosts isolados; os efeitos são liberados pelo cleanup.
+
+O workflow `.github/workflows/validate.yml` descreve instalação, testes e exports sequenciais no GitHub Actions, com upload dos resultados como artifacts. A existência do workflow não comprova uma execução remota aprovada; os resultados citados nos estudos são das execuções locais registradas.

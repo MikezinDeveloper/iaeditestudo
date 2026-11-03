@@ -1,0 +1,42 @@
+name: Validate audiovisual studies
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: demos/remotion-codex
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: demos/remotion-codex/package-lock.json
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: npm ci --no-audit --no-fund
+      - run: npm run assets
+      - run: npm run typecheck
+      - run: npm test
+      - name: Select installed browser
+        run: |
+          STUDY_BROWSER=$(command -v google-chrome || command -v chromium)
+          echo "REMOTION_BROWSER_EXECUTABLE=$STUDY_BROWSER" >> "$GITHUB_ENV"
+      - run: npm run render
+      - run: npm run verify
+      - run: npm run render:anime
+      - name: Render registered studies sequentially
+        run: |
+          for STUDY_KEY in $(node -e 'console.log(Object.keys(JSON.parse(require("fs").readFileSync("scripts/studies.json", "utf8"))).join(" "))'); do
+            npm run render:study -- "$STUDY_KEY"
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: audiovisual-results
+          path: demos/remotion-codex/out/
+          retention-days: 14

@@ -4,6 +4,7 @@ import project from '../project.json';
 import {StudyVideo} from './StudyVideo';
 import {validateProject} from './project';
 import {AnimeMotionStudy} from './AnimeMotionStudy';
+import {MojsStudy} from './studies/MojsStudy';
 
 export const Root: React.FC = () => (
   <>
@@ -21,5 +22,6 @@ export const Root: React.FC = () => (
     }}
   />
   <Composition id="AnimeMotionStudy" component={AnimeMotionStudy} width={640} height={360} fps={30} durationInFrames={120} />
+  <Composition id="MojsStudy" component={MojsStudy} width={640} height={360} fps={30} durationInFrames={90} />
   </>
 );

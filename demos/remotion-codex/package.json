@@ -14,9 +14,11 @@
     "smoke:studio": "node scripts/studio-smoke.mjs",
     "render": "node scripts/render.mjs",
     "render:anime": "node scripts/render-anime.mjs",
+    "render:study": "node scripts/render-study.mjs",
     "verify": "python3 scripts/verify.py"
   },
   "dependencies": {
+    "@mojs/core": "1.7.1",
     "@remotion/bundler": "4.0.540",
     "@remotion/cli": "4.0.540",
     "@remotion/renderer": "4.0.540",

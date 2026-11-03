@@ -1,0 +1,12 @@
+{
+  "command": "PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium npm test",
+  "exitCode": 0,
+  "passed": 1699,
+  "failed": 0,
+  "excludedByUpstreamConfig": [
+    "spec/motion-path.coffee"
+  ],
+  "browser": "Chromium 155",
+  "coverageNote": "Configuration instruments specs, not a claim of core code coverage",
+  "logNormalization": "ANSI and repetitive per-spec progress lines removed"
+}

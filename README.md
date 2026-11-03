@@ -37,4 +37,4 @@ O Codex poderá consultar estes arquivos em tarefas futuras. Esta base fornece c
 
 O demo tem dependências travadas e comandos documentados. A receita [scripts/setup-remotion.sh](scripts/setup-remotion.sh) foi executada com instalação pelo lockfile. Consulte os [resultados e limites](estudo/remotion/EXPERIMENTO.md) antes de generalizar o experimento.
 
-Os arquivos estão no checkout local. Commits e envio ao GitHub ainda não foram feitos.
+A base e os checkpoints deste lote são publicados em [MikezinDeveloper/iaeditestudo](https://github.com/MikezinDeveloper/iaeditestudo), branch `main`. O andamento e os limites estão na fila. O código inclui mo.js com uma composição de Shape/Burst e comandos para exportar cada estudo registrado.
