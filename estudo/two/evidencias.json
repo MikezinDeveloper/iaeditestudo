@@ -1,0 +1,147 @@
+{
+  "source": "https://github.com/jonobr1/two.js",
+  "revision": "cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e",
+  "consultedAt": "2026-11-03",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/README.md",
+      "sha256": "e430fa969d20447901b33690e44472085cb6de05383e7e7b5d0954503cea91d7",
+      "lines": 191,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/LICENSE",
+      "sha256": "56bd7f604990029d3871c91cefc7acd9de26f17e58c3c64a2537934eff0c8f9d",
+      "lines": 21,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/package.json",
+      "sha256": "fe4696cf65e23c9d5444128c755262973d8f2a18655ec04f4a1d71b1371b8833",
+      "lines": 94,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/index.html",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/tests/index.html",
+      "sha256": "f111d3355c700c7a00305b95dc4617025123a1a20700bf46bc10c0dc41c005a0",
+      "lines": 35,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/src/utils.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/tests/src/utils.js",
+      "sha256": "38fc42c7381b7341abbf6b14fab4ed083bef8e2fd4ea463ed4df62f39daceba4",
+      "lines": 230,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/suite/core.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/tests/suite/core.js",
+      "sha256": "692c9ba88fe6f8a0b8516f96642b4a8c91fd9f3f828db49a86805a203e092398",
+      "lines": 2269,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/suite/shapes.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/tests/suite/shapes.js",
+      "sha256": "a3d9a4cc62a49b8e4c0ccbe1e6029f371de5570b2ac30999361111f2caeb8b75",
+      "lines": 1051,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/suite/release.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/tests/suite/release.js",
+      "sha256": "37273a84cc0cb466e3c1655b8edb185cc0c3aec3241566071c434d2041a36e69",
+      "lines": 360,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/suite/dispose.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/tests/suite/dispose.js",
+      "sha256": "ff4a43852a20bee646465c892c86b90eef848c0fc30b72d58324fd46a53cfeb3",
+      "lines": 2026,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/two.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/src/two.js",
+      "sha256": "fc2f098ca0d2ae456938a7683739a27d842884dc3a1224c704e7c565ea753714",
+      "lines": 1370,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/constants.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/src/constants.js",
+      "sha256": "609285b8f1f92f9e44b0591ea8c3d29f7cec9d05bdf3aa39aa074eaefe4ee05c",
+      "lines": 68,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/shape.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/src/shape.js",
+      "sha256": "b1de62966ffdd4205fe88a51c3b60d331400ba02faf44851785844e23b8f351d",
+      "lines": 519,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/group.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/src/group.js",
+      "sha256": "cab162c24ebcf4c52672114d5a05386b914d569cfc3670114a32c0fcae2ac508",
+      "lines": 1430,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/anchor.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/src/anchor.js",
+      "sha256": "65b2faf4e8fafc4a3d99f05a1dbce9a641ccf459abc3ceeea5325aee1c091106",
+      "lines": 272,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/path.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/src/path.js",
+      "sha256": "594d1f37364f3050cf283fb4670d715541a125a2c5e659ee24bb641205584901",
+      "lines": 2023,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/vector.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/src/vector.js",
+      "sha256": "dbc6a26ea59b2e99a963343a632e94a3520265622e3ec38f770dd9230332d7bb",
+      "lines": 651,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/renderers/svg.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/src/renderers/svg.js",
+      "sha256": "f678864702fd1750e28eb94ae692e6a512ed3bd53ec0e715252ce269a47ff5fc",
+      "lines": 1254,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/utils/math.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/src/utils/math.js",
+      "sha256": "aa84893ec261de4b56a890af5debde84fb375cec0c473d6381f3aa5368c496e4",
+      "lines": 185,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "utils/build.js",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/utils/build.js",
+      "sha256": "78db32b69511b7260da10c459f40866e5ead9499f1c0987232c4c2f99b589838",
+      "lines": 145,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "wiki/docs/group/README.md",
+      "url": "https://github.com/jonobr1/two.js/blob/cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e/wiki/docs/group/README.md",
+      "sha256": "d132776cd24be6f8521bcc8efdebf105d81d12d4656671057ea146bac5d94935",
+      "lines": 2108,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "typecheck": "passed",
+  "projectTests": {
+    "passed": 21,
+    "failed": 0
+  },
+  "sourceSubset": {
+    "tests": 125,
+    "passed": 124,
+    "failed": 1,
+    "remainingFailure": "Exact generic sans-serif text bounding box differs in this environment"
+  },
+  "webglBackend": "swangle verified WebGL2; angle did not create context",
+  "runtime": "two.js@0.8.24",
+  "sourceBuildCompiler": "esbuild@0.28.2"
+}

@@ -1,0 +1,24 @@
+{
+  "passed": 866,
+  "failed": 3,
+  "total": 869,
+  "runtime": 1770,
+  "testCounts": {
+    "total": 125,
+    "passed": 123,
+    "failed": 2
+  },
+  "failures": [
+    {
+      "message": "Died on test #1: unable to create a webgl context. Try using another renderer.\n    at http://127.0.0.1:3210/two/tests/suite/release.js:137:9\n    at http://127.0.0.1:3210/two/tests/suite/release.js:360:3"
+    },
+    {
+      "message": "Expected 5 assertions, but 1 were run"
+    },
+    {
+      "message": true,
+      "actual": "{\"top\":182.752229,\"left\":167.233141,\"right\":232.766858,\"bottom\":217.24777,\"width\":65.533717,\"height\":34.495541}",
+      "expected": "{\"top\":183.032457,\"left\":167.351644,\"right\":232.648355,\"bottom\":216.967542,\"width\":65.29671,\"height\":33.935085}"
+    }
+  ]
+}

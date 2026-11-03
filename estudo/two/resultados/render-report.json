@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "study": "two",
+  "composition": "TwoStudy",
+  "frames": 90,
+  "fps": 30,
+  "durationSeconds": 3.008,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "repeatedFrameAfterEnd": true,
+  "regionMeanPixelChange": 15.464493371212122,
+  "regressions": {
+    "CodexStudy": "passed",
+    "AnimeMotionStudy": "passed",
+    "MojsStudy": "passed",
+    "TheatreStudy": "passed"
+  },
+  "elapsedSeconds": 29.433,
+  "hashes": {
+    "video": "9d5acf23c364b67a125047c643292af5327de43a466f66d59c70b070b06776ee",
+    "frame30": "8005cb5d1aa7c33c3e0b6ae0668874566c1849b66893982580f17c6de52d7954"
+  }
+}

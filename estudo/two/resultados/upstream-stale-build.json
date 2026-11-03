@@ -1,0 +1,961 @@
+{
+  "passed": 728,
+  "failed": 69,
+  "total": 797,
+  "runtime": 45805,
+  "testCounts": {
+    "total": 125,
+    "passed": 98,
+    "failed": 27
+  },
+  "failures": [
+    {
+      "message": "Died on test #1: Cannot read properties of undefined (reading 'id')\n    at http://127.0.0.1:3210/two/tests/suite/core.js:789:7"
+    },
+    {
+      "message": "Two.Shape.toObject preserves rotation",
+      "expected": 0.75
+    },
+    {
+      "message": "Two.Shape.fromObject preserves translation, rotation, scale and skew",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          2.040677785873413,
+          0.20066934823989868,
+          0,
+          0.6081300973892212,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 12,
+          "y": 34
+        },
+        "rotation": 0.75,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          1.0786160230636597,
+          -1.898088812828064,
+          12,
+          1.8359670639038086,
+          2.331850528717041,
+          34,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.Path.toObject preserves rotation",
+      "expected": 0.75
+    },
+    {
+      "message": "Two.Path.fromObject preserves translation, rotation, scale and skew",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          2.040677785873413,
+          0.20066934823989868,
+          0,
+          0.6081300973892212,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 12,
+          "y": 34
+        },
+        "rotation": 0.75,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          1.0786160230636597,
+          -1.898088812828064,
+          12,
+          1.8359670639038086,
+          2.331850528717041,
+          34,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.Text.toObject preserves rotation",
+      "expected": 0.75
+    },
+    {
+      "message": "Two.Text.fromObject preserves translation, rotation, scale and skew",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          2.040677785873413,
+          0.20066934823989868,
+          0,
+          0.6081300973892212,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 12,
+          "y": 34
+        },
+        "rotation": 0.75,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          1.0786160230636597,
+          -1.898088812828064,
+          12,
+          1.8359670639038086,
+          2.331850528717041,
+          34,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.Points.toObject preserves rotation",
+      "expected": 0.75
+    },
+    {
+      "message": "Two.Points.fromObject preserves translation, rotation, scale and skew",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          2.040677785873413,
+          0.20066934823989868,
+          0,
+          0.6081300973892212,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 12,
+          "y": 34
+        },
+        "rotation": 0.75,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          1.0786160230636597,
+          -1.898088812828064,
+          12,
+          1.8359670639038086,
+          2.331850528717041,
+          34,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.Circle.toObject preserves rotation",
+      "expected": 0.75
+    },
+    {
+      "message": "Two.Circle.fromObject preserves translation, rotation, scale and skew",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          2.040677785873413,
+          0.20066934823989868,
+          0,
+          0.6081300973892212,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 12,
+          "y": 34
+        },
+        "rotation": 0.75,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          1.0786160230636597,
+          -1.898088812828064,
+          12,
+          1.8359670639038086,
+          2.331850528717041,
+          34,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.Ellipse.toObject preserves rotation",
+      "expected": 0.75
+    },
+    {
+      "message": "Two.Ellipse.fromObject preserves translation, rotation, scale and skew",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          2.040677785873413,
+          0.20066934823989868,
+          0,
+          0.6081300973892212,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 12,
+          "y": 34
+        },
+        "rotation": 0.75,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          1.0786160230636597,
+          -1.898088812828064,
+          12,
+          1.8359670639038086,
+          2.331850528717041,
+          34,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.Polygon.toObject preserves rotation",
+      "expected": 0.75
+    },
+    {
+      "message": "Two.Polygon.fromObject preserves translation, rotation, scale and skew",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          2.040677785873413,
+          0.20066934823989868,
+          0,
+          0.6081300973892212,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 12,
+          "y": 34
+        },
+        "rotation": 0.75,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          1.0786160230636597,
+          -1.898088812828064,
+          12,
+          1.8359670639038086,
+          2.331850528717041,
+          34,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.Rectangle.toObject preserves rotation",
+      "expected": 0.75
+    },
+    {
+      "message": "Two.Rectangle.fromObject preserves translation, rotation, scale and skew",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          2.040677785873413,
+          0.20066934823989868,
+          0,
+          0.6081300973892212,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 12,
+          "y": 34
+        },
+        "rotation": 0.75,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          1.0786160230636597,
+          -1.898088812828064,
+          12,
+          1.8359670639038086,
+          2.331850528717041,
+          34,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.RoundedRectangle.toObject preserves rotation",
+      "expected": 0.75
+    },
+    {
+      "message": "Two.RoundedRectangle.fromObject preserves translation, rotation, scale and skew",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          2.040677785873413,
+          0.20066934823989868,
+          0,
+          0.6081300973892212,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 12,
+          "y": 34
+        },
+        "rotation": 0.75,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          1.0786160230636597,
+          -1.898088812828064,
+          12,
+          1.8359670639038086,
+          2.331850528717041,
+          34,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.Star.toObject preserves rotation",
+      "expected": 0.75
+    },
+    {
+      "message": "Two.Star.fromObject preserves translation, rotation, scale and skew",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          2.040677785873413,
+          0.20066934823989868,
+          0,
+          0.6081300973892212,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 12,
+          "y": 34
+        },
+        "rotation": 0.75,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          1.0786160230636597,
+          -1.898088812828064,
+          12,
+          1.8359670639038086,
+          2.331850528717041,
+          34,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.ArcSegment.toObject preserves rotation",
+      "expected": 0.75
+    },
+    {
+      "message": "Two.ArcSegment.fromObject preserves translation, rotation, scale and skew",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          2.040677785873413,
+          0.20066934823989868,
+          0,
+          0.6081300973892212,
+          3,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 12,
+          "y": 34
+        },
+        "rotation": 0.75,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          1.0786160230636597,
+          -1.898088812828064,
+          12,
+          1.8359670639038086,
+          2.331850528717041,
+          34,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.Group.toObject preserves rotation",
+      "expected": 0.75
+    },
+    {
+      "message": "Two.Group.fromObject preserves translation, rotation, scale and skew",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": 1,
+        "skewX": 0,
+        "skewY": 0,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 12,
+          "y": 34
+        },
+        "rotation": 0.75,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "skewX": 0.1,
+        "skewY": 0.2,
+        "matrix": [
+          1.0786160230636597,
+          -1.898088812828064,
+          12,
+          1.8359670639038086,
+          2.331850528717041,
+          34,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.Group.fromObject preserves a manual matrix",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": 1,
+        "skewX": 0,
+        "skewY": 0,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": 1,
+        "skewX": 0,
+        "skewY": 0,
+        "matrix": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          0,
+          0,
+          1
+        ],
+        "manual": true
+      }
+    },
+    {
+      "message": "Two.Group.fromObject preserves the transforms of its children",
+      "actual": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0,
+        "scale": 4,
+        "skewX": 0,
+        "skewY": 0,
+        "matrix": [
+          4,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      },
+      "expected": {
+        "translation": {
+          "x": 56,
+          "y": 78
+        },
+        "rotation": 1.5,
+        "scale": 4,
+        "skewX": 0,
+        "skewY": 0,
+        "matrix": [
+          0.2829487919807434,
+          -3.9899799823760986,
+          56,
+          3.9899799823760986,
+          0.2829487919807434,
+          78,
+          0,
+          0,
+          1
+        ],
+        "manual": false
+      }
+    },
+    {
+      "message": "Two.Group.center keeps the mask translation finite on an empty group.",
+      "actual": false,
+      "expected": true
+    },
+    {
+      "message": "Two.Group.center does not move the mask of an empty group.",
+      "actual": [
+        null,
+        null
+      ],
+      "expected": [
+        0,
+        0
+      ]
+    },
+    {
+      "message": "Two.Group.center keeps hidden children translations finite.",
+      "actual": false,
+      "expected": true
+    },
+    {
+      "message": "Two.Group.center leaves hidden-only children in place.",
+      "actual": [
+        null,
+        null
+      ],
+      "expected": [
+        10,
+        20
+      ]
+    },
+    {
+      "message": "Two.Group.center keeps the mask translation finite on an effect-only group.",
+      "actual": false,
+      "expected": true
+    },
+    {
+      "message": "Two.Group.corner keeps the mask translation finite on an empty group.",
+      "actual": false,
+      "expected": true
+    },
+    {
+      "message": "Two.Group.corner does not move the mask of an empty group.",
+      "actual": [
+        null,
+        null
+      ],
+      "expected": [
+        0,
+        0
+      ]
+    },
+    {
+      "message": "Two.Group.corner keeps hidden children translations finite.",
+      "actual": false,
+      "expected": true
+    },
+    {
+      "message": "Two.Group.corner leaves hidden-only children in place.",
+      "actual": [
+        null,
+        null
+      ],
+      "expected": [
+        10,
+        20
+      ]
+    },
+    {
+      "message": "Died on test #12: Cannot read properties of undefined (reading 'x')\n    at http://127.0.0.1:3210/two/tests/suite/core.js:1540:7"
+    },
+    {
+      "message": "Expected 16 assertions, but 12 were run"
+    },
+    {
+      "message": "Died on test #1: unable to create a webgl context. Try using another renderer.\n    at http://127.0.0.1:3210/two/tests/suite/release.js:137:9\n    at http://127.0.0.1:3210/two/tests/suite/release.js:360:3"
+    },
+    {
+      "message": "Expected 5 assertions, but 1 were run"
+    },
+    {
+      "message": "Died on test #11: two.dispose is not a function\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:221:9\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #5: Cannot read properties of null (reading 'removeChild')\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1059:11\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1058:5\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #2: Cannot read properties of null (reading 'removeChild')\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1081:11\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1058:5\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #2: Cannot read properties of null (reading 'removeChild')\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1095:13\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1094:7\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1058:5\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #2: Cannot read properties of null (reading 'removeChild')\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1095:13\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1094:7\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1058:5\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #2: Cannot read properties of null (reading 'removeChild')\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1095:13\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1094:7\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1058:5\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #5: Cannot read properties of null (reading 'removeChild')\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1059:11\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1058:5\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #2: Cannot read properties of null (reading 'removeChild')\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1081:11\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1058:5\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #2: Cannot read properties of null (reading 'removeChild')\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1095:13\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1094:7\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1058:5\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #2: Cannot read properties of null (reading 'removeChild')\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1095:13\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1094:7\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1058:5\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #2: Cannot read properties of null (reading 'removeChild')\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1095:13\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1094:7\n    at _$1.each (http://127.0.0.1:3210/two-runner/underscore.js:1335:9)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1058:5\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #1: (intermediate value).appendTo(...).dispose is not a function\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1704:9\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Expected 3 assertions, but 1 were run"
+    },
+    {
+      "message": "Died on test #2: two.dispose is not a function\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1736:9\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Expected 3 assertions, but 2 were run"
+    },
+    {
+      "message": "Died on test #2: two.dispose is not a function\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1761:9\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #3: two.dispose is not a function\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1787:9\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Expected 5 assertions, but 3 were run"
+    },
+    {
+      "message": "global failure: TypeError: a.dispose is not a function"
+    },
+    {
+      "message": "Test took longer than 15000ms; test timed out."
+    },
+    {
+      "message": "Test took longer than 15000ms; test timed out."
+    },
+    {
+      "message": "Died on test #1: first.dispose is not a function\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1844:11\n    at Array.forEach (<anonymous>)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1843:17\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #1: first.dispose is not a function\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1844:11\n    at Array.forEach (<anonymous>)\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1843:17\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #2: two.dispose is not a function\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1875:9\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "Died on test #1: two.dispose is not a function\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:1898:9\n    at http://127.0.0.1:3210/two/tests/suite/dispose.js:2026:3"
+    },
+    {
+      "message": "global failure: TypeError: a.dispose is not a function"
+    },
+    {
+      "message": "Test took longer than 15000ms; test timed out."
+    },
+    {
+      "message": "Expected 5 assertions, but 2 were run"
+    },
+    {
+      "message": true,
+      "actual": "{\"top\":182.752229,\"left\":167.233141,\"right\":232.766858,\"bottom\":217.24777,\"width\":65.533717,\"height\":34.495541}",
+      "expected": "{\"top\":183.032457,\"left\":167.351644,\"right\":232.648355,\"bottom\":216.967542,\"width\":65.29671,\"height\":33.935085}"
+    }
+  ]
+}

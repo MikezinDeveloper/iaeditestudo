@@ -10,6 +10,7 @@ Os repositórios de edição serão enviados pelo usuário. Este índice disting
 | SRC-004 | [juliangarnier/anime](https://github.com/juliangarnier/anime) | Timeline, easing, stagger e integração de motion por quadro | `01b81be1df6843ccfe0a71c0699a746bf740dd77`, versão 4.5.0 | Código inspecionado; 10/12 testes Node upstream aprovados; ponte e render no nosso projeto validados | [Estudo e resultados](animejs/README.md) |
 | SRC-005 | [mojs/mojs](https://github.com/mojs/mojs) | Shape, Burst, deltas e timeline normalizada | `0a9cf9a87dd5637e6fa770755e79048489bcf817`, manifest 1.7.1 | 1.699 testes upstream; ponte e export validados | [Estudo e resultados](mojs/README.md) |
 | SRC-006 | [theatre-js/theatre](https://github.com/theatre-js/theatre) | Estado de projeto, keyframes, derivação e driver temporal | `6ea82b938ea49609489f6377ded693ccc6ee8f5b`, core no HEAD 0.7.0; runtime 0.7.2 | Estado JSON, ordem temporal e export do core validados; suíte monorepo não executada | [Estudo](theatre/README.md) |
+| SRC-007 | [jonobr1/two.js](https://github.com/jonobr1/two.js) | Cena vetorial, grupos, transformações e SVG | `cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e`, runtime 0.8.24 | 124/125 testes do subconjunto upstream; 21 testes locais e export aprovados | [Estudo](two/README.md) |
 
 ## Fila de entrada
 

@@ -1,0 +1,18 @@
+{
+  "passed": 997,
+  "failed": 1,
+  "total": 998,
+  "runtime": 2928,
+  "testCounts": {
+    "total": 125,
+    "passed": 124,
+    "failed": 1
+  },
+  "failures": [
+    {
+      "message": true,
+      "actual": "{\"top\":182.752229,\"left\":167.233141,\"right\":232.766858,\"bottom\":217.24777,\"width\":65.533717,\"height\":34.495541}",
+      "expected": "{\"top\":183.032457,\"left\":167.351644,\"right\":232.648355,\"bottom\":216.967542,\"width\":65.29671,\"height\":33.935085}"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "assets": [
+    {
+      "url": "https://cdn.jsdelivr.net/npm/qunit@2.24.1/qunit/qunit.js",
+      "sha256": "60475de3062ec4042223fea8df91188559d13ebc8095e767876ddd2ad571ad92"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd.js",
+      "sha256": "24f3a110916c46a4d7fb762a7b8994a6c2daad7efd62604b1ba2a9e8c2bf4e03"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/resemblejs@5.0.0/resemble.js",
+      "sha256": "0d22bf282130036934f9c980013c3916eb912500a0ca17cc054a7b83e8ad29cd"
+    }
+  ],
+  "suites": [
+    "core",
+    "shapes",
+    "release",
+    "dispose",
+    "bounding-box",
+    "hit-test"
+  ]
+}
