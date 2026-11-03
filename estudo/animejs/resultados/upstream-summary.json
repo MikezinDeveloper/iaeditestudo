@@ -1,0 +1,22 @@
+{
+  "sourceRevision": "01b81be1df6843ccfe0a71c0699a746bf740dd77",
+  "node": "24.22.1",
+  "command": "npm run test:node",
+  "exitCode": 2,
+  "passed": 10,
+  "failed": 2,
+  "skipped": 0,
+  "failedChecks": [
+    "test if the render() function can be optimized",
+    "test if the engine.update() function can be optimized"
+  ],
+  "observedOptimizationStatus": 81,
+  "expectedOptimizationStatus": 49,
+  "setup": {
+    "frozenInstall": "failed",
+    "reason": "package.json and package-lock.json disagree on three and @types/three",
+    "workaround": "Separate exact Mocha 10.2.0 / Chai 4.3.10 runner, ignored symlinks; upstream tracked files unchanged"
+  },
+  "browserSuites": "not run",
+  "upstreamWorkingTreeClean": true
+}

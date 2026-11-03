@@ -1,0 +1,381 @@
+{
+  "source": "https://github.com/remotion-dev/remotion",
+  "revision": "fe9f0c372706f2039da6b2a0a92b92aa746e69cf",
+  "declaredVersion": "4.0.540",
+  "consultedAt": "2026-11-03",
+  "uploadedArchiveInspected": false,
+  "archiveLimitation": "Transfer limit 32 MiB; user confirmed official repository, no modifications; archive revision not compared.",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/README.md",
+      "sha256": "4c6717ce4a4f556300edf18cb8c64965786754649889353599b3435810268e58",
+      "lines": 97,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "LICENSE.md",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/LICENSE.md",
+      "sha256": "bd65083b940f61904f6ef298aade918a7cad72a3e35bc406e36fab365844b673",
+      "lines": 49,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/package.json",
+      "sha256": "9df4bd793d3e004a57bab9af11b0f53750382201155b77f4676a34a8e0832a0c",
+      "lines": 162,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/package.json",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/package.json",
+      "sha256": "9275be414957eb43df796da1312989af019ac890bc25461bda75208e19419c93",
+      "lines": 83,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/version.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/version.ts",
+      "sha256": "6d89a34f3345d2cd3efcf72ef2da40eb80a230929012266a84dc521af1c99d5e",
+      "lines": 8,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/v5-flag.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/v5-flag.ts",
+      "sha256": "1ea399fc6068506f6728f5e08bcb06a1b859028414d563f3c0c37d1e45a9e14d",
+      "lines": 5,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/register-root.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/register-root.ts",
+      "sha256": "02c6b6ffc505e9dfb889159d5ccf0c079768640bd19841f86f920e74dc590d71",
+      "lines": 45,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/Composition.tsx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/Composition.tsx",
+      "sha256": "d7aa75b60404953500a72ad8f5f2db8679aa5d268bada94fa1705211649ae8d1",
+      "lines": 337,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/Sequence.tsx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/Sequence.tsx",
+      "sha256": "a50c00d26074fc9ac2889cb080d8e694cac194eee4205b0406cebc9709e9c50a",
+      "lines": 1335,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/use-current-frame.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/use-current-frame.ts",
+      "sha256": "f1382e84db564a3acb9a2f59119114dcf080f178d00e59f33d3698b7b796815c",
+      "lines": 45,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/interpolate.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/interpolate.ts",
+      "sha256": "4fb17e5058bc3db326a573e5f5fb3344383996fd89270a320131a73e62acb89a",
+      "lines": 1484,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/spring/index.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/spring/index.ts",
+      "sha256": "8fb2fe4dd2948a6f456efb6989b789317e51eba10e00f96c7165fdd1d97a5bc5",
+      "lines": 97,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/delay-render.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/delay-render.ts",
+      "sha256": "ec2f272b9e2d1fbb12a31dffd90dd4ef60ff26575a6bc0d46cb9f03571074d4d",
+      "lines": 216,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/video/OffthreadVideo.tsx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/video/OffthreadVideo.tsx",
+      "sha256": "84f257763b4a6e5502c44bd1473c467880a851f2ae58230c85d4607ea63ed0d3",
+      "lines": 243,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/video/OffthreadVideoForRendering.tsx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/video/OffthreadVideoForRendering.tsx",
+      "sha256": "d10bc50f6e5afc69681bf43db5fab8e236236e3a26edd477be9663fbafc95922",
+      "lines": 318,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/audio/AudioForRendering.tsx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/audio/AudioForRendering.tsx",
+      "sha256": "f52a3c339f500ebbdd5382d6f419ab72c343e96c6e49f21a2c76c71a9cb833d9",
+      "lines": 240,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/core/src/audio/use-audio-frame.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/core/src/audio/use-audio-frame.ts",
+      "sha256": "f7e142006b1ef3d675ab17e3e9155409ced712327627e59f9c629e0929e67deb",
+      "lines": 40,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/bundler/src/bundle.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/bundler/src/bundle.ts",
+      "sha256": "e9361d7872b4b308ad5047dc94ba897f0af8f68d5ed3db80ae29932cfee16df1",
+      "lines": 520,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/renderer/src/select-composition.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/renderer/src/select-composition.ts",
+      "sha256": "fafbfb0bee91272758ad688af8008042e73d4043e08b774a3fdafc2d763ee747",
+      "lines": 392,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/renderer/src/seek-to-frame.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/renderer/src/seek-to-frame.ts",
+      "sha256": "c55b7695a6cf7e55ec08b2309f173ff8246a75e7786ec85bd510015dcc69f8dc",
+      "lines": 215,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/renderer/src/render-frame.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/renderer/src/render-frame.ts",
+      "sha256": "51267896c24a4e7af8e96ce1c3c689065dfe6556e021cca2df87bdb28b2f2881",
+      "lines": 143,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/renderer/src/render-frame-with-option-to-reject.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/renderer/src/render-frame-with-option-to-reject.ts",
+      "sha256": "d0b25dd8189ad7f29cfe4e6b9a34cd595b2b16e7b086406491b5f7ad65abc0dd",
+      "lines": 405,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/renderer/src/collect-assets.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/renderer/src/collect-assets.ts",
+      "sha256": "85b43980b61c04c2a3227b15d23132da3c6c45751901618a01d4cd65d98f42ad",
+      "lines": 54,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/renderer/src/render-media.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/renderer/src/render-media.ts",
+      "sha256": "09e5ed20972d0d1cb666065e765fef35b31778ca4dfd60cd2f19ec0c8b4aeee1",
+      "lines": 1270,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/renderer/src/render-still.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/renderer/src/render-still.ts",
+      "sha256": "703a32a5f7b1b8ffa7ed7ef518d180ecc8a4ef0e6c814941a3762252f37aa36c",
+      "lines": 645,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/renderer/src/stitch-frames-to-video.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/renderer/src/stitch-frames-to-video.ts",
+      "sha256": "5a4c6ed598d6229a3c49ac7ced96b3bae331e00f4cbffe648839d2bb2add2dcd",
+      "lines": 726,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/player/src/use-playback.ts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/player/src/use-playback.ts",
+      "sha256": "5756efad3b871ea8bda7c8bd1de678fc631b4daf61c990851c7cd5a639a32045",
+      "lines": 464,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/transitions/src/TransitionSeries.tsx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/transitions/src/TransitionSeries.tsx",
+      "sha256": "9923dbfd680391f2e0f9abf1c2ff5f6a4cd0136305ee737a36c2a41a2739e5b6",
+      "lines": 1052,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/agent-plugin/build.mts",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/agent-plugin/build.mts",
+      "sha256": "61f098645f283e587c85d6c414f72794bc1b2756f8b5d11b6cc28c723f02ad4d",
+      "lines": 162,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/agent-plugin/plugin.json",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/agent-plugin/plugin.json",
+      "sha256": "e5405cae04a6ade46cc1ab9a7953aeb99984f0c011cc856755cded3a1b8015ec",
+      "lines": 25,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/agent-plugin/.codex-plugin/plugin.json",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/agent-plugin/.codex-plugin/plugin.json",
+      "sha256": "9a0103f4a7709b14cb3efef7e1e4999bbc9bf28db2c9ceddea8d6ba1759c43e3",
+      "lines": 46,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/agent-plugin/marketplace.json",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/agent-plugin/marketplace.json",
+      "sha256": "c2f24e2cf1e06ab81944158367e7eb07a2826d60b24c71a91d931bfe1bbb97da",
+      "lines": 20,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/agent-plugin/package.json",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/agent-plugin/package.json",
+      "sha256": "ba597fd37aceea887ec7f9bf4fb945a1c165b0286d49428bdd10f57ff5aad695",
+      "lines": 34,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/agent-plugin/LICENSE",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/agent-plugin/LICENSE",
+      "sha256": "1df205bece1fe707f818658a104844aba9a783e43f716642f5bf1286c18263c0",
+      "lines": 21,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/skills/README.md",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/skills/README.md",
+      "sha256": "79241f8ff6e82d0e9e9976cac579ed86b05d3e63527ce7493b5081a8c38a0f2e",
+      "lines": 109,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/skills/skills/remotion-best-practices/SKILL.md",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/skills/skills/remotion-best-practices/SKILL.md",
+      "sha256": "e84ef671d5c5bc866800fd6b3337cfa13f3f45005227df9952786f82f939bef8",
+      "lines": 113,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/skills/skills/remotion-render/SKILL.md",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/skills/skills/remotion-render/SKILL.md",
+      "sha256": "7b01ccedaa95d3f77e25374b706f9d6d074aa99b34c1c777f2d49c09c78a29ef",
+      "lines": 41,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/skills/skills/remotion-markup/sequencing.md",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/skills/skills/remotion-markup/sequencing.md",
+      "sha256": "59f2349b125314188506cca8ea8d1386db0fa5031594569577bf1b4a555696c8",
+      "lines": 28,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/ai/codex-plugin.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/ai/codex-plugin.mdx",
+      "sha256": "27433ecbc6a6b511c0fa61be254b7c6ee7f857b3a61584d96a1645c2d2570404",
+      "lines": 30,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/ai/skills.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/ai/skills.mdx",
+      "sha256": "83a5f9bb49e9e7476f5981ca1e38b56e42d77453931c28763d3f2d26cf94ec52",
+      "lines": 111,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/ai/webmcp.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/ai/webmcp.mdx",
+      "sha256": "a456a15f9c77da2a030df4b34873f6ec812f7c2a3653c771dedb15dffa513971",
+      "lines": 1185,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/ai/dynamic-compilation.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/ai/dynamic-compilation.mdx",
+      "sha256": "b9494d6ea3264a0622e63712ff9b063289307a89a20146e1eb4f326481c5441d",
+      "lines": 246,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/ssr-node.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/ssr-node.mdx",
+      "sha256": "301380643a819ba48e68aad0cc54c884dffa72792bd5668ec699b63568e499ae",
+      "lines": 93,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/timing.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/timing.mdx",
+      "sha256": "9e592b511af47bb1e68bf91d43882e20c843bb50b544b4cf593d7fdabf198087",
+      "lines": 147,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/using-randomness.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/using-randomness.mdx",
+      "sha256": "aaaf2b5002de76c7db23d3d824945eae677146201989c4cf9a5ac052682b85b6",
+      "lines": 61,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/audio/volume.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/audio/volume.mdx",
+      "sha256": "890cf0b314fb171ac6e9043cbd5d1f1ddd8b1b2858fae82bc46d7bc7959dbb04",
+      "lines": 141,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/audio/trimming.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/audio/trimming.mdx",
+      "sha256": "10e57a77e4a39fa72a08e8e0f57172e6cf813da69abb18a566e4c3ec2285246c",
+      "lines": 134,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/studio/interactivity-best-practices.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/studio/interactivity-best-practices.mdx",
+      "sha256": "dc7deaa05eb6de3445436ce0afb3259ca48ee166a9ba98ae875decac2581da5e",
+      "lines": 270,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/transitions/index.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/transitions/index.mdx",
+      "sha256": "c4fa43f484a22f869b95dc927acb6997a5f4a536a231d1f5c8b75584b13f4d5f",
+      "lines": 29,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/transitions/transitionseries.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/transitions/transitionseries.mdx",
+      "sha256": "4f7a3d1e3931d7f2c6c75138ab0456c01fe5b20bfb42e35939b2fc77d8b01f1b",
+      "lines": 324,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/docs/docs/options/browser-executable.mdx",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/docs/docs/options/browser-executable.mdx",
+      "sha256": "9b2b426867d4ff387ceddf677780e290940cf1b5d945fa7448befd482ba5d403",
+      "lines": 56,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/template-blank/package.json",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/template-blank/package.json",
+      "sha256": "45ade44953885c8848c1ad63238f3734ebc2ae240ecb4b27514e290a94bd00c8",
+      "lines": 31,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    },
+    {
+      "path": "packages/template-blank/tsconfig.json",
+      "url": "https://github.com/remotion-dev/remotion/blob/fe9f0c372706f2039da6b2a0a92b92aa746e69cf/packages/template-blank/tsconfig.json",
+      "sha256": "a6fbcf514dbfd3d116c3f7f78b72949c8c2ff45bdbe17aeff4c97e16bc1327fa",
+      "lines": 16,
+      "scope": "Leitura integral ou parcial de trechos/símbolos relevantes; não representa auditoria completa do arquivo."
+    }
+  ]
+}

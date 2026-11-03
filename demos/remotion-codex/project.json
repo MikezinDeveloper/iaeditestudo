@@ -1,0 +1,13 @@
+{
+  "title": "VIDEO + AUDIO + MOTION",
+  "accent": "#62f4c6",
+  "width": 640,
+  "height": 360,
+  "fps": 30,
+  "durationInFrames": 180,
+  "clips": [
+    {"source": "source-01.mp4", "from": 0, "durationInFrames": 90, "trimBefore": 15},
+    {"source": "source-02.mp4", "from": 90, "durationInFrames": 90, "trimBefore": 30}
+  ],
+  "audio": {"source": "tone.wav", "volume": 0.35, "fadeFrames": 15}
+}

@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "animejs": "4.5.0",
+  "remotion": "4.0.540",
+  "composition": "AnimeMotionStudy",
+  "width": 640,
+  "height": 360,
+  "frames": 120,
+  "fps": "30/1",
+  "durationSeconds": 4.011,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "repeatedFrameAfterEnd": true,
+  "titleRegionMeanPixelChange": 20.190285714285714,
+  "baseCompositionRegression": {
+    "status": "passed",
+    "baseline": "out/frame-30.png"
+  },
+  "elapsedSeconds": 44.742,
+  "hashes": {
+    "frame-30.png": "089adc15ff1ddaa52a29ab62a79205332643cfcd20b7f96b4961c045a849265a",
+    "frame-30-after-end.png": "089adc15ff1ddaa52a29ab62a79205332643cfcd20b7f96b4961c045a849265a",
+    "anime-motion.mp4": "a40d0246e5ef6328ef662665ddf9a99f35db1c4e7aaff2283162adcef478d046",
+    "remotion-regression.png": "ef307e59e01b77d80b8c90d9d81df51c37ce992c3afecc9ad88bde0633fca44c"
+  }
+}

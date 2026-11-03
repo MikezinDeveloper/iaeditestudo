@@ -1,0 +1,78 @@
+
+> animejs@4.5.0 test:node
+> node --allow-natives-syntax "node_modules/.bin/mocha" -u tdd --timeout 20000 "./tests/suites/node.test.js"
+
+
+
+  Node tests
+endTime: 993
+    ✔ Barebone test to see if an animation runs (995ms)
+[Function: animate]  is function
+[Function: animate]  is optimized
+[Function: animate]  is optimized by TurboFan
+[Function: animate]  optimization status is  49
+animation has fast properties
+tween has fast properties
+    ✔ test if the animate() function can be optimized (88ms)
+[Function: createTimeline]  is function
+[Function: createTimeline]  is optimized
+[Function: createTimeline]  is optimized by TurboFan
+[Function: createTimeline]  optimization status is  49
+[Function: createTimeline]  is function
+[Function: createTimeline]  is optimized
+[Function: createTimeline]  is optimized by TurboFan
+[Function: createTimeline]  optimization status is  49
+timeline has fast properties
+    ✔ test if the createTimeline() function can be optimized (3861ms)
+[Function: createTimer]  is function
+[Function: createTimer]  is optimized
+[Function: createTimer]  is optimized by TurboFan
+[Function: createTimer]  optimization status is  49
+timer has fast properties
+    ✔ test if the createTimer() function can be optimized (66ms)
+[Function: render]  is function
+[Function: render]  is optimized
+[Function: render]  is interpreted
+[Function: render]  optimization status is  81
+    1) test if the render() function can be optimized
+[Function: update]  is function
+[Function: update]  is optimized
+[Function: update]  is interpreted
+[Function: update]  optimization status is  81
+    2) test if the engine.update() function can be optimized
+    ✔ test if engine has fast properties (331ms)
+    ✔ test if engine's defaults has fast properties (384ms)
+    ✔ test if timer has fast properties (336ms)
+    ✔ test if animation has fast properties (426ms)
+    ✔ test if tween has fast properties (247ms)
+    ✔ test if tl has fast properties (255ms)
+
+
+  10 passing (8s)
+  2 failing
+
+  1) Node tests
+       test if the render() function can be optimized:
+
+      Uncaught AssertionError: expected 81 to equal 49
+      + expected - actual
+
+      -81
+      +49
+
+      at Timeout._onTimeout (file:///workspace/research-cache/anime/tests/suites/node.test.js:220:48)
+      at listOnTimeout (node:internal/timers:685:17)
+      at process.processTimers (node:internal/timers:618:7)
+
+  2) Node tests
+       test if the engine.update() function can be optimized:
+
+      Uncaught AssertionError: expected 81 to equal 49
+      + expected - actual
+
+      -81
+      +49
+
+      at Timeout._onTimeout (file:///workspace/research-cache/anime/tests/suites/node.test.js:271:55)
+      at listOnTimeout (node:internal/timers:685:17)
+      at process.processTimers (node:internal/timers:618:7)

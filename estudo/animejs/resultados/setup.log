@@ -1,0 +1,37 @@
+
+added 251 packages in 21s
+
+> iaeditestudo-remotion-codex@0.1.0 assets
+> node scripts/generate-assets.mjs
+
+Assets sintéticos gerados em public/; nenhum download externo.
+
+> iaeditestudo-remotion-codex@0.1.0 typecheck
+> tsc --noEmit
+
+
+> iaeditestudo-remotion-codex@0.1.0 test
+> node --test test/*.test.ts
+
+✔ converte frames em milissegundos com fps inteiro e fracionário (2.414239ms)
+✔ rejeita relógios inválidos antes de criar uma timeline (3.378612ms)
+✔ amostra numérica conhecida: outCubic a 300 ms (18.793065ms)
+✔ stagger parte do centro e os extremos iniciam depois (3.296437ms)
+✔ seek fora de ordem equivale a uma instância nova nos 120 quadros (166.52665ms)
+✔ animação não agenda o motor autônomo e a saída não retém o target (0.555192ms)
+✔ descarte é idempotente e impede novo uso (0.51454ms)
+✔ seek com callbacks silenciados modifica o target sem emitir eventos (0.589972ms)
+✔ aceita a edição de referência: dois cortes cobrindo 180 quadros (9.170616ms)
+✔ rejeita gap e sobreposição em vez de produzir um corte ambíguo (4.53985ms)
+✔ rejeita divergência entre a duração dos clipes e a composição (3.400441ms)
+✔ rejeita referência fora do diretório de assets (0.472686ms)
+✔ rejeita fade sobreposto e volume fora do contrato (5.383453ms)
+✔ rejeita dimensões incompatíveis com a saída H.264 escolhida (0.273008ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1128.284064

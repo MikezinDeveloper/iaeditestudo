@@ -1,0 +1,276 @@
+{
+  "source": "https://github.com/juliangarnier/anime",
+  "revision": "01b81be1df6843ccfe0a71c0699a746bf740dd77",
+  "declaredVersion": "4.5.0",
+  "license": "MIT",
+  "consultedAt": "2026-11-03",
+  "externalDocumentationConsulted": false,
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/README.md",
+      "sha256": "254b88321537a666b4d37aeb77dba01f630b0da0dc642fb3fec9bbb7bf9ab7fa",
+      "lines": 169,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "LICENSE.md",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/LICENSE.md",
+      "sha256": "3f3e835a9952cfc2a6ca836fb95b3257c981f24fa3ef51249055acb09931897b",
+      "lines": 9,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/CONTRIBUTING.md",
+      "sha256": "124d7671d66f834bcddbaa80a59e3f084d550b1ce539fb34a2098ab2210d3adf",
+      "lines": 36,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/package.json",
+      "sha256": "01c6664d7d2b324eada8e2d32dcf6b0377c4343331a90271aa222fb7009ad585",
+      "lines": 234,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "package-lock.json",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/package-lock.json",
+      "sha256": "503cd2967c0ffc02ef1581b046d987b92b810409a7c0b61f4e1b5cdbf93e3716",
+      "lines": 2758,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/index.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/index.js",
+      "sha256": "d7192574d1cb4066be8b1feebdf7d6f9383e49c7d5efabdee9161c7435bccf44",
+      "lines": 20,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/clock.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/core/clock.js",
+      "sha256": "b155c02c0ffcc90fad7a694296e0c3829548691971e8783a4c17b08d03bf10e9",
+      "lines": 103,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/globals.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/core/globals.js",
+      "sha256": "25462abf7106a010a4635d750322adbc20b4e137813df84e48617234d91afc96",
+      "lines": 90,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/targets.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/core/targets.js",
+      "sha256": "335c47191737db40dfe6c8b8d2f8f80eba50bd9b1532b7c15f15aad5fd7fee4c",
+      "lines": 136,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/values.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/core/values.js",
+      "sha256": "338cb8608c11c2f3f9bacb45fec2e139a11938756bfc5704cf7f7c12521ba8d8",
+      "lines": 290,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/render.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/core/render.js",
+      "sha256": "d66917fce90a473b0880f00e0699c8d7238edf5f953f2f3c17f47c550469a69c",
+      "lines": 425,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/engine/engine.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/engine/engine.js",
+      "sha256": "0ef69354d86967eadd06aec3119bd671b4fcb5617d8501b1d0751d502301d510",
+      "lines": 183,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/timer/timer.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/timer/timer.js",
+      "sha256": "5f886d676027f775d8d50b50cc35c55a63096f188641861e47e82b1c6df7696a",
+      "lines": 531,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/animation/index.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/animation/index.js",
+      "sha256": "f2e1622ce7e8cc68b170985171c8274d7fc2d116549b05372168b1da28be10aa",
+      "lines": 1,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/animation/animation.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/animation/animation.js",
+      "sha256": "eb91e0f2b145478391a63fd46bc3203cf93bdb8c76c2093dfc37d5a8d561a47e",
+      "lines": 801,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/animation/composition.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/animation/composition.js",
+      "sha256": "01bd80bfbc025320380cb669245c86d03d37e5c1abd12ab2a6d60b6d199831cb",
+      "lines": 393,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/timeline/index.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/timeline/index.js",
+      "sha256": "dcf638d770f93992ddad8490de3979288fc0f7557569507f6758d3c1dcd6560d",
+      "lines": 1,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/timeline/timeline.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/timeline/timeline.js",
+      "sha256": "6de4aa82874985207dd143076f16443f871a9050681ad8c4291496864cfdac94",
+      "lines": 389,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/timeline/position.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/timeline/position.js",
+      "sha256": "e66f730836155067a0d97dc029929695ae9f036939587fedb6af0a7de786db2e",
+      "lines": 73,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/utils/stagger.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/utils/stagger.js",
+      "sha256": "e7fa1ab528b099e5598419c92f03e73082b33a941d77cd81761eb53b32263aff",
+      "lines": 294,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/utils/random.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/utils/random.js",
+      "sha256": "0542be0d1f7b365ceb875ce52d8fa3c6d37ba39de8c1645a361c2fe5c3fbfda7",
+      "lines": 64,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/easings/index.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/easings/index.js",
+      "sha256": "2292ab842d46e0f92ba03e732dbd4d76696b036ee9fbbc668277bc5a6d46030d",
+      "lines": 6,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/easings/eases/index.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/easings/eases/index.js",
+      "sha256": "d66b8962223bfbb772e8f222c51901e9b8ff532046a523930a2b5bd865793690",
+      "lines": 1,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/easings/eases/parser.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/easings/eases/parser.js",
+      "sha256": "a0a4b43e81a378a1e593b034d87b5239ecb211707fcf5445d898f5add4574462",
+      "lines": 192,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/easings/spring/index.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/easings/spring/index.js",
+      "sha256": "ab99eb7b70220233e95894a358d974842d6d59a06e9fd55c875bf15c46939b7d",
+      "lines": 264,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/easings/cubic-bezier/index.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/easings/cubic-bezier/index.js",
+      "sha256": "e2402218c018b4f37a307ccb9e15cb521bbc3a5cb037658dfac6aa8dbfd01e98",
+      "lines": 58,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/scope/scope.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/scope/scope.js",
+      "sha256": "5778734814e9083edf6332b716e63e395ff7f900bb8dfc0caa69d1e4fc66343c",
+      "lines": 259,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/svg/motionpath.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/svg/motionpath.js",
+      "sha256": "77b31d782836d1585d4076017f1b4305f4c30f63df80a73918f397f1075c6672",
+      "lines": 88,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/svg/drawable.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/svg/drawable.js",
+      "sha256": "bf054f9848f81ee5ebfc0e1015a77ce63404893ca2ee75978a15b6f071a53e2c",
+      "lines": 118,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/waapi/waapi.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/waapi/waapi.js",
+      "sha256": "d1bf20489f1d7f9939bad2fd6a5e9214cb6e5c15123a7e8a7ac21650f7b0254b",
+      "lines": 539,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "src/text/split.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/src/text/split.js",
+      "sha256": "fdbd8dcf4cc1aeb69037ca875aafe6c3c6fac781ae1edaa76588ab6383948a07",
+      "lines": 513,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/index.html",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/tests/index.html",
+      "sha256": "eb7523d53ed9149374f88addbc69b73ed646880890e2e187cceae85996d673c6",
+      "lines": 311,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/suites/node.test.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/tests/suites/node.test.js",
+      "sha256": "6c096f30a5596972111eb5ef66fd459ae899f76918cbcce26e0b12d4bd64b820",
+      "lines": 307,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/suites/timelines.test.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/tests/suites/timelines.test.js",
+      "sha256": "40bb8868df1832356046282507ac6c0a5d390e500253ad4308271ca6f4c440ca",
+      "lines": 1192,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/suites/keyframes.test.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/tests/suites/keyframes.test.js",
+      "sha256": "f5c608f4d7923400943979fe533fa579637fcdd6dfa557be6b226408c88462c0",
+      "lines": 596,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/suites/controls.test.js",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/tests/suites/controls.test.js",
+      "sha256": "cc41e7d8930feed43925752c81c6505bb5bdfc5a3ac8599342e4209fd5215b2d",
+      "lines": 1078,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "dist/modules/timer/timer.d.ts",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/dist/modules/timer/timer.d.ts",
+      "sha256": "20d6c3be8162ebf7665682760873276d764ffef3cc1111dc986964636cefb052",
+      "lines": 150,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    },
+    {
+      "path": "dist/modules/engine/engine.d.ts",
+      "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/dist/modules/engine/engine.d.ts",
+      "sha256": "96ebe751276b1601f01fa38442b3dbad79d7d61c908ba802cc50a493e5e1883f",
+      "lines": 21,
+      "scope": "Consulta integral ou parcial de trechos relevantes; não representa auditoria de todas as linhas."
+    }
+  ]
+}

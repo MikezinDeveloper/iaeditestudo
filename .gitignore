@@ -1,0 +1,5 @@
+node_modules/
+out/
+.cache/
+demos/remotion-codex/public/*.mp4
+demos/remotion-codex/public/*.wav

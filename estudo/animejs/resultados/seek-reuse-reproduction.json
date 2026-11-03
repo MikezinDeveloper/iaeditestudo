@@ -1,0 +1,72 @@
+{
+  "animejs": "4.5.0",
+  "sequence": [
+    0,
+    37,
+    74,
+    111,
+    28
+  ],
+  "results": [
+    {
+      "frame": 0,
+      "time": 0,
+      "reused": {
+        "opacity": 0,
+        "y": 50
+      },
+      "fresh": {
+        "opacity": 0,
+        "y": 50
+      }
+    },
+    {
+      "frame": 37,
+      "time": 1233.3333333333333,
+      "reused": {
+        "opacity": 1,
+        "y": 0
+      },
+      "fresh": {
+        "opacity": 1,
+        "y": 0
+      }
+    },
+    {
+      "frame": 74,
+      "time": 2466.6666666666665,
+      "reused": {
+        "opacity": 1,
+        "y": 0
+      },
+      "fresh": {
+        "opacity": 1,
+        "y": 0
+      }
+    },
+    {
+      "frame": 111,
+      "time": 3700,
+      "reused": {
+        "opacity": 0,
+        "y": -16
+      },
+      "fresh": {
+        "opacity": 0,
+        "y": -16
+      }
+    },
+    {
+      "frame": 28,
+      "time": 933.3333333333334,
+      "reused": {
+        "opacity": 0,
+        "y": -16
+      },
+      "fresh": {
+        "opacity": 1,
+        "y": 0
+      }
+    }
+  ]
+}

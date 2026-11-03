@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "compositionVisible": true,
+  "source": "/static-3dc1bea2df16/source-01.mp4",
+  "readyState": 4,
+  "mediaTimeSeconds": 0.5,
+  "expectedTrimSeconds": 0.5,
+  "videoWidth": 640,
+  "videoHeight": 360
+}

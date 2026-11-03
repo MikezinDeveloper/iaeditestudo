@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "frames": 180,
+  "fps": 30,
+  "durationSeconds": 6.016,
+  "resolution": [
+    640,
+    360
+  ],
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "cuts": [
+    {
+      "outputFrame": 89,
+      "source": "source-01.mp4",
+      "sourceFrame": 104,
+      "meanPixelError": 0.23398809523809525,
+      "untrimmedPixelError": 64.76145833333334
+    },
+    {
+      "outputFrame": 90,
+      "source": "source-02.mp4",
+      "sourceFrame": 30,
+      "meanPixelError": 1.6927380952380953,
+      "untrimmedPixelError": 2.167440476190476
+    }
+  ],
+  "audioRms": {
+    "start": 0.002786905746225017,
+    "steady": 0.031010783877610613,
+    "end": 0.0037543457904291194
+  },
+  "sameFrameRepeated": true,
+  "changedTitleChangedPixels": true
+}

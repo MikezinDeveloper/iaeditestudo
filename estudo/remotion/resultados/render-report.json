@@ -1,0 +1,49 @@
+{
+  "remotion": "4.0.540",
+  "inputFile": "project.json",
+  "inputSha256": "40d16e983e167f74785992ae13c70d79fcd2c11a3a3c2c21ea9f5ea63adc1ada",
+  "inputProps": {
+    "title": "VIDEO + AUDIO + MOTION",
+    "accent": "#62f4c6",
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "durationInFrames": 180,
+    "clips": [
+      {
+        "source": "source-01.mp4",
+        "from": 0,
+        "durationInFrames": 90,
+        "trimBefore": 15
+      },
+      {
+        "source": "source-02.mp4",
+        "from": 90,
+        "durationInFrames": 90,
+        "trimBefore": 30
+      }
+    ],
+    "audio": {
+      "source": "tone.wav",
+      "volume": 0.35,
+      "fadeFrames": 15
+    }
+  },
+  "browserExecutable": "/usr/bin/chromium",
+  "composition": {
+    "id": "CodexStudy",
+    "fps": 30,
+    "width": 640,
+    "height": 360,
+    "durationInFrames": 180
+  },
+  "sameFrameRepeated": true,
+  "changedTitleChangedPixels": true,
+  "elapsedSeconds": 45.218,
+  "hashes": {
+    "frame-30.png": "ef307e59e01b77d80b8c90d9d81df51c37ce992c3afecc9ad88bde0633fca44c",
+    "frame-30-repeat.png": "ef307e59e01b77d80b8c90d9d81df51c37ce992c3afecc9ad88bde0633fca44c",
+    "frame-30-variant.png": "52aa4f7a4e0519ae83f46660ce3221a73ec6c0a0d33ca015557394a8d5078653",
+    "codex-study.mp4": "9c2584288a1b73e7c116935d982788713d7d29f119c4a15e963fcbeea291e337"
+  }
+}
