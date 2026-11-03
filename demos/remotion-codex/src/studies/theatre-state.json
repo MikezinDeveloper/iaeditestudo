@@ -1,0 +1,161 @@
+{
+  "definitionVersion": "0.4.0",
+  "revisionHistory": [
+    "iaeditestudo-v1"
+  ],
+  "sheetsById": {
+    "Scene": {
+      "staticOverrides": {
+        "byObject": {}
+      },
+      "sequence": {
+        "type": "PositionalSequence",
+        "length": 3,
+        "subUnitsPerUnit": 30,
+        "tracksByObject": {
+          "Card": {
+            "trackIdByPropPath": {
+              "[\"x\"]": "track-x",
+              "[\"angle\"]": "track-angle",
+              "[\"scale\"]": "track-scale"
+            },
+            "trackData": {
+              "track-x": {
+                "type": "BasicKeyframedTrack",
+                "keyframes": [
+                  {
+                    "id": "x-0",
+                    "position": 0.0,
+                    "value": -130,
+                    "connectedRight": true,
+                    "handles": [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    "type": "bezier"
+                  },
+                  {
+                    "id": "x-1",
+                    "position": 1.5,
+                    "value": 130,
+                    "connectedRight": true,
+                    "handles": [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    "type": "bezier"
+                  },
+                  {
+                    "id": "x-2",
+                    "position": 3.0,
+                    "value": -80,
+                    "connectedRight": true,
+                    "handles": [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    "type": "bezier"
+                  }
+                ]
+              },
+              "track-angle": {
+                "type": "BasicKeyframedTrack",
+                "keyframes": [
+                  {
+                    "id": "angle-0",
+                    "position": 0.0,
+                    "value": -30,
+                    "connectedRight": true,
+                    "handles": [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    "type": "bezier"
+                  },
+                  {
+                    "id": "angle-1",
+                    "position": 1.5,
+                    "value": 150,
+                    "connectedRight": true,
+                    "handles": [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    "type": "bezier"
+                  },
+                  {
+                    "id": "angle-2",
+                    "position": 3.0,
+                    "value": 330,
+                    "connectedRight": true,
+                    "handles": [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    "type": "bezier"
+                  }
+                ]
+              },
+              "track-scale": {
+                "type": "BasicKeyframedTrack",
+                "keyframes": [
+                  {
+                    "id": "scale-0",
+                    "position": 0.0,
+                    "value": 0.6,
+                    "connectedRight": true,
+                    "handles": [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    "type": "bezier"
+                  },
+                  {
+                    "id": "scale-1",
+                    "position": 1.5,
+                    "value": 1.2,
+                    "connectedRight": true,
+                    "handles": [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    "type": "bezier"
+                  },
+                  {
+                    "id": "scale-2",
+                    "position": 3.0,
+                    "value": 0.8,
+                    "connectedRight": true,
+                    "handles": [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    "type": "bezier"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

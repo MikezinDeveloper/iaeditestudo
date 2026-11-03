@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "study": "theatre",
+  "composition": "TheatreStudy",
+  "frames": 90,
+  "fps": 30,
+  "durationSeconds": 3.008,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "repeatedFrameAfterEnd": true,
+  "regionMeanPixelChange": 45.00673768939394,
+  "regressions": {
+    "CodexStudy": "passed",
+    "AnimeMotionStudy": "passed",
+    "MojsStudy": "passed"
+  },
+  "elapsedSeconds": 33.727,
+  "hashes": {
+    "video": "463cea86a09f358c11f192f753a90ea0fbcee8edbbe06ebb1bd4e83c006ed3bb",
+    "frame30": "4af8840880587d1f0c00330ea7ae4fbab097be1d928be1167c8c3c8596ac0244"
+  }
+}

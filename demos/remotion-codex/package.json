@@ -22,6 +22,7 @@
     "@remotion/bundler": "4.0.540",
     "@remotion/cli": "4.0.540",
     "@remotion/renderer": "4.0.540",
+    "@theatre/core": "0.7.2",
     "animejs": "4.5.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",

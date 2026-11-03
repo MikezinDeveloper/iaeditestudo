@@ -20,7 +20,7 @@ Trabalhe em `demos/remotion-codex`:
 1. Se as dependências estiverem ausentes ou o lockfile mudar, execute `npm ci --no-audit --no-fund`.
 2. Se os assets de referência estiverem ausentes, execute `npm run assets`.
 3. Edite `project.json` para alterações de dados; edite `src/StudyVideo.tsx` para modificar os mecanismos de motion/composição. Preserve mudanças do usuário.
-4. Execute `npm run typecheck` e `npm test` após alterações de código ou contrato. Confirme os casos individuais da suíte atual (14 após a integração Anime.js); o executor desta sessão já retornou apenas um agregado por arquivo dentro da sandbox.
+4. Execute `npm run typecheck` e `npm test` após alterações de código ou contrato. Confirme os casos individuais e a contagem atual; o executor desta sessão já retornou apenas um agregado por arquivo dentro da sandbox.
 5. Para preview, execute `npm run studio` e use o navegador suportado pelo cliente, se disponível. Não descreva WebMCP como funcional sem testar a integração.
 6. Para validar um export ou quando solicitado, execute `npm run render` e `npm run verify`. No ambiente inspecionado, prefixe o render com `REMOTION_BROWSER_EXECUTABLE=/usr/bin/chromium`. Sem essa variável, usa-se o navegador padrão do Remotion.
 7. Se subprocessos forem bloqueados, use o fluxo de permissão do executor para o comando afetado. Não trate isso como defeito do projeto nem suprima os erros.
@@ -42,5 +42,7 @@ Leia `estudo/animejs/README.md` e `estudo/decisoes/DEC-001-animejs-por-quadro.md
 Anime.js avalia objetos numéricos novos por quadro e React aplica os valores. Não introduza autoplay, mutações diretas do DOM ou cache de uma timeline sem testar novamente seek fora de ordem. A composição original continua sendo `CodexStudy`.
 
 ## Entrega
+
+O lote atual segue `estudo/FILA.md` em sequência. Os estudos registrados em `scripts/studies.json` do demo usam `npm run render:study -- <chave>`. Leia o estudo correspondente antes de modificar a ponte. Publique e confirme o checkpoint do item atual antes de iniciar o próximo.
 
 Informe o que foi alterado e o que os relatórios comprovam. Separe render aprovado, inspeção visual, preview interativo e integração com IA. Não conclua que um MP4 válido demonstra qualidade estética ou edição inteligente.

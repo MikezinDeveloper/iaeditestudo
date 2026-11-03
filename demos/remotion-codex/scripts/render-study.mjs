@@ -39,7 +39,8 @@ try {
   const pixelChange = first.reduce((sum, value, index) => sum + Math.abs(value - later[index]), 0) / first.length;
   if (pixelChange < 0.1) throw new Error('Movimento não demonstrado na região visual');
   const regressions = {};
-  for (const [id, baseline, inputProps] of [['CodexStudy', 'out/frame-30.png', JSON.parse(readFileSync('project.json', 'utf8'))], ['AnimeMotionStudy', 'out/anime/frame-30.png', {}]]) {
+  const previousStudies = Object.entries(catalogue).slice(0, Object.keys(catalogue).indexOf(key)).map(([previousKey, previous]) => [previous.composition, `out/studies/${previousKey}/frame-30.png`, {}]);
+  for (const [id, baseline, inputProps] of [['CodexStudy', 'out/frame-30.png', JSON.parse(readFileSync('project.json', 'utf8'))], ['AnimeMotionStudy', 'out/anime/frame-30.png', {}], ...previousStudies]) {
     if (!existsSync(baseline)) {regressions[id] = 'not-run: missing baseline'; continue;}
     const cfg = await selectComposition({...options, id, inputProps});
     const file = `${folder}/regression-${id}.png`;

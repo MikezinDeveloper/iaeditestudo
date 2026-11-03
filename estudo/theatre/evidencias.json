@@ -1,0 +1,175 @@
+{
+  "source": "https://github.com/theatre-js/theatre",
+  "revision": "6ea82b938ea49609489f6377ded693ccc6ee8f5b",
+  "consultedAt": "2026-11-03",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/README.md",
+      "sha256": "a5b6be8fec45220609f12ca629884dbb6567bd545cd4ad849d90ad49fdc564f2",
+      "lines": 109,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/LICENSE",
+      "sha256": "32a36fa187169c24228aaf6889371e7ffb4273d327ef37e340994e7ca157879b",
+      "lines": 866,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/package.json",
+      "sha256": "ea94f8ccaed5edcc6a5c06c05d802ae2e441b706f114fd634ce7931a633cfaf3",
+      "lines": 71,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "jest.config.js",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/jest.config.js",
+      "sha256": "99502d0945633070a3246718f3cff79c001ba9b4ccf59987bf97d8638833ca33",
+      "lines": 47,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/package.json",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/package.json",
+      "sha256": "8ac6b3af1a27e5c65aa84ba089567810fd7e075e7480324ecf5b695c948ca423",
+      "lines": 53,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/coreExports.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/coreExports.ts",
+      "sha256": "0a49c76972c793b303256c9de832e2c24269981f7faf2f7934e389ce1dec2935",
+      "lines": 167,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/rafDrivers.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/rafDrivers.ts",
+      "sha256": "3252b40de0bca857d9bad135782b69f81188da30de2476e5219082c9fec68457",
+      "lines": 140,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/projects/TheatreProject.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/projects/TheatreProject.ts",
+      "sha256": "e0803a423ad38ff8528480195bf05c9cd13ea441c7dbc5628dbe60dd46a2679f",
+      "lines": 85,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/projects/Project.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/projects/Project.ts",
+      "sha256": "6e9f078bf8080dc4c0f87453791ebabad6304c2338378c4b182ffe922e717e7e",
+      "lines": 302,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/projects/initialiseProjectState.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/projects/initialiseProjectState.ts",
+      "sha256": "7ee29951618b2c818c1c6bcd41857a3bb5ac90f43e39a137db128d11e2e73c3a",
+      "lines": 115,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/types/private/core.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/types/private/core.ts",
+      "sha256": "13367e6ed8039a2109a2b2c146b0d152dbf34831f2084acd20df92f06f0b237d",
+      "lines": 129,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/types/public.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/types/public.ts",
+      "sha256": "5f9e04b698d2b6d0488682cda1e762b7a08de61414850f06b92631be0934fd58",
+      "lines": 1508,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/sheets/SheetTemplate.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/sheets/SheetTemplate.ts",
+      "sha256": "00a8ae9b7775fb000512b98687a1e11533aba4814e01ceb869d03e1d79fb4a6a",
+      "lines": 77,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/sheetObjects/TheatreSheetObject.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/sheetObjects/TheatreSheetObject.ts",
+      "sha256": "8e25f838016ec954d7b92222cf75863dac329b42fc752b4e3f3b74820b2d6f7e",
+      "lines": 115,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/sheetObjects/SheetObject.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/sheetObjects/SheetObject.ts",
+      "sha256": "f2ef563cc2a495fb3b018fc99aea368e4e864113533f91413ea74c46e7d2e0cb",
+      "lines": 327,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/sequences/TheatreSequence.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/sequences/TheatreSequence.ts",
+      "sha256": "ceff382429aecb3725823fe5355d4f28592db5551970470e08df051ef0962cec",
+      "lines": 230,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/sequences/Sequence.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/sequences/Sequence.ts",
+      "sha256": "412fa389ee5a756522802af22281bbdcf736fc1d3c6cc1b8399f845a7ae39a13",
+      "lines": 501,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/sequences/interpolationTripleAtPosition.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/sequences/interpolationTripleAtPosition.ts",
+      "sha256": "96738463f1a22f9cb1ffb09ded1064149c0090b9be77da17e7bb0d8a99c11cbb",
+      "lines": 246,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/sequences/playbackControllers/DefaultPlaybackController.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/sequences/playbackControllers/DefaultPlaybackController.ts",
+      "sha256": "e2fdd3cc5e2e5fa873c5dee444e5a0c7ea6d0190fbd5cea1c7322ff4e67e1a41",
+      "lines": 265,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/core/src/coreTicker.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/core/src/coreTicker.ts",
+      "sha256": "3e0761984737a4845906fbcf5b474ed429287c3ee484e507cca8457a48923c7c",
+      "lines": 70,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/dataverse/src/Ticker.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/dataverse/src/Ticker.ts",
+      "sha256": "637ae80ab0939b14543c5c32f5cd0af959473916a316ba8f49929d55ec46612f",
+      "lines": 205,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/dataverse/src/Atom.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/dataverse/src/Atom.ts",
+      "sha256": "466242e85f7c94d36a0b4d78c8bff120ff3522a09ecc708958920993850b734c",
+      "lines": 330,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/dataverse/src/prism/prism.ts",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/dataverse/src/prism/prism.ts",
+      "sha256": "90a6361e290395028b52640ae8a04b7d1d52bf6dcfed02cb39c3095fb63831ad",
+      "lines": 894,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "packages/playground/src/shared/theatric/state.json",
+      "url": "https://github.com/theatre-js/theatre/blob/6ea82b938ea49609489f6377ded693ccc6ee8f5b/packages/playground/src/shared/theatric/state.json",
+      "sha256": "7986ca3a40993832d236b06e877a01e6001b2c32dae3df41a1276fea769812cf",
+      "lines": 19,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    }
+  ]
+}

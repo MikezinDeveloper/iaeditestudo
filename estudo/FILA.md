@@ -5,7 +5,7 @@ Ordem enviada pelo usuário em 3 de novembro de 2026. Esta é a fila oficial des
 | Ordem | Repositório | Estado | Objetivo inicial a confirmar no estudo |
 | --- | --- | --- | --- |
 | 1 | [mojs/mojs](https://github.com/mojs/mojs) | Concluída | [Estudo, integração e validação](mojs/README.md) de Shape/Burst por quadro |
-| 2 | [theatre-js/theatre](https://github.com/theatre-js/theatre) | Na fila | Investigar sequenciamento, propriedades animadas e estado de projeto |
+| 2 | [theatre-js/theatre](https://github.com/theatre-js/theatre) | Concluída | [Estado JSON, keyframes e driver explícito](theatre/README.md) |
 | 3 | [jonobr1/two.js](https://github.com/jonobr1/two.js) | Na fila | Investigar desenho vetorial, cena e render 2D |
 | 4 | [d3/d3](https://github.com/d3/d3) | Na fila | Investigar visualização de dados, geometria e motion de gráficos |
 | 5 | [mrdoob/three.js](https://github.com/mrdoob/three.js) | Na fila | Investigar composição e renderização 3D |
@@ -41,4 +41,4 @@ A etapa só recebe “Concluída” quando o escopo de integração definido dur
 
 ## Checkpoint atual
 
-Base anterior publicada no commit `ed066313be69369e142bb69e5ba28286fb095431`. Etapa mo.js validada com 1.699 testes upstream, 16 testes locais e export verificado; este arquivo integra seu checkpoint de publicação. Próximo item: Theatre.js, ainda não iniciado. Confirmar o SHA remoto depois de enviar cada checkpoint; não inferir publicação apenas pela existência do commit local.
+Base anterior publicada no commit `ed066313be69369e142bb69e5ba28286fb095431`. Publicação mo.js confirmada: `13c9a63e9397cb0da80897b5e4b1b230a921075a`. Theatre.js passou pelo escopo de avaliação do core, 19 testes locais e export verificado; este arquivo integra seu checkpoint de publicação. Próximo item: Two.js, ainda não iniciado. Confirmar o SHA remoto depois de enviar cada checkpoint; não inferir publicação apenas pela existência do commit local.

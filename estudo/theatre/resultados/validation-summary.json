@@ -1,0 +1,11 @@
+{
+  "typecheck": "passed",
+  "projectTests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "upstreamMonorepoTests": "not-run",
+  "scope": "Published core runtime, saved JSON and explicit frame driver",
+  "node": "24.22.1",
+  "runtime": "@theatre/core@0.7.2"
+}

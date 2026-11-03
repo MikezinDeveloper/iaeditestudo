@@ -1,3 +1,4 @@
 {
-  "mojs": {"composition": "MojsStudy", "frames": 90, "fps": 30}
+  "mojs": {"composition": "MojsStudy", "frames": 90, "fps": 30},
+  "theatre": {"composition": "TheatreStudy", "frames": 90, "fps": 30}
 }
