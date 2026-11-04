@@ -33,6 +33,7 @@ A base de Remotion e Anime.js foi ampliada, na ordem solicitada, com mo.js, Thea
 
 - Quinze composições: edição audiovisual base, Anime.js e treze estudos registrados.
 - Instalação pelo lockfile, geração de assets, checagem de tipos e **42 testes locais** aprovados.
+- [Fechamento verificável dos itens 11–15](estudo/resultados/lote-11-15-final.json).
 - Exports por estudo com H.264/AAC, inspeção de movimento, repetição de frame e regressões; relatórios em cada estudo.
 - Testes upstream, falhas observadas e suites não executadas são registrados separadamente; não há alegação de auditoria integral.
 - O lote 11–15 acrescenta grafo numérico real, tecido Taichi, fluido DFSPH C++ nativo, shader iluminado e exposição OCA/PNG. O estudo OpenToonz usa fixture próprio; aplicativo/roundtrip nativo permanecem não validados.

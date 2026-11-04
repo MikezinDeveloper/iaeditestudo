@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "recordedAt": "2026-11-04T13:43:56.470484+00:00",
+  "scope": "Sequential batch 11–15, delimited integrations; not a complete AI editor or audit of all upstream code.",
+  "installation": {
+    "command": "bash scripts/setup-remotion.sh",
+    "status": "passed",
+    "localTests": 42,
+    "failed": 0,
+    "lockSha256": "4bf2b8aeb0414cd7d0feecb1244ec1cb0a6a47030f9c91d5cc77b18bb7aedaa5",
+    "scriptSha256": "f2195d2f4f653623018c142bddb16928caed4e8ac12d2914ae8fbd2e9ba09290",
+    "logSha256": "c0a67a8593f8f7b41ad14403aef83615c3908079b15d8fa32db389fbed9ba5ac",
+    "node": "v24.22.1",
+    "npm": "11.9.0"
+  },
+  "compositions": 15,
+  "studies": [
+    {
+      "item": 11,
+      "study": "cables",
+      "publicationCommit": "88f6e651bc51ab7692cb61b114f4589615143eae",
+      "report": "estudo/cables/resultados/render.json",
+      "frames": 90,
+      "fps": 30,
+      "status": "passed",
+      "previousCompositionsVerified": 10
+    },
+    {
+      "item": 12,
+      "study": "taichi",
+      "publicationCommit": "ba56372f4810cddf0bebb3edda393258a9378e39",
+      "report": "estudo/taichi/resultados/render.json",
+      "frames": 90,
+      "fps": 30,
+      "status": "passed",
+      "previousCompositionsVerified": 11
+    },
+    {
+      "item": 13,
+      "study": "splishsplash",
+      "publicationCommit": "63b0735cdd84f6b3dbd660fc4482a78d9092206f",
+      "report": "estudo/splishsplash/resultados/render.json",
+      "frames": 90,
+      "fps": 30,
+      "status": "passed",
+      "previousCompositionsVerified": 12
+    },
+    {
+      "item": 14,
+      "study": "custom-shader-material",
+      "publicationCommit": "7c84f752ab2bdb524703c476bf8e27747b042707",
+      "report": "estudo/custom-shader-material/resultados/render.json",
+      "frames": 90,
+      "fps": 30,
+      "status": "passed",
+      "previousCompositionsVerified": 13
+    },
+    {
+      "item": 15,
+      "study": "opentoonz",
+      "publicationCommit": "ebea40c9186892d5eb0ad8660b39027704e68fb1",
+      "report": "estudo/opentoonz/resultados/render.json",
+      "frames": 90,
+      "fps": 30,
+      "status": "passed",
+      "previousCompositionsVerified": 14
+    }
+  ],
+  "lastPublicationVerifiedBeforeReceipt": "ebea40c9186892d5eb0ad8660b39027704e68fb1",
+  "upstreamSummary": {
+    "cables": "1821 metadata schema checks, not operator execution tests",
+    "taichi": "8 selected CPU tests; source 1.8.0 versus executed wheel 1.7.4; GPU not run",
+    "splishsplash": "8 native kernel cases/24 assertions; failed Python wheels retained, working C++ source build",
+    "custom-shader-material": "dedicated official suite not run; actual browser compilation/light variant validated",
+    "opentoonz": "native application and roundtrip not run; original OCA/PNG fixture validates our subset"
+  },
+  "remoteCI": "not-observed",
+  "freshTaskRestoration": "not-verified",
+  "environmentDraft": {
+    "status": "saved",
+    "changed": [
+      "start_skill"
+    ],
+    "requiresPublish": true,
+    "instructions": "estudo/AMBIENTE.md"
+  },
+  "documentationLinks": {
+    "status": "passed",
+    "markdownFiles": 40,
+    "localLinks": 175,
+    "failures": []
+  },
+  "baseMediaVerification": {
+    "status": "passed",
+    "report": "estudo/resultados/lote-11-15-verification-report.json",
+    "note": "Current-instance validation after lockfile reinstall; Studio smoke covers base composition only."
+  },
+  "studioSmoke": {
+    "status": "passed",
+    "report": "estudo/resultados/lote-11-15-studio-report.json",
+    "note": "Current-instance validation after lockfile reinstall; Studio smoke covers base composition only."
+  }
+}

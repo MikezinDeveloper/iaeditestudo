@@ -4,7 +4,7 @@
 
 A ordem, os critérios de conclusão e o checkpoint estão em [FILA.md](FILA.md). O usuário autorizou commits e envio a `MikezinDeveloper/iaeditestudo`. Cada item é estudado, integrado, validado e publicado antes de iniciar o seguinte. A síntese das capacidades está em [INTEGRACOES.md](INTEGRACOES.md).
 
-O lote anterior terminou com oito integrações e 32 testes locais. A continuação começa em cables_electron e segue Taichi, SPlisHSPlasH, Custom Shader Material e OpenToonz. Primeiro confirmar a revisão, licença e capacidade útil do item atual; não executar estudos paralelos nem prometer todos os recursos das ferramentas. Integrar resultados de ferramentas nativas por dados/mídia é uma alternativa a incorporá-las ao bundle do navegador.
+O lote anterior terminou com oito integrações e 32 testes locais. A continuação começa em cables_electron e segue Taichi, SPlisHSPlasH, Custom Shader Material e OpenToonz. O lote foi concluído com 42 testes locais, cinco exports e checkpoints confirmados; detalhes e limites estão na fila. Em novos lotes, primeiro confirmar a revisão, licença e capacidade útil do item atual; não executar estudos paralelos nem prometer todos os recursos das ferramentas. Integrar resultados de ferramentas nativas por dados/mídia é uma alternativa a incorporá-las ao bundle do navegador.
 
 ## Histórico: Anime.js integrado à base de Remotion
 
