@@ -34,3 +34,7 @@ Os lotes e seus checkpoints estão em [FILA.md](FILA.md). SRC-002 permanece pend
 - Fixar commit ou versão para repositórios; registrar data e seção para documentação sem versão.
 - Registrar a licença na análise, incluindo diferenças entre código, assets e modelos quando existirem.
 - Links presentes em uma fonte, mas ainda não abertos, são pistas de pesquisa, não evidência consultada.
+
+## SRC-018 — Qwen3-TTS, item16
+
+Fonte https://github.com/QwenLM/Qwen3-TTS, revisão022e286b98fbec7e1e916cb940cdf532cd9f488e, manifest0.1.1. Código e caminhos específicos inspecionados; nove testes próprios e três sondas do wrapper com doubles; inferência real bloqueada. [Estudo e evidências](qwen3-tts/README.md). Modelo/versão/licença registrados separadamente, sem baixar pesos. Itens17–22 recebidos na fila, ainda não consultados.

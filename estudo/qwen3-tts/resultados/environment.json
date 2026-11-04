@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "scripts/probe-local.py"
+  ],
+  "cwd": "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo",
+  "exit_code": 0,
+  "stdout": "{\n  \"python\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\n  \"platform\": \"Windows-11-10.0.26300-SP0\",\n  \"ram_gb\": 15.788383483886719,\n  \"available_gb\": 1.7993202209472656,\n  \"modules\": {\n    \"torch\": false,\n    \"transformers\": false,\n    \"soundfile\": false,\n    \"qwen_tts\": false\n  },\n  \"disk_free_gb\": 36.66940689086914\n}\n",
+  "stderr": "",
+  "date": "2026-11-04"
+}

@@ -1,5 +1,21 @@
 # Fila sequencial de estudo, integração e publicação
 
+## Novo lote — itens16–22, recebido em04/11/2026
+
+Fila do pedido atual, preservada sequencialmente. Itens11–15 e anteriores continuam encerrados. Não abrir17 antes de fechar16 ou receber mudança explícita do usuário. Nenhum item deste novo lote é declarado concluído por apenas documentar uma API.
+
+|Item|Fonte recebida|Estado atual|
+|---|---|---|
+|16|[Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS)|[Estudo/ponte parcial; síntese real bloqueada por ambiente](qwen3-tts/README.md)|
+|17|[Audacity](https://github.com/audacity/audacity)|Aguardando16; não estudado neste lote|
+|18|[Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit)|Aguardando sequência|
+|19|[Auto-Editor](https://github.com/WyattBlue/auto-editor)|Aguardando sequência|
+|20|[RIFE](https://github.com/hzwer/ECCV2022-RIFE)|Aguardando sequência|
+|21|[VoiceStudio](https://github.com/debpalash/VoiceStudio)|Aguardando; rótulo enviado citaElevenLabs/OBS, endereço éVoiceStudio; capacidades ainda não verificadas|
+|22|[FFmpeg](https://github.com/FFmpeg/FFmpeg)|Aguardando sequência|
+
+Checkpoint16 é PARCIAL:9 testes da fronteira e3 sondas com doubles passaram; modelo não executado, expressividade/voz/export não validados. Resultado em [status](qwen3-tts/resultados/status.json). Pesos, runtime pesado e serviços externos não foram instalados/acionados. Os demais links foram apenas registrados, sem estudo paralelo. Próximo passo: viabilizar e validar inferência16, não iniciar17 silenciosamente.
+
 ## Lote atual — itens 11–15, recebido em 4/11/2026
 
 Preservar a numeração enviada pelo usuário. Estudar, delimitar a aplicação, implementar, verificar e publicar cada item antes de consultar o próximo. A receita e o critério de conclusão abaixo continuam aplicáveis. Os objetivos iniciais são hipóteses; não atribuem capacidades verificadas a fontes ainda não abertas.

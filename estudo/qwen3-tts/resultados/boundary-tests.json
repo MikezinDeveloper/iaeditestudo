@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "unittest",
+    "test_qwen_voiceover",
+    "-v"
+  ],
+  "cwd": "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\scripts",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_actual_model_type_checked_even_if_dependencies_absent (test_qwen_voiceover.QwenBoundaryTests.test_actual_model_type_checked_even_if_dependencies_absent) ... ok\ntest_invalid_types_and_limits_rejected (test_qwen_voiceover.QwenBoundaryTests.test_invalid_types_and_limits_rejected) ... ok\ntest_model_snapshot_missing_never_reports_ready (test_qwen_voiceover.QwenBoundaryTests.test_model_snapshot_missing_never_reports_ready) ... ok\ntest_never_overwrite_existing_audio (test_qwen_voiceover.QwenBoundaryTests.test_never_overwrite_existing_audio) ... ok\ntest_no_source_cleanup_or_voice_clone_disguised_as_tts (test_qwen_voiceover.QwenBoundaryTests.test_no_source_cleanup_or_voice_clone_disguised_as_tts) ... ok\ntest_pcm_duration_and_rate_measured_from_samples (test_qwen_voiceover.QwenBoundaryTests.test_pcm_duration_and_rate_measured_from_samples) ... ok\ntest_portuguese_request_preserves_text_and_intent (test_qwen_voiceover.QwenBoundaryTests.test_portuguese_request_preserves_text_and_intent) ... ok\ntest_reject_nonfinite_and_clipped_without_artifact (test_qwen_voiceover.QwenBoundaryTests.test_reject_nonfinite_and_clipped_without_artifact) ... ok\ntest_smaller_model_cannot_silently_discard_emotion (test_qwen_voiceover.QwenBoundaryTests.test_smaller_model_cannot_silently_discard_emotion) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.044s\n\nOK\n",
+  "date": "2026-11-04"
+}

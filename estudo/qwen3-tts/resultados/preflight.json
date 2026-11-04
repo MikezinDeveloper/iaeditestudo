@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "scripts/qwen_voiceover.py",
+    "estudo/qwen3-tts/request.example.json",
+    "--preflight"
+  ],
+  "cwd": "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo",
+  "exit_code": 2,
+  "stdout": "{\n  \"ready\": false,\n  \"issues\": [\n    \"Missing optional dependency: torch\",\n    \"Missing optional dependency: transformers\",\n    \"Missing optional dependency: soundfile\",\n    \"Missing optional dependency: qwen_tts\",\n    \"Local model snapshot absent; no automatic download\"\n  ],\n  \"model_revision\": \"0c0e3051f131929182e2c023b9537f8b1c68adfe\",\n  \"scope\": \"Dependency/file preflight; memory, latency and voice quality require a real inference test.\"\n}\n",
+  "stderr": "",
+  "date": "2026-11-04"
+}

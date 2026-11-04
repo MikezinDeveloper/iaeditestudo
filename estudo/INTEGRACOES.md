@@ -68,3 +68,7 @@ O passo mais útil é um **contrato de camadas e operações de edição**, ante
 5. Só então avaliar reuso de contextos, recuperação semântica do acervo, dados reais, streaming de splats e formato de autoria interoperável.
 
 Essa sequência é uma proposta derivada dos mecanismos e limites observados, não uma alegação de recursos entregues. O lote atual fornece o acervo verificável, as pontes executáveis e as receitas para esse próximo trabalho.
+
+## Novo lote16–22: narração Qwen ainda parcial
+
+[Qwen3-TTS](qwen3-tts/README.md): contrato/preflight e escrita PCM24 testados; caminho de síntese offline preparado, ainda não executado. Não é ponte de locução validada no Remotion nem nova composição aprovada. Ambiente/pesos impedem o fechamento16; itens17–22 aguardam. Preservar distinção entre áudio original, TTS, limpeza e mix.0.6B não aceita controle expressivo por instruct na revisão consultada.

@@ -3,3 +3,6 @@ out/
 .cache/
 demos/remotion-codex/public/*.mp4
 demos/remotion-codex/public/*.wav
+__pycache__/
+*.pyc
+models/

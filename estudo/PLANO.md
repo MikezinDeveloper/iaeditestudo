@@ -83,3 +83,7 @@ Catálogo rastreável de fontes; análises dos mecanismos relevantes; comparaç�
 O experimento Remotion comprovou o fluxo local descrito em `remotion/EXPERIMENTO.md`. Não foram executados benchmarks de produção, comparação de qualidade entre editores ou integração com modelos. Os testes oficiais do monorepo não foram executados; a validação ocorreu no nosso demo com dependências publicadas.
 
 O experimento Anime.js está em `animejs/EXPERIMENTO.md`. Os 14 testes aprovados do nosso projeto devem ser distinguidos dos 12 testes Node upstream, dos quais 2 falharam. As suítes oficiais de navegador do Anime.js continuam não executadas.
+
+## Pedido16–22 em04/11/2026
+
+A fila foi ampliada.16Qwen tem estudo técnico e fronteira executável parcial; inferência real/export pendentes por ambiente. Não retomar11–15 nem abrir17 até fechar16 ou o usuário redefinir o escopo. [Estado atual](qwen3-tts/resultados/status.json).

@@ -1,0 +1,19 @@
+{
+  "scope": "Upstream wrapper control-flow execution with doubles; no tensor computation, weights, tokenizer, inference, audio or quality validation",
+  "source_sha256": "8498559de22a9e152d1fef70d046eb0c7c5fba0dfcfb9592d3c662e3b15d87e8",
+  "results": [
+    {
+      "case": "1.7B passes instruct tokens",
+      "passed": true
+    },
+    {
+      "case": "0.6B discards instruction upstream",
+      "passed": true
+    },
+    {
+      "case": "Base cannot masquerade as CustomVoice",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

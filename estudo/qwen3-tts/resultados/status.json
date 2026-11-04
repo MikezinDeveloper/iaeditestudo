@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-04",
+  "item": 16,
+  "state": "blocked_real_inference",
+  "study_source_revision": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
+  "model_revision": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
+  "implemented": [
+    "request validation",
+    "optional-runtime preflight",
+    "offline synthesis path prepared but not executed",
+    "PCM24 no-overwrite writer and provenance"
+  ],
+  "tested": [
+    "9 local Python boundary tests",
+    "3 upstream wrapper control-flow probes with doubles"
+  ],
+  "not_validated": [
+    "neural inference",
+    "Portuguese perceptual quality",
+    "expressiveness",
+    "model runtime install",
+    "real voice Remotion export",
+    "memory peak/GPU"
+  ],
+  "environment_available_ram_gb": 1.7993202209472656,
+  "published_weights_bytes": 4515695644,
+  "next_item": 17,
+  "may_start_next": false,
+  "reason": "Sequential completion requires actual inference and export; no synthetic or mock substitutes."
+}

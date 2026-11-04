@@ -46,3 +46,7 @@ O protótipo ainda não tem planejador por linguagem natural, histórico de edi�
 A receita [scripts/setup-remotion.sh](scripts/setup-remotion.sh) instala e verifica o projeto. Os clones de pesquisa não são necessários para executar o demo. Leia [o guia do demo](demos/remotion-codex/README.md) para preview e export.
 
 O código e os checkpoints são publicados em [MikezinDeveloper/iaeditestudo](https://github.com/MikezinDeveloper/iaeditestudo), branch `main`. O workflow GitHub Actions está versionado; sua execução remota não foi confirmada nesta sessão.
+
+## Continuação16–22
+
+Pedido recebido e registrado na [fila](estudo/FILA.md). O [item16Qwen3-TTS](estudo/qwen3-tts/README.md) tem estudo e fronteira parcial:9 testes Python próprios e3 sondas com doubles, sem inferência real. Não foram adicionadas composições nem alteradas as15 anteriores.17–22 aguardam fechamento16.

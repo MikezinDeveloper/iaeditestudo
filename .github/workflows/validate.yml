@@ -12,6 +12,9 @@ jobs:
         working-directory: demos/remotion-codex
     steps:
       - uses: actions/checkout@v4
+      - name: Test optional Qwen boundary without weights
+        working-directory: .
+        run: python3 scripts/test_qwen_voiceover.py
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
