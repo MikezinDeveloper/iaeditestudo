@@ -1,0 +1,10 @@
+{
+  "status": "not-run",
+  "scope": "Upstream monorepo test: lint, typecheck, prettier, built-distribution browser e2e",
+  "reason": "Selected integration verified in own Node test renderer and actual Chromium export; no claim of upstream e2e execution.",
+  "localTests": 30,
+  "observedWarnings": [
+    "THREE.Clock deprecated",
+    "Three CommonJS require deprecated in dependency test path"
+  ]
+}

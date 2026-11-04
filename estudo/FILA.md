@@ -10,7 +10,7 @@ Ordem enviada pelo usuário em 3 de novembro de 2026. Esta é a fila oficial des
 | 4 | [d3/d3](https://github.com/d3/d3) | Concluída | [Gráficos por dados, escalas e interpolação](d3/README.md) |
 | 5 | [mrdoob/three.js](https://github.com/mrdoob/three.js) | Concluída | [Cena, câmera, PBR e recursos WebGL](three/README.md) |
 | 6 | [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) | Concluída | [Engine, cena e keyframes por seek](babylon/README.md) |
-| 7 | [pmndrs/drei](https://github.com/pmndrs/drei) | Na fila | Investigar helpers de React Three Fiber aplicáveis ao editor |
+| 7 | [pmndrs/drei](https://github.com/pmndrs/drei) | Concluída | [RoundedBox, Center e render R3F manual](drei/README.md) |
 | 8 | [sparkjsdev/spark](https://github.com/sparkjsdev/spark) | Na fila | Investigar render de Gaussian splats e requisitos de assets/GPU |
 
 Os objetivos são hipóteses de triagem, não conclusões sobre os repositórios ainda não consultados.
@@ -48,3 +48,7 @@ Three.js: 26 testes locais, 163 testes upstream selecionados, export de 90 frame
 Publicação Three.js confirmada: `3d45a40e23f7765ca9bc3f422b77cbc4dd68ef2e`. Item atual: Babylon.js.
 
 Babylon.js: 28 testes locais, 1.231 oficiais selecionados, export e sete regressões aprovados. Este arquivo integra seu checkpoint de publicação.
+
+Publicação Babylon.js confirmada: `7632a6f8822f87810982fd6543ce836561bc2998`. Item atual: Drei.
+
+Drei: 30 testes locais, export, repetição e oito regressões aprovados. E2e upstream não executado; avisos de compatibilidade registrados. Este arquivo integra seu checkpoint.

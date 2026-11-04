@@ -30,5 +30,11 @@
     "frames": 90,
     "fps": 30,
     "gl": "swangle"
+  },
+  "drei": {
+    "composition": "DreiStudy",
+    "frames": 90,
+    "fps": 30,
+    "gl": "swangle"
   }
 }

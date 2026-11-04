@@ -1,0 +1,108 @@
+{
+  "source": "https://github.com/pmndrs/drei",
+  "revision": "bf6f4addf47467d3885de272d94ca5127f6ef68f",
+  "consultedAt": "2026-11-03",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/pmndrs/drei/blob/bf6f4addf47467d3885de272d94ca5127f6ef68f/README.md",
+      "sha256": "26718342352d21f3d2011829bb58bc515f06d25d51b19025df5a9eb3ab66299a",
+      "lines": 868,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/pmndrs/drei/blob/bf6f4addf47467d3885de272d94ca5127f6ef68f/LICENSE",
+      "sha256": "2e36b208b403882158daf95cae207087bbb830db4d434a79ebafffca177244c8",
+      "lines": 21,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/pmndrs/drei/blob/bf6f4addf47467d3885de272d94ca5127f6ef68f/package.json",
+      "sha256": "889bb72a2d8c9639454a93fef951ada9b601b1068cb565658015be087a521036",
+      "lines": 142,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/RoundedBox.tsx",
+      "url": "https://github.com/pmndrs/drei/blob/bf6f4addf47467d3885de272d94ca5127f6ef68f/src/core/RoundedBox.tsx",
+      "sha256": "caa76c548ac6ced2f2239f3b69fb2a9f196ab2e4a726db475b0de08024b46202",
+      "lines": 100,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/Center.tsx",
+      "url": "https://github.com/pmndrs/drei/blob/bf6f4addf47467d3885de272d94ca5127f6ef68f/src/core/Center.tsx",
+      "sha256": "642ca4d4f4f2b8d31bd8b9a7900afab5d9c3b519852846331ed07a1a58a6ced2",
+      "lines": 140,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/Float.tsx",
+      "url": "https://github.com/pmndrs/drei/blob/bf6f4addf47467d3885de272d94ca5127f6ef68f/src/core/Float.tsx",
+      "sha256": "9cef7b5ec6e0aee408df44dc19bc143991a34d38b1500d927d3b221d4f4f8cd7",
+      "lines": 58,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "docs/shapes/rounded-box.mdx",
+      "url": "https://github.com/pmndrs/drei/blob/bf6f4addf47467d3885de272d94ca5127f6ef68f/docs/shapes/rounded-box.mdx",
+      "sha256": "da8be0fbc3eef2e799fa890814e9d7cbead2438255a97cfbe423d5492066c223",
+      "lines": 40,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "docs/staging/center.mdx",
+      "url": "https://github.com/pmndrs/drei/blob/bf6f4addf47467d3885de272d94ca5127f6ef68f/docs/staging/center.mdx",
+      "sha256": "ea7f98e8558192792a73683444f6b349c14533a82f088e9011952deeab9895f4",
+      "lines": 79,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/e2e/e2e.sh",
+      "url": "https://github.com/pmndrs/drei/blob/bf6f4addf47467d3885de272d94ca5127f6ef68f/test/e2e/e2e.sh",
+      "sha256": "d94ef08ba11fd3d5dd1650793d182731ebc82bc7ff4c341d4746226bde8dd6f2",
+      "lines": 175,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/e2e/App.tsx",
+      "url": "https://github.com/pmndrs/drei/blob/bf6f4addf47467d3885de272d94ca5127f6ef68f/test/e2e/App.tsx",
+      "sha256": "4499b3c92227b0dce656e3bfdbcaa2e2048994e0f7e507575e59da1678f4d2af",
+      "lines": 35,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/e2e/snapshot.test.ts",
+      "url": "https://github.com/pmndrs/drei/blob/bf6f4addf47467d3885de272d94ca5127f6ef68f/test/e2e/snapshot.test.ts",
+      "sha256": "b80bceac01ffc8c466e5acb6fad1a96fd8355044de265fdeb61680e3dc6b42fa",
+      "lines": 39,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    }
+  ],
+  "runtime": {
+    "@react-three/drei": {
+      "version": "10.7.9",
+      "files": [
+        {
+          "path": "core/RoundedBox.js",
+          "sha256": "bf12e38f72386c23f6aaa485c9f0db8a8936d99007f19035f45be384a5a78175"
+        },
+        {
+          "path": "core/Center.js",
+          "sha256": "8cbd574f0e3133106e90155f0d9cd86ae8d4c08d61da3f6b57fc73e108096f01"
+        }
+      ]
+    },
+    "@react-three/fiber": {
+      "version": "9.8.2",
+      "files": [
+        {
+          "path": "dist/events-e51d7528.esm.js",
+          "sha256": "b42a047098f41a5f0c4f4e0756c37429347fa67a8d68bb8ca94eafad7a03071c"
+        }
+      ]
+    }
+  }
+}

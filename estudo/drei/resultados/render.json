@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "study": "drei",
+  "composition": "DreiStudy",
+  "chromiumGl": "swangle",
+  "frames": 90,
+  "fps": 30,
+  "durationSeconds": 3.008,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "repeatedFrameAfterEnd": true,
+  "regionMeanPixelChange": 18.034720643939394,
+  "regressions": {
+    "CodexStudy": "passed",
+    "AnimeMotionStudy": "passed",
+    "MojsStudy": "passed",
+    "TheatreStudy": "passed",
+    "TwoStudy": "passed",
+    "D3Study": "passed",
+    "ThreeStudy": "passed",
+    "BabylonStudy": "passed"
+  },
+  "elapsedSeconds": 112.555,
+  "hashes": {
+    "video": "8a39079aa4776b1537dc2fe3749d7ab842be3330d1ee42f503d897a349942e99",
+    "frame30": "98ca8382b7dbe85414f12babddcfc58efc18612ecfab4da4baba4c88661ad515"
+  }
+}
