@@ -53,7 +53,7 @@ Cada checkpoint anterior foi confirmado no remoto antes de começar o item segui
 | Three.js | `3d45a40e23f7765ca9bc3f422b77cbc4dd68ef2e` |
 | Babylon.js | `7632a6f8822f87810982fd6543ce836561bc2998` |
 | Drei | `7953a648f25d878c39b31165350022345fb54d48` |
-| Spark | Integra este checkpoint; registrar SHA após confirmar envio. |
+| Spark | `53dc155f033d33b490d63e05512f92a7207ce5b3` |
 
 ## Fechamento do lote
 

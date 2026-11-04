@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "localTests": 32,
+  "installation": "npm ci and setup recipe passed in current image",
+  "studies": [
+    {
+      "study": "mojs",
+      "report": "estudo/mojs/resultados/render-report.json",
+      "status": "passed",
+      "frames": 90,
+      "fps": 30,
+      "repeatedFrameAfterEnd": true
+    },
+    {
+      "study": "theatre",
+      "report": "estudo/theatre/resultados/render-report.json",
+      "status": "passed",
+      "frames": 90,
+      "fps": 30,
+      "repeatedFrameAfterEnd": true
+    },
+    {
+      "study": "two",
+      "report": "estudo/two/resultados/render-report.json",
+      "status": "passed",
+      "frames": 90,
+      "fps": 30,
+      "repeatedFrameAfterEnd": true
+    },
+    {
+      "study": "d3",
+      "report": "estudo/d3/resultados/render-report.json",
+      "status": "passed",
+      "frames": 90,
+      "fps": 30,
+      "repeatedFrameAfterEnd": true
+    },
+    {
+      "study": "three",
+      "report": "estudo/three/resultados/render.json",
+      "status": "passed",
+      "frames": 90,
+      "fps": 30,
+      "repeatedFrameAfterEnd": true
+    },
+    {
+      "study": "babylon",
+      "report": "estudo/babylon/resultados/render.json",
+      "status": "passed",
+      "frames": 90,
+      "fps": 30,
+      "repeatedFrameAfterEnd": true
+    },
+    {
+      "study": "drei",
+      "report": "estudo/drei/resultados/render.json",
+      "status": "passed",
+      "frames": 90,
+      "fps": 30,
+      "repeatedFrameAfterEnd": true
+    },
+    {
+      "study": "spark",
+      "report": "estudo/spark/resultados/render.json",
+      "status": "passed",
+      "frames": 90,
+      "fps": 30,
+      "repeatedFrameAfterEnd": true
+    }
+  ],
+  "lastExportRegressions": {
+    "CodexStudy": "passed",
+    "AnimeMotionStudy": "passed",
+    "MojsStudy": "passed",
+    "TheatreStudy": "passed",
+    "TwoStudy": "passed",
+    "D3Study": "passed",
+    "ThreeStudy": "passed",
+    "BabylonStudy": "passed",
+    "DreiStudy": "passed"
+  },
+  "localDocumentationLinksChecked": 115,
+  "githubActions": "not-verified",
+  "fullUpstreamAudit": false,
+  "environmentInstructions": "draft saved, requires user Publish to activate",
+  "lastIntegrationCommit": "53dc155f033d33b490d63e05512f92a7207ce5b3"
+}
