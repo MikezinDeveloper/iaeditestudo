@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "scripts/audacity_bridge.py"
+  ],
+  "cwd": ".",
+  "exit_code": 0,
+  "stdout": "{\n  \"ready\": false,\n  \"paths\": [\n    \"\\\\\\\\.\\\\pipe\\\\ToSrvPipe\",\n    \"\\\\\\\\.\\\\pipe\\\\FromSrvPipe\"\n  ],\n  \"scope\": \"Pipe presence only; requires a dedicated Audacity session and catalog probe before mutations.\"\n}\n",
+  "stderr": "",
+  "scope": "Pipe presence, not DSP capability"
+}

@@ -1,0 +1,61 @@
+{
+  "source": "https://github.com/audacity/audacity",
+  "revision": "3afc48a26d37cefad5772ee6c4c5fb88c9e402b3",
+  "date": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "c84ab5991133706a2899c20539df624ecaa124b7be9d4aff6d2b20986978d121",
+      "url": "https://github.com/audacity/audacity/blob/3afc48a26d37cefad5772ee6c4c5fb88c9e402b3/README.md",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "1580ffb4a0c6bbb716324c645682964120eae418b9a1c51842cda140343cb139",
+      "url": "https://github.com/audacity/audacity/blob/3afc48a26d37cefad5772ee6c4c5fb88c9e402b3/LICENSE.txt",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "au3/modules/scripting/mod-script-pipe/PipeServer.cpp",
+      "sha256": "66941f4d14606c1dcda9521eff6756f715cf716bdb0b8ab82b8df56d40003145",
+      "url": "https://github.com/audacity/audacity/blob/3afc48a26d37cefad5772ee6c4c5fb88c9e402b3/au3/modules/scripting/mod-script-pipe/PipeServer.cpp",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "au3/modules/scripting/mod-script-pipe/ScripterCallback.cpp",
+      "sha256": "e1b62ed1cee9428f27fc454402019e6c6247434de195531b4639fbe8308ac163",
+      "url": "https://github.com/audacity/audacity/blob/3afc48a26d37cefad5772ee6c4c5fb88c9e402b3/au3/modules/scripting/mod-script-pipe/ScripterCallback.cpp",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "au3/scripts/piped-work/pipe_test.py",
+      "sha256": "0dc9dc08e524ce005db4b71a3e25b9e867cbcab77247743e099223afcf92c0ff",
+      "url": "https://github.com/audacity/audacity/blob/3afc48a26d37cefad5772ee6c4c5fb88c9e402b3/au3/scripts/piped-work/pipe_test.py",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "au3/src/commands/ImportExportCommands.cpp",
+      "sha256": "a23e61808db27987194dda758d4d6cbbdc804df46bcb0a05ff808b6a452dbea1",
+      "url": "https://github.com/audacity/audacity/blob/3afc48a26d37cefad5772ee6c4c5fb88c9e402b3/au3/src/commands/ImportExportCommands.cpp",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "au3/src/effects/NoiseReduction.cpp",
+      "sha256": "909cdd6b9c98ef95e648362c3a73dda5e4ca726b5dfa4bbbf91d52e1e684b27a",
+      "url": "https://github.com/audacity/audacity/blob/3afc48a26d37cefad5772ee6c4c5fb88c9e402b3/au3/src/effects/NoiseReduction.cpp",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "au3/src/effects/Loudness.cpp",
+      "sha256": "600de9a18f563275909f7730622595e0ed7525c51495771556608ca9377a9d2a",
+      "url": "https://github.com/audacity/audacity/blob/3afc48a26d37cefad5772ee6c4c5fb88c9e402b3/au3/src/effects/Loudness.cpp",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "au3/libraries/au3-dynamic-range-processor/CompressorProcessor.cpp",
+      "sha256": "8fbfee10754b5c31baf0109e850e81b5bd6296eb9c208199ce0a7dabbcb9eb43",
+      "url": "https://github.com/audacity/audacity/blob/3afc48a26d37cefad5772ee6c4c5fb88c9e402b3/au3/libraries/au3-dynamic-range-processor/CompressorProcessor.cpp",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    }
+  ]
+}

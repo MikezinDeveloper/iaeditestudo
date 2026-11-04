@@ -1,0 +1,107 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\.venv-qwen\\Scripts\\python.exe",
+    "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\scripts\\qwen_voiceover.py",
+    "estudo/qwen3-tts/request.smoke-layer-offload.json",
+    "--output",
+    "demos\\remotion-codex\\out\\qwen\\smoke-explicit-offload.wav"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 18.078000000008615,
+  "termination_reason": null,
+  "samples": [
+    {
+      "elapsed": 0.02,
+      "available_ram_mb": 5081.2,
+      "owned_processes": [
+        {
+          "pid": 13172,
+          "rss_mb": 6.3,
+          "private_mb": 1.4
+        }
+      ]
+    },
+    {
+      "elapsed": 3.03,
+      "available_ram_mb": 4889.2,
+      "owned_processes": [
+        {
+          "pid": 13172,
+          "rss_mb": 10.9,
+          "private_mb": 2.0
+        },
+        {
+          "pid": 30792,
+          "rss_mb": 209.8,
+          "private_mb": 286.9
+        }
+      ]
+    },
+    {
+      "elapsed": 6.05,
+      "available_ram_mb": 5037.9,
+      "owned_processes": [
+        {
+          "pid": 13172,
+          "rss_mb": 10.9,
+          "private_mb": 2.0
+        },
+        {
+          "pid": 30792,
+          "rss_mb": 266.0,
+          "private_mb": 341.1
+        }
+      ]
+    },
+    {
+      "elapsed": 9.05,
+      "available_ram_mb": 4892.8,
+      "owned_processes": [
+        {
+          "pid": 13172,
+          "rss_mb": 10.9,
+          "private_mb": 2.0
+        },
+        {
+          "pid": 30792,
+          "rss_mb": 417.5,
+          "private_mb": 574.2
+        }
+      ]
+    },
+    {
+      "elapsed": 12.06,
+      "available_ram_mb": 4863.2,
+      "owned_processes": [
+        {
+          "pid": 13172,
+          "rss_mb": 10.9,
+          "private_mb": 2.0
+        },
+        {
+          "pid": 30792,
+          "rss_mb": 427.9,
+          "private_mb": 588.4
+        }
+      ]
+    },
+    {
+      "elapsed": 15.08,
+      "available_ram_mb": 3789.6,
+      "owned_processes": [
+        {
+          "pid": 13172,
+          "rss_mb": 10.9,
+          "private_mb": 2.0
+        },
+        {
+          "pid": 30792,
+          "rss_mb": 1511.1,
+          "private_mb": 5484.8
+        }
+      ]
+    }
+  ],
+  "output_exists": false,
+  "scope": "Windows process working-set/peak/private commit and system free memory sampled every3s; no GPU inference or cross-hardware benchmark."
+}

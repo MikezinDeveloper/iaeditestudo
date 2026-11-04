@@ -1,0 +1,128 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\Documents\\New project\\research-tools\\auto-editor\\auto-editor.exe",
+    "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\out\\auto-editor\\silence-tone-fixture.wav",
+    "--edit",
+    "audio:threshold=0.05",
+    "--margin",
+    "0.1s",
+    "--smooth",
+    "0",
+    "--export",
+    "v1",
+    "--output",
+    "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\out\\auto-editor\\candidate.json",
+    "--no-open"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "\u001b[?25l                                                                              \n\u001b[?25h\u001b[?25h",
+  "binary_sha256": "ff86b58c84f8ceccd5b4069543405e545851923c056363171fe955e72a785ce4",
+  "fixture": "6s mono48kPCM16; tones1–2s/3–4s, other samples zero; not speech",
+  "input_sha256": "e9be36d946eab81a087f8a85b1045950e2e666db05a125a8a3f46949f461b7b1",
+  "native_edl": {
+    "version": "1",
+    "source": "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\out\\auto-editor\\silence-tone-fixture.wav",
+    "timebase": "30/1",
+    "chunks": [
+      [
+        0,
+        27,
+        99999.0
+      ],
+      [
+        27,
+        63,
+        1.0
+      ],
+      [
+        63,
+        87,
+        99999.0
+      ],
+      [
+        87,
+        123,
+        1.0
+      ],
+      [
+        123,
+        180,
+        99999.0
+      ]
+    ]
+  },
+  "duration_seconds": 2.4,
+  "source_unchanged": true,
+  "render": {
+    "command": [
+      "C:\\Users\\giorg\\Documents\\New project\\research-tools\\auto-editor\\auto-editor.exe",
+      "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\out\\auto-editor\\candidate.json",
+      "--output",
+      "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\out\\auto-editor\\cut.wav",
+      "--no-open"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "\u001b[?25l                                                                              \n\u001b[?25h\u001b[?25hFinished. took 0.06 seconds (0:00:00)\n",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "pcm_s16le",
+          "codec_long_name": "PCM signed 16-bit little-endian",
+          "codec_type": "audio",
+          "codec_tag_string": "[1][0][0][0]",
+          "codec_tag": "0x0001",
+          "sample_fmt": "s16",
+          "sample_rate": "48000",
+          "channels": 1,
+          "bits_per_sample": 16,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/48000",
+          "duration_ts": 115200,
+          "duration": "2.400000",
+          "bit_rate": "768000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "format": {
+        "filename": "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\out\\auto-editor\\cut.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "2.400000",
+        "size": "230478",
+        "bit_rate": "768260",
+        "probe_score": 99,
+        "tags": {
+          "encoder": "Lavf63.1.102"
+        }
+      }
+    }
+  }
+}

@@ -87,3 +87,12 @@ O experimento Anime.js está em `animejs/EXPERIMENTO.md`. Os 14 testes aprovados
 ## Pedido16–22 em04/11/2026
 
 A fila foi ampliada.16Qwen tem estudo técnico e fronteira executável parcial; inferência real/export pendentes por ambiente. Não retomar11–15 nem abrir17 até fechar16 ou o usuário redefinir o escopo. [Estado atual](qwen3-tts/resultados/status.json).
+
+## Fechamento local17–22
+
+O usuário suspendeu o teste16 e pediu prosseguir;17→22 foram estudados sequencialmente com limites registrados. Consultar [relatório](RELATORIO-LOTE-17-22.md) e resultados/lote-17-22-local.json. Próximo passo de produto segue proposto, não implementado. Publicaçãoremota aguarda aprovação explícita após rejeição automática; não contornar.
+
+
+## Autorização posterior de publicação —04/11/2026
+
+O usuário respondeu **“autorizo”** à criação do commit e publicação deste conjunto17–22 na main. O bloqueio/aguardo descrito acima é histórico e foi superado para este escopo. Registro canônico: `estudo/resultados/lote-17-22-publication-authorization.json` (relativo à raiz). Conferir o commit no históricoGit para confirmação de publicação; aprovação de CI e julgamento artístico continuam separados. Não retomar o testeQwen.

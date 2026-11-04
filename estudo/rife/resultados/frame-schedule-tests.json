@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "unittest",
+    "test_rife_bridge",
+    "-v"
+  ],
+  "cwd": "scripts",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_duration_and_count (test_rife_bridge.RifeClockTests.test_duration_and_count) ... ok\ntest_invalid_inputs (test_rife_bridge.RifeClockTests.test_invalid_inputs) ... ok\ntest_last_frame_held_not_shortened (test_rife_bridge.RifeClockTests.test_last_frame_held_not_shortened) ... ok\ntest_never_interpolate_across_cut (test_rife_bridge.RifeClockTests.test_never_interpolate_across_cut) ... ok\ntest_rational_clock (test_rife_bridge.RifeClockTests.test_rational_clock) ... ok\ntest_slow_motion_requires_audio_decision (test_rife_bridge.RifeClockTests.test_slow_motion_requires_audio_decision) ... ok\ntest_source_frames_preserved (test_rife_bridge.RifeClockTests.test_source_frames_preserved) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n",
+  "scope": "7 own clock/cut/audio-policy tests; not trained-model inference"
+}

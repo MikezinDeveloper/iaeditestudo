@@ -1,0 +1,25 @@
+{
+  "item": 21,
+  "key": "voicestudio",
+  "date": "2026-11-04",
+  "state": "local_request_boundary_tested_native_service_pending",
+  "revision": "7a896ed455e116d734f26437393a92cad090aadb",
+  "implemented": [
+    "local API request planner, no send",
+    "PCM response checks",
+    "ElevenLabs example behavior probe with fake SDK"
+  ],
+  "pending": [
+    "native VoiceStudio service and engine readiness",
+    "real provider/audio/keys/cost review",
+    "dubbing/perceptual QA"
+  ],
+  "tests": [
+    {
+      "name": "local-api-contract-tests",
+      "exit_code": 0,
+      "expected_exit": 0
+    }
+  ],
+  "scope": "Bounded mechanism study; native execution and perceptual approval are separate."
+}

@@ -1,0 +1,61 @@
+{
+  "source": "https://github.com/WyattBlue/auto-editor",
+  "revision": "654a5138cd50767a63a6644c89c667e75d894d88",
+  "date": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "f0cda0c5d28e0c5785018254fbe743c07103da3ef0f0119ace2720ab23865a7f",
+      "url": "https://github.com/WyattBlue/auto-editor/blob/654a5138cd50767a63a6644c89c667e75d894d88/README.md",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a4ef5224f5b38684bbc95521f04b96325c2402c03da3ecb35e232d82a996282f",
+      "url": "https://github.com/WyattBlue/auto-editor/blob/654a5138cd50767a63a6644c89c667e75d894d88/LICENSE",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "ae.nimble",
+      "sha256": "dc6c9301713b875a3500c69a4599fb3b9560ae0301ddd5c01ea9c9aca0cb19d7",
+      "url": "https://github.com/WyattBlue/auto-editor/blob/654a5138cd50767a63a6644c89c667e75d894d88/ae.nimble",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "src/analyze/audio.nim",
+      "sha256": "9ce68f8b66ec94ae4d29ec5d876f8b2d77670178addcb346a7008a5b74f70c0d",
+      "url": "https://github.com/WyattBlue/auto-editor/blob/654a5138cd50767a63a6644c89c667e75d894d88/src/analyze/audio.nim",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "src/lib/editutil.nim",
+      "sha256": "ef667d0d6ca5943be887fa39ecf1f421367391518c73482b58110cd295b47114",
+      "url": "https://github.com/WyattBlue/auto-editor/blob/654a5138cd50767a63a6644c89c667e75d894d88/src/lib/editutil.nim",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "src/exports/json.nim",
+      "sha256": "f591ee9c5f5502de8a403c2aa7cca9450ce16a69da21dcb74c76e06ecd5105fb",
+      "url": "https://github.com/WyattBlue/auto-editor/blob/654a5138cd50767a63a6644c89c667e75d894d88/src/exports/json.nim",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "src/imports/json.nim",
+      "sha256": "d1efc3035f5a65e5d351dac3737279540272167fe9a9c89daf6f1b6344c9ab34",
+      "url": "https://github.com/WyattBlue/auto-editor/blob/654a5138cd50767a63a6644c89c667e75d894d88/src/imports/json.nim",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "src/conductor.nim",
+      "sha256": "9ab384bd9ea9e3a43540d92c1486d61ed4ca3467765e16d70ad07c3d579f851f",
+      "url": "https://github.com/WyattBlue/auto-editor/blob/654a5138cd50767a63a6644c89c667e75d894d88/src/conductor.nim",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "src/timeline.nim",
+      "sha256": "93b87d354ce5b58225e285a4089fe31958eaf8eb682de9ec18c657f67dbecc89",
+      "url": "https://github.com/WyattBlue/auto-editor/blob/654a5138cd50767a63a6644c89c667e75d894d88/src/timeline.nim",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    }
+  ]
+}

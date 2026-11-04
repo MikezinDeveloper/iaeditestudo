@@ -1,0 +1,61 @@
+{
+  "source": "https://github.com/FFmpeg/FFmpeg",
+  "revision": "946fcce07b6dcd0331c8cc609192aeff5e1924f8",
+  "date": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "e0e76fc8bb6e6d6430192105a3621f61cbd4a24b9394b4dc6d98be9257ce3f7d",
+      "url": "https://github.com/FFmpeg/FFmpeg/blob/946fcce07b6dcd0331c8cc609192aeff5e1924f8/README.md",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "36f6e2cb63f6a40a72b5c1b6169fb03f338d7eccd336fb3ccd4dcc0b49116dd1",
+      "url": "https://github.com/FFmpeg/FFmpeg/blob/946fcce07b6dcd0331c8cc609192aeff5e1924f8/LICENSE.md",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "fftools/ffmpeg_demux.c",
+      "sha256": "c8b416bb3f262739448076b62e931a3b2196dd02460b33781bac6db68828f1d3",
+      "url": "https://github.com/FFmpeg/FFmpeg/blob/946fcce07b6dcd0331c8cc609192aeff5e1924f8/fftools/ffmpeg_demux.c",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "fftools/ffmpeg_opt.c",
+      "sha256": "35888d34855da1eabdeabbc1c37c07d4abf09ec605d021235a81370eeac7f1ed",
+      "url": "https://github.com/FFmpeg/FFmpeg/blob/946fcce07b6dcd0331c8cc609192aeff5e1924f8/fftools/ffmpeg_opt.c",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "fftools/ffmpeg_enc.c",
+      "sha256": "f2395f8918cb4b81e2fa9b2851b575da9d2aa1801991bf32a04c4c1f7c49c781",
+      "url": "https://github.com/FFmpeg/FFmpeg/blob/946fcce07b6dcd0331c8cc609192aeff5e1924f8/fftools/ffmpeg_enc.c",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "fftools/ffmpeg_mux_init.c",
+      "sha256": "9bd3d631fa53d7a0e978fff237d42dc0bc9ccd4ed86e8341aaa671e541822f69",
+      "url": "https://github.com/FFmpeg/FFmpeg/blob/946fcce07b6dcd0331c8cc609192aeff5e1924f8/fftools/ffmpeg_mux_init.c",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "libavfilter/af_loudnorm.c",
+      "sha256": "fa5da3499491fd263793e46f59871becfdc15905ea9f92da88316c8df3a64fc7",
+      "url": "https://github.com/FFmpeg/FFmpeg/blob/946fcce07b6dcd0331c8cc609192aeff5e1924f8/libavfilter/af_loudnorm.c",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "libavfilter/vf_zscale.c",
+      "sha256": "c3f4bc475f9caae22528c1800d39a437e3cab678a557dedd7090325926240421",
+      "url": "https://github.com/FFmpeg/FFmpeg/blob/946fcce07b6dcd0331c8cc609192aeff5e1924f8/libavfilter/vf_zscale.c",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "libavfilter/vf_tonemap.c",
+      "sha256": "76c95ab920339fdb8099b11a6f00144a2b68518ced4c08da2080963f127b7e28",
+      "url": "https://github.com/FFmpeg/FFmpeg/blob/946fcce07b6dcd0331c8cc609192aeff5e1924f8/libavfilter/vf_tonemap.c",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    }
+  ]
+}

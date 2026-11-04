@@ -1,0 +1,49 @@
+{
+  "source": "https://github.com/SubtitleEdit/subtitleedit",
+  "revision": "99b87e4f14d59294d579ed18b48382644a157fe3",
+  "date": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "c38cff3cb6625ca0b75c53c96f44fc7cdef341c930c29450fbd2b9ad0eaab9dc",
+      "url": "https://github.com/SubtitleEdit/subtitleedit/blob/99b87e4f14d59294d579ed18b48382644a157fe3/README.md",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "4ed40bfa9c91bf1a67fd78fa6fc4a5b4efbbed2ca2c80c0b048a82cf8e6de639",
+      "url": "https://github.com/SubtitleEdit/subtitleedit/blob/99b87e4f14d59294d579ed18b48382644a157fe3/LICENSE",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "src/libse/SubtitleFormats/SubRip.cs",
+      "sha256": "2dbff44ffbaccece066ce19a3b9a147d639bd298ae461f304cd170e824a5ace9",
+      "url": "https://github.com/SubtitleEdit/subtitleedit/blob/99b87e4f14d59294d579ed18b48382644a157fe3/src/libse/SubtitleFormats/SubRip.cs",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "src/libse/SubtitleFormats/WebVTT.cs",
+      "sha256": "348a123f62f0af0bb843e69ecc0d029a456233825882b02de0cf457a98d986bd",
+      "url": "https://github.com/SubtitleEdit/subtitleedit/blob/99b87e4f14d59294d579ed18b48382644a157fe3/src/libse/SubtitleFormats/WebVTT.cs",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "src/libse/Common/TimeCode.cs",
+      "sha256": "5e72265e1d90a8967b01ab13cc814520e86dba2f7ebd792a410bbffbabd8f72b",
+      "url": "https://github.com/SubtitleEdit/subtitleedit/blob/99b87e4f14d59294d579ed18b48382644a157fe3/src/libse/Common/TimeCode.cs",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "src/libse/Common/Paragraph.cs",
+      "sha256": "1c8331567f4a9e75ca8b56224cbc5bbe844ecb24095112a8c3f14041e7428bbf",
+      "url": "https://github.com/SubtitleEdit/subtitleedit/blob/99b87e4f14d59294d579ed18b48382644a157fe3/src/libse/Common/Paragraph.cs",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "src/libse/Common/Subtitle.cs",
+      "sha256": "73f1450a17bd39fd04c48f9191151a96a0969c52d0a447cbdee80f0fede9223f",
+      "url": "https://github.com/SubtitleEdit/subtitleedit/blob/99b87e4f14d59294d579ed18b48382644a157fe3/src/libse/Common/Subtitle.cs",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    }
+  ]
+}

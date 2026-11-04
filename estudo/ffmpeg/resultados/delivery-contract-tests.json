@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "unittest",
+    "test_ffmpeg_delivery",
+    "-v"
+  ],
+  "cwd": "scripts",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_argument_list_keeps_path_as_one_item (test_ffmpeg_delivery.DeliveryTests.test_argument_list_keeps_path_as_one_item) ... ok\ntest_clock_mismatch_blocks (test_ffmpeg_delivery.DeliveryTests.test_clock_mismatch_blocks) ... ok\ntest_existing_delivery_preserved (test_ffmpeg_delivery.DeliveryTests.test_existing_delivery_preserved) ... ok\ntest_hdr_or_unspecified_not_retagged (test_ffmpeg_delivery.DeliveryTests.test_hdr_or_unspecified_not_retagged) ... ok\ntest_no_implicit_resize_for_odd_width (test_ffmpeg_delivery.DeliveryTests.test_no_implicit_resize_for_odd_width) ... ok\ntest_no_source_overwrite (test_ffmpeg_delivery.DeliveryTests.test_no_source_overwrite) ... ok\ntest_timebase_only_video (test_ffmpeg_delivery.DeliveryTests.test_timebase_only_video) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.035s\n\nOK\n",
+  "scope": "7 delivery contract tests; HDR rejects rather than pretends conversion"
+}

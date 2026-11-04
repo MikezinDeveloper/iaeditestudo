@@ -25,6 +25,12 @@ Construir uma base de conhecimento verificável para uma IA de edição de víde
 
 ## Implementação
 
+### Continuação17–22 e publicação
+
+O usuário suspendeu expressamente o teste de voz16 e pediu estudar17–22 em sequência. Consulte `estudo/RELATORIO-LOTE-17-22.md` e `scripts/media-bridges.json`: testes de contrato, execução nativa, arquitetura sem pesos e revisão perceptiva têm estados distintos. Preserve as pendências; não retome sínteseQwen sem novo pedido. As novas pontes não substituem as15composições nem comprovam umaIA de edição completa.
+
+A rejeição anterior de commit remoto permanece como histórico. Em04/11/2026 o usuário autorizou expressamente criar o commit e publicar este conjunto17–22 na main; registro em estudo/resultados/lote-17-22-publication-authorization.json. Essa autorização cobre esta publicação e sua verificação, não mudanças futuras sem relação. Não repetir o pedido para a mesma publicação. Conferir SHA/estado de CI no GitHub; nunca confundir autorização ou push com testes/artes aprovados.
+
 O estudo agora inclui um protótipo executável de Remotion em `demos/remotion-codex`, autorizado pelo pedido de fazê-lo funcionar com Codex. Leia o guia do demo antes de operá-lo. Mantenha propostas de arquitetura identificadas como hipóteses até sua validação. Não adicione dependências ou serviços apenas para preencher a estrutura.
 
 A composição `AnimeMotionStudy` usa Anime.js 4.5.0. Leia `estudo/animejs/README.md` e a decisão DEC-001 antes de alterar seu adapter. Preserve a avaliação independente por quadro até que outra abordagem passe nos testes de seek fora de ordem. Relate separadamente falhas upstream e resultados do nosso projeto.

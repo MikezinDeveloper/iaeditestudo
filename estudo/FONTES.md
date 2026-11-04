@@ -38,3 +38,27 @@ Os lotes e seus checkpoints estão em [FILA.md](FILA.md). SRC-002 permanece pend
 ## SRC-018 — Qwen3-TTS, item16
 
 Fonte https://github.com/QwenLM/Qwen3-TTS, revisão022e286b98fbec7e1e916cb940cdf532cd9f488e, manifest0.1.1. Código e caminhos específicos inspecionados; nove testes próprios e três sondas do wrapper com doubles; inferência real bloqueada. [Estudo e evidências](qwen3-tts/README.md). Modelo/versão/licença registrados separadamente, sem baixar pesos. Itens17–22 recebidos na fila, ainda não consultados.
+
+## SRC-019 — Audacity, item17
+
+Fontehttps://github.com/audacity/audacity, revisão`3afc48a26d37cefad5772ee6c4c5fb88c9e402b3`. [Estudo](audacity/README.md) e [inventário](audacity/evidencias.json). Estado`study_and_protocol_tested_native_pending`; escopo e pendências no status.
+
+## SRC-020 — Subtitle Edit, item18
+
+Fontehttps://github.com/SubtitleEdit/subtitleedit, revisão`99b87e4f14d59294d579ed18b48382644a157fe3`. [Estudo](subtitleedit/README.md) e [inventário](subtitleedit/evidencias.json). Estado`canonical_srt_bridge_tested_native_pending`; escopo e pendências no status.
+
+## SRC-021 — Auto-Editor, item19
+
+Fontehttps://github.com/WyattBlue/auto-editor, revisão`654a5138cd50767a63a6644c89c667e75d894d88`. [Estudo](auto-editor/README.md) e [inventário](auto-editor/evidencias.json). Estado`native_synthetic_cut_render_and_edl_tested`; escopo e pendências no status.
+
+## SRC-022 — RIFE, item20
+
+Fontehttps://github.com/hzwer/ECCV2022-RIFE, revisão`5d8adbdd40e12c2c8f91930eff838aebe561c086`. [Estudo](rife/README.md) e [inventário](rife/evidencias.json). Estado`clock_bridge_and_untrained_architecture_tested`; escopo e pendências no status.
+
+## SRC-023 — VoiceStudio, item21
+
+Fontehttps://github.com/debpalash/VoiceStudio, revisão`7a896ed455e116d734f26437393a92cad090aadb`. [Estudo](voicestudio/README.md) e [inventário](voicestudio/evidencias.json). Estado`local_request_boundary_tested_native_service_pending`; escopo e pendências no status.
+
+## SRC-024 — FFmpeg, item22
+
+Fontehttps://github.com/FFmpeg/FFmpeg, revisão`946fcce07b6dcd0331c8cc609192aeff5e1924f8`. [Estudo](ffmpeg/README.md) e [inventário](ffmpeg/evidencias.json). Estado`native_sdr_delivery_decode_clock_audio_measurements_tested`; escopo e pendências no status.

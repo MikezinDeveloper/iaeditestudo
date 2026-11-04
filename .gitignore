@@ -6,3 +6,4 @@ demos/remotion-codex/public/*.wav
 __pycache__/
 *.pyc
 models/
+.venv-qwen/

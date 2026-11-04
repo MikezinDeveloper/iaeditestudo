@@ -1,0 +1,61 @@
+{
+  "source": "https://github.com/hzwer/ECCV2022-RIFE",
+  "revision": "5d8adbdd40e12c2c8f91930eff838aebe561c086",
+  "date": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "691d487b24ecab848c2899972663bbe57018334e1cfa6fad99514b71f4c46c5e",
+      "url": "https://github.com/hzwer/ECCV2022-RIFE/blob/5d8adbdd40e12c2c8f91930eff838aebe561c086/README.md",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "bf98e6992f7490668c0f9598aaa4332ee6804b4159e375bb23d51f25f5f95460",
+      "url": "https://github.com/hzwer/ECCV2022-RIFE/blob/5d8adbdd40e12c2c8f91930eff838aebe561c086/LICENSE",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "2cabdbfb6d46d59f0396a09a811660ff389ac09c9b4701d079e2cc52d3a1d6af",
+      "url": "https://github.com/hzwer/ECCV2022-RIFE/blob/5d8adbdd40e12c2c8f91930eff838aebe561c086/requirements.txt",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "model/warplayer.py",
+      "sha256": "27a7155b686cfaf4a88bc946891fa9555af221ba7087bfa66009fa7c62842634",
+      "url": "https://github.com/hzwer/ECCV2022-RIFE/blob/5d8adbdd40e12c2c8f91930eff838aebe561c086/model/warplayer.py",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "model/IFNet.py",
+      "sha256": "0ebe90ffba16c6cb03cdab7711e41757487603a3a4c8c23a560f13cd1b3473b4",
+      "url": "https://github.com/hzwer/ECCV2022-RIFE/blob/5d8adbdd40e12c2c8f91930eff838aebe561c086/model/IFNet.py",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "model/IFNet_m.py",
+      "sha256": "c8902fa935832fd904c40f6b5bdcf8b96c138b525092450156ca9f0b5ee61c8b",
+      "url": "https://github.com/hzwer/ECCV2022-RIFE/blob/5d8adbdd40e12c2c8f91930eff838aebe561c086/model/IFNet_m.py",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "model/RIFE.py",
+      "sha256": "cc2f7a900c7d4b9c2168c13ed4039a1341081cd4de7961f6098b3c5272f29868",
+      "url": "https://github.com/hzwer/ECCV2022-RIFE/blob/5d8adbdd40e12c2c8f91930eff838aebe561c086/model/RIFE.py",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "model/refine.py",
+      "sha256": "a4e950f319917efce45dde9b408f8f85212690a99107cd192d9c387906b0627e",
+      "url": "https://github.com/hzwer/ECCV2022-RIFE/blob/5d8adbdd40e12c2c8f91930eff838aebe561c086/model/refine.py",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "inference_video.py",
+      "sha256": "b25346658bd631db20da19173740062ed617a8ba986e954f69e10692f2d0991e",
+      "url": "https://github.com/hzwer/ECCV2022-RIFE/blob/5d8adbdd40e12c2c8f91930eff838aebe561c086/inference_video.py",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "unittest",
+    "test_subtitle_bridge",
+    "-v"
+  ],
+  "cwd": "scripts",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_bom_and_crlf (test_subtitle_bridge.SubtitleTests.test_bom_and_crlf) ... ok\ntest_duplicate_ids_rejected (test_subtitle_bridge.SubtitleTests.test_duplicate_ids_rejected) ... ok\ntest_malformed_time_not_silently_repaired (test_subtitle_bridge.SubtitleTests.test_malformed_time_not_silently_repaired) ... ok\ntest_negative_offset_not_clamped (test_subtitle_bridge.SubtitleTests.test_negative_offset_not_clamped) ... ok\ntest_no_fps_change_to_source_milliseconds (test_subtitle_bridge.SubtitleTests.test_no_fps_change_to_source_milliseconds) ... ok\ntest_overlap_is_warning_not_erased_dialogue (test_subtitle_bridge.SubtitleTests.test_overlap_is_warning_not_erased_dialogue) ... ok\ntest_rational_frame_bounds_are_outward (test_subtitle_bridge.SubtitleTests.test_rational_frame_bounds_are_outward) ... ok\ntest_reverse_or_zero_cue_rejected (test_subtitle_bridge.SubtitleTests.test_reverse_or_zero_cue_rejected) ... ok\ntest_roundtrip_preserves_unicode_and_lines (test_subtitle_bridge.SubtitleTests.test_roundtrip_preserves_unicode_and_lines) ... ok\ntest_speed_is_explicit_and_does_not_mutate_original (test_subtitle_bridge.SubtitleTests.test_speed_is_explicit_and_does_not_mutate_original) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.001s\n\nOK\n",
+  "scope": "10 own canonical SRT tests; no native C# app"
+}

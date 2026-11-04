@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "unittest",
+    "test_voicestudio_bridge",
+    "-v"
+  ],
+  "cwd": "scripts",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_duration_measured_from_real_header (test_voicestudio_bridge.VoiceStudioTests.test_duration_measured_from_real_header) ... ok\ntest_empty_and_long_text (test_voicestudio_bridge.VoiceStudioTests.test_empty_and_long_text) ... ok\ntest_no_external_or_embedded_secret (test_voicestudio_bridge.VoiceStudioTests.test_no_external_or_embedded_secret) ... ok\ntest_no_implicit_default_engine (test_voicestudio_bridge.VoiceStudioTests.test_no_implicit_default_engine) ... ok\ntest_request_is_local_prepared_and_no_implicit_dsp (test_voicestudio_bridge.VoiceStudioTests.test_request_is_local_prepared_and_no_implicit_dsp) ... ok\ntest_speed_validation (test_voicestudio_bridge.VoiceStudioTests.test_speed_validation) ... ok\ntest_truncated_pcm_blocks (test_voicestudio_bridge.VoiceStudioTests.test_truncated_pcm_blocks) ... ok\ntest_wrong_container_rejected (test_voicestudio_bridge.VoiceStudioTests.test_wrong_container_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.001s\n\nOK\n",
+  "scope": "8 local planner/PCM tests, no server/model/network"
+}

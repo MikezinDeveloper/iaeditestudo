@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "purpose": "new_voiceover",
+  "text": "Você decide.",
+  "language": "Portuguese",
+  "speaker": "Ryan",
+  "model_size": "1.7B",
+  "model_snapshot": "models/qwen3-tts-1.7b-customvoice",
+  "model_revision": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
+  "instruct": "",
+  "max_new_tokens": 96,
+  "seed": 1,
+  "device": "cpu",
+  "dtype": "bfloat16",
+  "cpu_threads": 4
+}

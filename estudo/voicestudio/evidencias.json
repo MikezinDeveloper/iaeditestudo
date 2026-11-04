@@ -1,0 +1,55 @@
+{
+  "source": "https://github.com/debpalash/VoiceStudio",
+  "revision": "7a896ed455e116d734f26437393a92cad090aadb",
+  "date": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "e95fb9e1e5de7fab41572b88ae7bbfa6e630dc62fdc4851edbe72ffa4c715864",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/README.md",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/LICENSE",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "LICENSE-NOTICE.md",
+      "sha256": "693ddf542a1819e8bf350dda4186f9d8158ad1d7c8d35d2bb403be37093c0592",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/LICENSE-NOTICE.md",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "227d3b5dd1fb6b68d3eb2624e5db3b070aa93be665741da3fa32d2b9cb7ba976",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/pyproject.toml",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "backend/services/plugin_sdk.py",
+      "sha256": "176464bf4b629c46bbdf5b575c2019099341dd23124d979ee2877dba607c6912",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/backend/services/plugin_sdk.py",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "backend/api/routers/openai_compat.py",
+      "sha256": "1ebcd6a46108547ad465754beeb31852dbf3a987f48f6f29ff05a88c1d07219e",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/backend/api/routers/openai_compat.py",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "backend/utils/containment.py",
+      "sha256": "fe5fe2de51ca62bff31051b104be645e0890a1c101d1de6a5bf1672e824ad04f",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/backend/utils/containment.py",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    },
+    {
+      "path": "backend/services/sentence_chunker.py",
+      "sha256": "078a12060755e0e983df0d3fe1401b3f6ca9517152b45e2a1aeb331098e3973a",
+      "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/backend/services/sentence_chunker.py",
+      "coverage": "Selected mechanisms/sections; not whole-file or whole-repository audit"
+    }
+  ]
+}

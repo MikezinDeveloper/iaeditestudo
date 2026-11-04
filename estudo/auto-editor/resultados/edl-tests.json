@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "unittest",
+    "test_auto_editor_bridge",
+    "-v"
+  ],
+  "cwd": "scripts",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_double_speed_blocked (test_auto_editor_bridge.EdlTests.test_double_speed_blocked) ... ok\ntest_exact_cut_duration (test_auto_editor_bridge.EdlTests.test_exact_cut_duration) ... ok\ntest_gaps_overlaps_and_fractional_ticks_rejected (test_auto_editor_bridge.EdlTests.test_gaps_overlaps_and_fractional_ticks_rejected) ... ok\ntest_half_open_boundaries (test_auto_editor_bridge.EdlTests.test_half_open_boundaries) ... ok\ntest_nonfinite_and_negative_speed (test_auto_editor_bridge.EdlTests.test_nonfinite_and_negative_speed) ... ok\ntest_point_mapping_preserves_gaps (test_auto_editor_bridge.EdlTests.test_point_mapping_preserves_gaps) ... ok\ntest_speed_one_point_two_once (test_auto_editor_bridge.EdlTests.test_speed_one_point_two_once) ... ok\ntest_unknown_v3_not_silently_flattened (test_auto_editor_bridge.EdlTests.test_unknown_v3_not_silently_flattened) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.001s\n\nOK\n",
+  "scope": "8 exact clock/EDL tests, no speech quality claim"
+}

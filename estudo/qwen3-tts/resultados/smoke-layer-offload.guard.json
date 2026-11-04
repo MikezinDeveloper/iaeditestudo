@@ -1,0 +1,91 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\.venv-qwen\\Scripts\\python.exe",
+    "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\scripts\\qwen_voiceover.py",
+    "estudo/qwen3-tts/request.smoke-layer-offload.json",
+    "--output",
+    "demos\\remotion-codex\\out\\qwen\\smoke-layer-offload.wav"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 15.061999999990803,
+  "termination_reason": null,
+  "samples": [
+    {
+      "elapsed": 0.01,
+      "available_ram_mb": 5521.7,
+      "owned_processes": [
+        {
+          "pid": 5936,
+          "rss_mb": 5.1,
+          "private_mb": 1.2
+        }
+      ]
+    },
+    {
+      "elapsed": 3.03,
+      "available_ram_mb": 5294.9,
+      "owned_processes": [
+        {
+          "pid": 5936,
+          "rss_mb": 10.9,
+          "private_mb": 2.0
+        },
+        {
+          "pid": 31932,
+          "rss_mb": 211.6,
+          "private_mb": 288.3
+        }
+      ]
+    },
+    {
+      "elapsed": 6.05,
+      "available_ram_mb": 5226.4,
+      "owned_processes": [
+        {
+          "pid": 5936,
+          "rss_mb": 10.9,
+          "private_mb": 2.0
+        },
+        {
+          "pid": 31932,
+          "rss_mb": 299.3,
+          "private_mb": 467.3
+        }
+      ]
+    },
+    {
+      "elapsed": 9.05,
+      "available_ram_mb": 5118.9,
+      "owned_processes": [
+        {
+          "pid": 5936,
+          "rss_mb": 10.9,
+          "private_mb": 2.0
+        },
+        {
+          "pid": 31932,
+          "rss_mb": 425.7,
+          "private_mb": 582.5
+        }
+      ]
+    },
+    {
+      "elapsed": 12.06,
+      "available_ram_mb": 5103.6,
+      "owned_processes": [
+        {
+          "pid": 5936,
+          "rss_mb": 10.9,
+          "private_mb": 2.0
+        },
+        {
+          "pid": 31932,
+          "rss_mb": 436.0,
+          "private_mb": 593.6
+        }
+      ]
+    }
+  ],
+  "output_exists": false,
+  "scope": "Windows process working-set/peak/private commit and system free memory sampled every3s; no GPU inference or cross-hardware benchmark."
+}

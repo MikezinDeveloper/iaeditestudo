@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "scope": "Bounded scripts/adapters, not a universal editor/orchestrator",
+  "entries": [
+    {
+      "item": 17,
+      "key": "audacity",
+      "state": "study_and_protocol_tested_native_pending",
+      "revision": "3afc48a26d37cefad5772ee6c4c5fb88c9e402b3",
+      "adapter": "scripts/audacity_bridge.py",
+      "evidence": "estudo/audacity/resultados/status.json",
+      "pending": [
+        "native Audacity transport/session",
+        "native DSP and export/ear review"
+      ]
+    },
+    {
+      "item": 18,
+      "key": "subtitleedit",
+      "state": "canonical_srt_bridge_tested_native_pending",
+      "revision": "99b87e4f14d59294d579ed18b48382644a157fe3",
+      "adapter": "scripts/subtitle_bridge.py",
+      "evidence": "estudo/subtitleedit/resultados/status.json",
+      "pending": [
+        "native Subtitle Edit roundtrip",
+        "ASR/OCR/word alignment",
+        "caption burn-in and perceptual QA"
+      ]
+    },
+    {
+      "item": 19,
+      "key": "auto-editor",
+      "state": "native_synthetic_cut_render_and_edl_tested",
+      "revision": "654a5138cd50767a63a6644c89c667e75d894d88",
+      "adapter": "scripts/auto_editor_bridge.py",
+      "evidence": "estudo/auto-editor/resultados/status.json",
+      "pending": [
+        "real speech editorial listening",
+        "Remotion/NLE roundtrip",
+        "captions crossing cuts"
+      ]
+    },
+    {
+      "item": 20,
+      "key": "rife",
+      "state": "clock_bridge_and_untrained_architecture_tested",
+      "revision": "5d8adbdd40e12c2c8f91930eff838aebe561c086",
+      "adapter": "scripts/rife_bridge.py",
+      "evidence": "estudo/rife/resultados/status.json",
+      "pending": [
+        "verified pretrained checkpoint and safe loader",
+        "quality interpolation/HDR/real footage",
+        "slow-motion audio policy realization"
+      ]
+    },
+    {
+      "item": 21,
+      "key": "voicestudio",
+      "state": "local_request_boundary_tested_native_service_pending",
+      "revision": "7a896ed455e116d734f26437393a92cad090aadb",
+      "adapter": "scripts/voicestudio_bridge.py",
+      "evidence": "estudo/voicestudio/resultados/status.json",
+      "pending": [
+        "native VoiceStudio service and engine readiness",
+        "real provider/audio/keys/cost review",
+        "dubbing/perceptual QA"
+      ]
+    },
+    {
+      "item": 22,
+      "key": "ffmpeg",
+      "state": "native_sdr_delivery_decode_clock_audio_measurements_tested",
+      "revision": "946fcce07b6dcd0331c8cc609192aeff5e1924f8",
+      "adapter": "scripts/ffmpeg_delivery.py",
+      "evidence": "estudo/ffmpeg/resultados/status.json",
+      "pending": [
+        "real HDR/VFR pipeline",
+        "new bridges integrated to full Remotion edit",
+        "mobile/perceptual QA"
+      ]
+    }
+  ]
+}

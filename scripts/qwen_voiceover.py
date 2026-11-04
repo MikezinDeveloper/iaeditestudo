@@ -27,6 +27,8 @@ def validate_request(data):
     if type(seed)!=int or not 0<=seed<2**32:raise ValueError('Invalid seed')
     if data.get('device','cpu') not in ('cpu','cuda:0'):raise ValueError('Unsupported device in this study')
     if data.get('dtype','float32') not in ('float32','float16','bfloat16'):raise ValueError('Invalid dtype')
+    if type(data.get('cpu_threads',4))!=int or not 1<=data.get('cpu_threads',4)<=8:raise ValueError('cpu_threads must be1..8')
+    if 'cpu_offload_mb' in data and (data.get('device','cpu')!='cpu' or type(data['cpu_offload_mb'])!=int or not 512<=data['cpu_offload_mb']<=8192):raise ValueError('cpu_offload_mb requires CPU and512..8192MiB')
     return dict(data)
 
 def preflight(request):
@@ -67,9 +69,39 @@ def synthesize(request,output):
     os.environ['HF_HUB_OFFLINE']='1';os.environ['TRANSFORMERS_OFFLINE']='1'
     import torch
     from qwen_tts import Qwen3TTSModel
+    torch.set_num_threads(r.get('cpu_threads',4))
     torch.manual_seed(r.get('seed',0))
     started=time.monotonic()
-    model=Qwen3TTSModel.from_pretrained(str(Path(r['model_snapshot']).resolve()),device_map=r.get('device','cpu'),dtype=getattr(torch,r.get('dtype','float32')),attn_implementation='eager',local_files_only=True)
+    print('Loading local Qwen snapshot on '+r.get('device','cpu')+' / '+r.get('dtype','float32'),file=sys.stderr,flush=True)
+    loading=dict(device_map=r.get('device','cpu'),dtype=getattr(torch,r.get('dtype','float32')),attn_implementation='eager',local_files_only=True,low_cpu_mem_usage=True)
+    if r.get('cpu_offload_mb'):
+        offload=output.parent/'.qwen-offload';offload.mkdir(exist_ok=True)
+        loading.update(device_map='auto',max_memory={'cpu':str(r['cpu_offload_mb'])+'MiB'},offload_folder=str(offload.resolve()),offload_state_dict=True,offload_buffers=True)
+        if r.get('offload_policy')=='decoder_layers':
+            config=json.loads((Path(r['model_snapshot'])/'config.json').read_text(encoding='utf8'))
+            count=config['talker_config']['num_hidden_layers']
+            # Nested code_predictor.generate() needs a real CPU device. Auto
+            # mapping offloaded it to meta and failed at Tensor.item(). Keep
+            # embeddings/predictor on CPU and offload only main decoder blocks.
+            keep=['talker.model.codec_embedding','talker.model.text_embedding','talker.model.norm','talker.model.rotary_emb','talker.text_projection','talker.codec_head','talker.code_predictor']
+            loading['device_map']={**{k:'cpu' for k in keep},**{f'talker.model.layers.{i}':'disk' for i in range(count)}}
+            # PreTrainedModel.device uses the first registered parameter. The
+            # talker creates new tensors on that device inside generate().
+            # Keeping block0 resident prevents creation of data-less meta inputs.
+            loading['device_map']['talker.model.layers.0']='cpu'
+    if r.get('offload_policy')=='decoder_layers':
+        from qwen_tts.inference.qwen3_tts_tokenizer import Qwen3TTSTokenizer
+        original_loader=Qwen3TTSTokenizer.from_pretrained.__func__
+        def cpu_tokenizer(cls,path,*args,**kwargs):
+            # The tokenizer is a separate model, not the talker's module tree.
+            kwargs['device_map']='cpu'
+            for key in ('max_memory','offload_folder','offload_state_dict','offload_buffers'):kwargs.pop(key,None)
+            return original_loader(cls,path,*args,**kwargs)
+        Qwen3TTSTokenizer.from_pretrained=classmethod(cpu_tokenizer)
+        try:model=Qwen3TTSModel.from_pretrained(str(Path(r['model_snapshot']).resolve()),**loading)
+        finally:Qwen3TTSTokenizer.from_pretrained=classmethod(original_loader)
+    else:model=Qwen3TTSModel.from_pretrained(str(Path(r['model_snapshot']).resolve()),**loading)
+    print('Snapshot loaded; generating speech.',file=sys.stderr,flush=True)
     wavs,sr=model.generate_custom_voice(text=r['text'],language=r['language'],speaker=r['speaker'],instruct=r.get('instruct',''),non_streaming_mode=True,max_new_tokens=r.get('max_new_tokens',512))
     if len(wavs)!=1:raise RuntimeError('Unexpected batch size')
     result=write_pcm24(output,wavs[0].tolist(),int(sr))

@@ -1,0 +1,28 @@
+{
+  "item": 17,
+  "key": "audacity",
+  "date": "2026-11-04",
+  "state": "study_and_protocol_tested_native_pending",
+  "revision": "3afc48a26d37cefad5772ee6c4c5fb88c9e402b3",
+  "implemented": [
+    "bounded IPC framing/response checks",
+    "capability-gated normalization plan"
+  ],
+  "pending": [
+    "native Audacity transport/session",
+    "native DSP and export/ear review"
+  ],
+  "tests": [
+    {
+      "name": "boundary-tests",
+      "exit_code": 0,
+      "expected_exit": 0
+    },
+    {
+      "name": "native-readiness",
+      "exit_code": 0,
+      "expected_exit": 0
+    }
+  ],
+  "scope": "Bounded mechanism study; native execution and perceptual approval are separate."
+}

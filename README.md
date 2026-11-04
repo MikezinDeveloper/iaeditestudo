@@ -50,3 +50,12 @@ O código e os checkpoints são publicados em [MikezinDeveloper/iaeditestudo](ht
 ## Continuação16–22
 
 Pedido recebido e registrado na [fila](estudo/FILA.md). O [item16Qwen3-TTS](estudo/qwen3-tts/README.md) tem estudo e fronteira parcial:9 testes Python próprios e3 sondas com doubles, sem inferência real. Não foram adicionadas composições nem alteradas as15 anteriores.17–22 aguardam fechamento16.
+
+## Estudos17–22 preparados localmente
+
+[Relatório e estados reais](estudo/RELATORIO-LOTE-17-22.md).49testes Python novos passaram; dois ensaios nativos deAuto-Editor/FFmpeg e sondasRIFE/VoiceStudio têm escopos explicitados. Publicação aguarda aprovação;42testes/15composições anteriores preservados. Qwen suspenso pelo usuário.
+
+
+## Autorização posterior de publicação —04/11/2026
+
+O usuário respondeu **“autorizo”** à criação do commit e publicação deste conjunto17–22 na main. O bloqueio/aguardo descrito acima é histórico e foi superado para este escopo. Registro canônico: `estudo/resultados/lote-17-22-publication-authorization.json` (relativo à raiz). Conferir o commit no históricoGit para confirmação de publicação; aprovação de CI e julgamento artístico continuam separados. Não retomar o testeQwen.

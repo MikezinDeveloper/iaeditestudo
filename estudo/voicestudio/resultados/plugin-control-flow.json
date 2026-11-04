@@ -1,0 +1,14 @@
+{
+  "scope": "Upstream method executed with fake SDK and fake key; no ElevenLabs account/network/audio generation",
+  "source_sha256": "176464bf4b629c46bbdf5b575c2019099341dd23124d979ee2877dba607c6912",
+  "request_fields": [
+    "model_id",
+    "output_format",
+    "text",
+    "voice_id"
+  ],
+  "language_forwarded": false,
+  "speed_forwarded": false,
+  "format_requested": "mp3_44100_128",
+  "passed": true
+}

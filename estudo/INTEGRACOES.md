@@ -72,3 +72,27 @@ Essa sequência é uma proposta derivada dos mecanismos e limites observados, n�
 ## Novo lote16–22: narração Qwen ainda parcial
 
 [Qwen3-TTS](qwen3-tts/README.md): contrato/preflight e escrita PCM24 testados; caminho de síntese offline preparado, ainda não executado. Não é ponte de locução validada no Remotion nem nova composição aprovada. Ambiente/pesos impedem o fechamento16; itens17–22 aguardam. Preservar distinção entre áudio original, TTS, limpeza e mix.0.6B não aceita controle expressivo por instruct na revisão consultada.
+
+### Item17 — Audacity
+
+[Estudo e ponte](audacity/README.md). Implementado: bounded IPC framing/response checks; capability-gated normalization plan. Pendente: native Audacity transport/session; native DSP and export/ear review.
+
+### Item18 — Subtitle Edit
+
+[Estudo e ponte](subtitleedit/README.md). Implementado: canonical SRT parsing/serialization; rational frame conversion and explicit retime. Pendente: native Subtitle Edit roundtrip; ASR/OCR/word alignment; caption burn-in and perceptual QA.
+
+### Item19 — Auto-Editor
+
+[Estudo e ponte](auto-editor/README.md). Implementado: native31.8.0 silence/tone EDL and WAV render; validated rational v1 source/output mapping. Pendente: real speech editorial listening; Remotion/NLE roundtrip; captions crossing cuts.
+
+### Item20 — RIFE
+
+[Estudo e ponte](rife/README.md). Implementado: frame schedule preserving duration/source frames and cuts; CPU upstream warp/untrained architecture probes. Pendente: verified pretrained checkpoint and safe loader; quality interpolation/HDR/real footage; slow-motion audio policy realization.
+
+### Item21 — VoiceStudio
+
+[Estudo e ponte](voicestudio/README.md). Implementado: local API request planner, no send; PCM response checks; ElevenLabs example behavior probe with fake SDK. Pendente: native VoiceStudio service and engine readiness; real provider/audio/keys/cost review; dubbing/perceptual QA.
+
+### Item22 — FFmpeg
+
+[Estudo e ponte](ffmpeg/README.md). Implementado: SDR delivery argument contract; native encode/decode/PTS/DTS/probe/loudness fixture. Pendente: real HDR/VFR pipeline; new bridges integrated to full Remotion edit; mobile/perceptual QA.

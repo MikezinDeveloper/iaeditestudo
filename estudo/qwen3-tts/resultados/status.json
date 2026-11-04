@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
   "item": 16,
-  "state": "blocked_real_inference",
+  "state": "test_suspended_by_user",
   "study_source_revision": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
   "model_revision": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
   "implemented": [
@@ -25,6 +25,9 @@
   "environment_available_ram_gb": 1.7993202209472656,
   "published_weights_bytes": 4515695644,
   "next_item": 17,
-  "may_start_next": false,
-  "reason": "Sequential completion requires actual inference and export; no synthetic or mock substitutes."
+  "may_start_next": true,
+  "reason": "User explicitly cancelled further TTS tests and requested all remaining studies sequentially.",
+  "runtime_installed": true,
+  "weights_downloaded": true,
+  "voice_quality_reviewed": false
 }

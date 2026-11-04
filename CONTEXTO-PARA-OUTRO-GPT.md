@@ -108,3 +108,12 @@ Em um GPT com análise de arquivos, anexar o ZIP ou o Markdown consolidado e ped
 ## Atualização posterior — novo lote16–22
 
 O usuário enviou16Qwen3-TTS,17Audacity,18SubtitleEdit,19Auto-Editor,20RIFE,21VoiceStudio(link diverge do rótuloElevenLabs/OBS) e22FFmpeg. A [fila](estudo/FILA.md) agora registra esses itens.16 foi inspecionado em revisão fixa e recebeu contrato/preflight/escritaWAV preparados, com9 testes próprios e3 sondas do wrapper com doubles. Inferência real, áudio expressivo e export não ocorreram: runtime/pesos ausentes e poucaRAM disponível. Ver [status](estudo/qwen3-tts/resultados/status.json). NÃO interpretar como integração deTTS concluída.17–22 ainda não estudados; manter sequência. Os42 testes antigos permanecem resultados históricos, não reexecutados nesta rodada. Checkout localWindows preparado a partir do remoto, sem substituir Central anterior, sem instalação pesada ou envio de mídia do usuário.
+
+## Estado mais recente —17–22 estudados em sequência
+
+Leia [o relatório local](estudo/RELATORIO-LOTE-17-22.md), a fila e scripts/media-bridges.json. O usuário suspendeu o testeQwen16; não retomá-lo sem pedido.17–22 tiveram estudos delimitados,49testes próprios e ensaios possíveis; várias capacidades nativas/perceptivas continuam pendentes. Não confundir arquiteturaRIFE sem pesos, contratos deAPI ou catálogo com integração pronta de todoaplicativo. Não publicarcommits automaticamente: revisão automática rejeitou ocommit remoto e aguarda aprovação humana explícita deste conjunto. Alterações estão locais, não afirmar publicaçãoGitHub ouCI aprovados.
+
+
+## Autorização posterior de publicação —04/11/2026
+
+O usuário respondeu **“autorizo”** à criação do commit e publicação deste conjunto17–22 na main. O bloqueio/aguardo descrito acima é histórico e foi superado para este escopo. Registro canônico: `estudo/resultados/lote-17-22-publication-authorization.json` (relativo à raiz). Conferir o commit no históricoGit para confirmação de publicação; aprovação de CI e julgamento artístico continuam separados. Não retomar o testeQwen.

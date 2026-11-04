@@ -1,3 +1,5 @@
+> Atualização posterior: teste suspenso por pedido do usuário; ver [registro](RETOMADA-CANCELADA.md). O estado de ambiente descrito abaixo é histórico.17–22 foram liberados para estudo sequencial.
+
 #16 — Qwen3-TTS: estudo técnico e fronteira de narração
 
 Estado: **parcial / bloqueado para síntese real**. Não fechado como integração de locução validada. Nenhum áudio Qwen foi gerado, ouvido ou exportado. Itens17–22 aguardam, conforme a fila sequencial.

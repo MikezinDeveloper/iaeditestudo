@@ -1,0 +1,128 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\.venv-qwen\\Scripts\\python.exe",
+    "C:\\Users\\giorg\\Documents\\New project\\iaeditestudo\\scripts\\qwen_voiceover.py",
+    "estudo/qwen3-tts/request.smoke.json",
+    "--output",
+    "demos\\remotion-codex\\out\\qwen\\smoke.wav"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 45.03100000000268,
+  "termination_reason": "Low memory guard (<768MiB available)",
+  "samples": [
+    {
+      "elapsed": 0.01,
+      "available_ram_mb": 4407.7,
+      "working_set_mb": 2.0,
+      "peak_working_set_mb": 2.0,
+      "private_commit_mb": 0.5
+    },
+    {
+      "elapsed": 3.01,
+      "available_ram_mb": 3973.9,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 6.01,
+      "available_ram_mb": 3947.7,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 9.01,
+      "available_ram_mb": 3923.7,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 12.01,
+      "available_ram_mb": 3885.5,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 15.01,
+      "available_ram_mb": 3825.1,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 18.01,
+      "available_ram_mb": 3748.0,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 21.01,
+      "available_ram_mb": 3705.3,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 24.01,
+      "available_ram_mb": 3665.2,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 27.01,
+      "available_ram_mb": 3754.3,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 30.01,
+      "available_ram_mb": 3776.5,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 33.01,
+      "available_ram_mb": 2296.6,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 36.01,
+      "available_ram_mb": 1549.2,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 39.01,
+      "available_ram_mb": 1084.8,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 42.01,
+      "available_ram_mb": 961.1,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    },
+    {
+      "elapsed": 45.01,
+      "available_ram_mb": 436.8,
+      "working_set_mb": 10.9,
+      "peak_working_set_mb": 10.9,
+      "private_commit_mb": 2.0
+    }
+  ],
+  "output_exists": false,
+  "scope": "Windows process working-set/peak/private commit and system free memory sampled every3s; no GPU inference or cross-hardware benchmark."
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\giorg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "unittest",
+    "test_audacity_bridge",
+    "-v"
+  ],
+  "cwd": "scripts",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_buffer_limit (test_audacity_bridge.AudacityBoundaryTests.test_buffer_limit) ... ok\ntest_cannot_assume_effect_parameters (test_audacity_bridge.AudacityBoundaryTests.test_cannot_assume_effect_parameters) ... ok\ntest_failure_and_truncated_response_block (test_audacity_bridge.AudacityBoundaryTests.test_failure_and_truncated_response_block) ... ok\ntest_framing_is_platform_specific_utf8 (test_audacity_bridge.AudacityBoundaryTests.test_framing_is_platform_specific_utf8) ... ok\ntest_no_overwrite (test_audacity_bridge.AudacityBoundaryTests.test_no_overwrite) ... ok\ntest_nonfinite_gain_rejected (test_audacity_bridge.AudacityBoundaryTests.test_nonfinite_gain_rejected) ... ok\ntest_plan_requires_native_catalog (test_audacity_bridge.AudacityBoundaryTests.test_plan_requires_native_catalog) ... ok\ntest_preserve_original_and_no_processing_claim (test_audacity_bridge.AudacityBoundaryTests.test_preserve_original_and_no_processing_claim) ... ok\ntest_quote_injection_rejected (test_audacity_bridge.AudacityBoundaryTests.test_quote_injection_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.101s\n\nOK\n",
+  "scope": "9 own protocol tests, no native DSP"
+}

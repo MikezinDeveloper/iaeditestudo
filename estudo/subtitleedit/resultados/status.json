@@ -1,0 +1,24 @@
+{
+  "item": 18,
+  "key": "subtitleedit",
+  "date": "2026-11-04",
+  "state": "canonical_srt_bridge_tested_native_pending",
+  "revision": "99b87e4f14d59294d579ed18b48382644a157fe3",
+  "implemented": [
+    "canonical SRT parsing/serialization",
+    "rational frame conversion and explicit retime"
+  ],
+  "pending": [
+    "native Subtitle Edit roundtrip",
+    "ASR/OCR/word alignment",
+    "caption burn-in and perceptual QA"
+  ],
+  "tests": [
+    {
+      "name": "canonical-srt-tests",
+      "exit_code": 0,
+      "expected_exit": 0
+    }
+  ],
+  "scope": "Bounded mechanism study; native execution and perceptual approval are separate."
+}
