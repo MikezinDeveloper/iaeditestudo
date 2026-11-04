@@ -1,0 +1,6 @@
+[
+  {"id": "video", "label": "Vídeo", "value": 42},
+  {"id": "audio", "label": "Áudio", "value": 27},
+  {"id": "motion", "label": "Motion", "value": 61},
+  {"id": "3d", "label": "3D", "value": 38}
+]

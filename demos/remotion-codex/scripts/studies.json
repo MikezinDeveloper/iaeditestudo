@@ -1,5 +1,6 @@
 {
   "mojs": {"composition": "MojsStudy", "frames": 90, "fps": 30},
   "theatre": {"composition": "TheatreStudy", "frames": 90, "fps": 30},
-  "two": {"composition": "TwoStudy", "frames": 90, "fps": 30}
+  "two": {"composition": "TwoStudy", "frames": 90, "fps": 30},
+  "d3": {"composition": "D3Study", "frames": 90, "fps": 30}
 }

@@ -11,6 +11,7 @@ Os repositórios de edição serão enviados pelo usuário. Este índice disting
 | SRC-005 | [mojs/mojs](https://github.com/mojs/mojs) | Shape, Burst, deltas e timeline normalizada | `0a9cf9a87dd5637e6fa770755e79048489bcf817`, manifest 1.7.1 | 1.699 testes upstream; ponte e export validados | [Estudo e resultados](mojs/README.md) |
 | SRC-006 | [theatre-js/theatre](https://github.com/theatre-js/theatre) | Estado de projeto, keyframes, derivação e driver temporal | `6ea82b938ea49609489f6377ded693ccc6ee8f5b`, core no HEAD 0.7.0; runtime 0.7.2 | Estado JSON, ordem temporal e export do core validados; suíte monorepo não executada | [Estudo](theatre/README.md) |
 | SRC-007 | [jonobr1/two.js](https://github.com/jonobr1/two.js) | Cena vetorial, grupos, transformações e SVG | `cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e`, runtime 0.8.24 | 124/125 testes do subconjunto upstream; 21 testes locais e export aprovados | [Estudo](two/README.md) |
+| SRC-008 | [d3/d3](https://github.com/d3/d3) | Escalas, joins por ID e gráfico animado por dados | `db118c93a429e82b83f091dbaa18fd0a82c06130`, 7.9.2 | 24 testes locais e export aprovados; suíte upstream não executada por recusa do instalador | [Estudo](d3/README.md) |
 
 ## Fila de entrada
 

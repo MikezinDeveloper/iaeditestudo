@@ -1,0 +1,12 @@
+{
+  "install": "rejected by pnpm minimum release age policy",
+  "tool": "pnpm 11.25.0",
+  "lockfile": "pnpm-lock.yaml preserved",
+  "policyRelaxed": false,
+  "upstreamTests": "not-run",
+  "projectTests": {
+    "passed": 24,
+    "failed": 0
+  },
+  "typecheck": "passed"
+}
