@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8"><div id="qunit"></div><div id="qunit-fixture"></div><script src="./qunit.js"></script><script>QUnit.config.autostart=false;const failures=[];QUnit.on('testEnd',t=>{if(t.status==='failed')failures.push({name:t.fullName,errors:t.errors.map(e=>({message:e.message,stack:e.stack}))});});QUnit.on('runEnd',r=>{window.studyResult={total:r.testCounts.total,passed:r.testCounts.passed,failed:r.testCounts.failed,counts:r.testCounts,failures};});</script><script type="module">await import('../three/test/unit/utils/console-wrapper.js');await import('../three/test/unit/utils/qunit-utils.js');
+await import('../three/test/unit/src/math/Vector3.tests.js');
+await import('../three/test/unit/src/math/Matrix4.tests.js');
+await import('../three/test/unit/src/core/Object3D.tests.js');
+await import('../three/test/unit/src/core/BufferGeometry.tests.js');
+await import('../three/test/unit/src/cameras/PerspectiveCamera.tests.js');
+await import('../three/test/unit/src/geometries/TorusKnotGeometry.tests.js');
+await import('../three/test/unit/src/materials/MeshStandardMaterial.tests.js');
+QUnit.start();</script>

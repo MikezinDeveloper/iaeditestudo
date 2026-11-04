@@ -13,6 +13,8 @@ Os repositórios de edição serão enviados pelo usuário. Este índice disting
 | SRC-007 | [jonobr1/two.js](https://github.com/jonobr1/two.js) | Cena vetorial, grupos, transformações e SVG | `cc74b6ae7ab1fa210d900f2c0766a6ae2789af2e`, runtime 0.8.24 | 124/125 testes do subconjunto upstream; 21 testes locais e export aprovados | [Estudo](two/README.md) |
 | SRC-008 | [d3/d3](https://github.com/d3/d3) | Escalas, joins por ID e gráfico animado por dados | `db118c93a429e82b83f091dbaa18fd0a82c06130`, 7.9.2 | 24 testes locais e export aprovados; suíte upstream não executada por recusa do instalador | [Estudo](d3/README.md) |
 
+| SRC-009 | [mrdoob/three.js](https://github.com/mrdoob/three.js) | Cena 3D, câmera, materiais e recursos WebGL | `c6a4b78be1a3d7839399410cc157950c5fd6e58b`, 0.187.0 | 163 testes upstream selecionados; ponte e export por quadro | [Estudo](three/README.md) |
+
 ## Fila de entrada
 
 Recebido `remotion-main.zip`; o usuário confirmou que é o Remotion oficial, sem alterações. O ZIP excedeu o limite de transferência; a análise usou o repositório público, sem confirmar igualdade de revisão com o anexo.

@@ -19,7 +19,8 @@ const run = (program, args, encoding) => {
 };
 const started = Date.now();
 const serveUrl = await bundle({entryPoint: resolve('src/index.ts'), outDir: resolve(`.cache/study-${key}`)});
-const browser = await openBrowser('chrome', {browserExecutable: process.env.REMOTION_BROWSER_EXECUTABLE ?? null, chromiumOptions: {gl: 'angle'}});
+const browser = await openBrowser('chrome', {browserExecutable: process.env.REMOTION_BROWSER_EXECUTABLE ?? null, chromiumOptions: {gl: target.gl ?? 'angle'}});
+const browsers = new Map([[target.gl ?? 'angle', browser]]);
 const options = {serveUrl, puppeteerInstance: browser, inputProps: {}};
 try {
   const composition = await selectComposition({...options, id: target.composition});
@@ -39,16 +40,18 @@ try {
   const pixelChange = first.reduce((sum, value, index) => sum + Math.abs(value - later[index]), 0) / first.length;
   if (pixelChange < 0.1) throw new Error('Movimento não demonstrado na região visual');
   const regressions = {};
-  const previousStudies = Object.entries(catalogue).slice(0, Object.keys(catalogue).indexOf(key)).map(([previousKey, previous]) => [previous.composition, `out/studies/${previousKey}/frame-30.png`, {}]);
-  for (const [id, baseline, inputProps] of [['CodexStudy', 'out/frame-30.png', JSON.parse(readFileSync('project.json', 'utf8'))], ['AnimeMotionStudy', 'out/anime/frame-30.png', {}], ...previousStudies]) {
+  const previousStudies = Object.entries(catalogue).slice(0, Object.keys(catalogue).indexOf(key)).map(([previousKey, previous]) => [previous.composition, `out/studies/${previousKey}/frame-30.png`, {}, previous.gl ?? 'angle']);
+  for (const [id, baseline, inputProps, gl] of [['CodexStudy', 'out/frame-30.png', JSON.parse(readFileSync('project.json', 'utf8')), 'angle'], ['AnimeMotionStudy', 'out/anime/frame-30.png', {}, 'angle'], ...previousStudies]) {
     if (!existsSync(baseline)) {regressions[id] = 'not-run: missing baseline'; continue;}
-    const cfg = await selectComposition({...options, id, inputProps});
+    if (!browsers.has(gl)) browsers.set(gl, await openBrowser('chrome', {browserExecutable: process.env.REMOTION_BROWSER_EXECUTABLE ?? null, chromiumOptions: {gl}}));
+    const regressionOptions = {...options, puppeteerInstance: browsers.get(gl), inputProps};
+    const cfg = await selectComposition({...regressionOptions, id});
     const file = `${folder}/regression-${id}.png`;
-    await renderStill({...options, composition: cfg, inputProps, frame: 30, imageFormat: 'png', output: resolve(file)});
+    await renderStill({...regressionOptions, composition: cfg, frame: 30, imageFormat: 'png', output: resolve(file)});
     if (hash(file) !== hash(baseline)) throw new Error(`Regressão na composição ${id}`);
     regressions[id] = 'passed';
   }
-  const report = {status: 'passed', study: key, composition: composition.id, frames: target.frames, fps: target.fps, durationSeconds: Number(probe.format.duration), codecs: [v.codec_name, a.codec_name], repeatedFrameAfterEnd: true, regionMeanPixelChange: pixelChange, regressions, elapsedSeconds: (Date.now() - started) / 1000, hashes: {video: hash(video), frame30: hash(`${folder}/frame-30.png`)}};
+  const report = {status: 'passed', study: key, composition: composition.id, chromiumGl: target.gl ?? 'angle', frames: target.frames, fps: target.fps, durationSeconds: Number(probe.format.duration), codecs: [v.codec_name, a.codec_name], repeatedFrameAfterEnd: true, regionMeanPixelChange: pixelChange, regressions, elapsedSeconds: (Date.now() - started) / 1000, hashes: {video: hash(video), frame30: hash(`${folder}/frame-30.png`)}};
   writeFileSync(`${folder}/report.json`, JSON.stringify(report, null, 2) + '\n');
   console.log(JSON.stringify(report, null, 2));
-} finally {await browser.close({silent: true});}
+} finally {for (const instance of browsers.values()) await instance.close({silent: true});}

@@ -1,0 +1,16 @@
+{
+  "qunit": {
+    "url": "https://cdn.jsdelivr.net/npm/qunit@2.25.0/qunit/qunit.js",
+    "sha256": "d228d53cd9230c876f39e57a6bd07b56d427ffd7128fd93c4a3c0682227fe234"
+  },
+  "scope": [
+    "Vector3",
+    "Matrix4",
+    "Object3D",
+    "BufferGeometry",
+    "PerspectiveCamera",
+    "TorusKnotGeometry",
+    "MeshStandardMaterial"
+  ],
+  "method": "Official tests imported unchanged from fixed source; external harness, Chromium swangle; not full npm test."
+}

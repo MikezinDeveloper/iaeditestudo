@@ -8,7 +8,7 @@ Ordem enviada pelo usuário em 3 de novembro de 2026. Esta é a fila oficial des
 | 2 | [theatre-js/theatre](https://github.com/theatre-js/theatre) | Concluída | [Estado JSON, keyframes e driver explícito](theatre/README.md) |
 | 3 | [jonobr1/two.js](https://github.com/jonobr1/two.js) | Concluída | [Cena SVG, transformações e cleanup](two/README.md); limite de Two.Text registrado |
 | 4 | [d3/d3](https://github.com/d3/d3) | Concluída | [Gráficos por dados, escalas e interpolação](d3/README.md) |
-| 5 | [mrdoob/three.js](https://github.com/mrdoob/three.js) | Na fila | Investigar composição e renderização 3D |
+| 5 | [mrdoob/three.js](https://github.com/mrdoob/three.js) | Concluída | [Cena, câmera, PBR e recursos WebGL](three/README.md) |
 | 6 | [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) | Na fila | Investigar o motor 3D e sua adequação frente às alternativas |
 | 7 | [pmndrs/drei](https://github.com/pmndrs/drei) | Na fila | Investigar helpers de React Three Fiber aplicáveis ao editor |
 | 8 | [sparkjsdev/spark](https://github.com/sparkjsdev/spark) | Na fila | Investigar render de Gaussian splats e requisitos de assets/GPU |
@@ -41,4 +41,6 @@ A etapa só recebe “Concluída” quando o escopo de integração definido dur
 
 ## Checkpoint atual
 
-Base publicada em `ed066313be69369e142bb69e5ba28286fb095431`; mo.js em `13c9a63e9397cb0da80897b5e4b1b230a921075a`; Theatre.js em `c87f03f448183829aa6331545d7ff28effb66862`; Two.js em `2770f086fd57216efbe1f9aa450c9720b5b2b846`. D3 passou pelo escopo de gráfico SVG, 24 testes locais, export e regressões; sua suíte upstream está não executada conforme o estudo. Este arquivo integra o checkpoint de publicação D3. Próximo item: Three.js, ainda não iniciado. Confirmar o SHA remoto depois de cada envio.
+Base publicada em `ed066313be69369e142bb69e5ba28286fb095431`; mo.js em `13c9a63e9397cb0da80897b5e4b1b230a921075a`; Theatre.js em `c87f03f448183829aa6331545d7ff28effb66862`; Two.js em `2770f086fd57216efbe1f9aa450c9720b5b2b846`. D3 passou pelo escopo de gráfico SVG, 24 testes locais, export e regressões; sua suíte upstream está não executada conforme o estudo. Este arquivo integra o checkpoint de publicação D3. Publicação D3 confirmada: `5e5af875ecba690c8f9f904c50cad5e090f2f98e`. Item atual: Three.js. Confirmar o SHA remoto depois de cada envio.
+
+Three.js: 26 testes locais, 163 testes upstream selecionados, export de 90 frames e seis regressões aprovados. Este arquivo integra seu checkpoint; confirmar o SHA remoto após envio antes de iniciar Babylon.js.

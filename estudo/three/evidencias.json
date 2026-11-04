@@ -1,0 +1,126 @@
+{
+  "source": "https://github.com/mrdoob/three.js",
+  "revision": "c6a4b78be1a3d7839399410cc157950c5fd6e58b",
+  "consultedAt": "2026-11-03",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/README.md",
+      "sha256": "d553d824625a07d7690de93af6f8daf13d6aaed42700929d7ce4e725fa5ef10d",
+      "lines": 85,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/LICENSE",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "lines": 21,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/package.json",
+      "sha256": "87f2c99a8718e5fdd6f5e51427fde52c6075f2f698ddf8f7b4e162882df93940",
+      "lines": 118,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "docs/llms-full.txt",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/docs/llms-full.txt",
+      "sha256": "7e06d23c852bc331c858ea2efdcee95894c85d48c61273cd2acfa50b7ee2e9c9",
+      "lines": 8596,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/Object3D.js",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/src/core/Object3D.js",
+      "sha256": "5cd0ab0914f006ad4c5a88eeefbe114e964409be46ee005938875b11408613f0",
+      "lines": 1719,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/cameras/PerspectiveCamera.js",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/src/cameras/PerspectiveCamera.js",
+      "sha256": "1cc44938885f785649a978ecb6f57c444561381ddab24de19fc59b400009b111",
+      "lines": 407,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/geometries/TorusKnotGeometry.js",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/src/geometries/TorusKnotGeometry.js",
+      "sha256": "775c6c72fa98302716d5696b5a240859d9036ff91c5a9efce27454bd1a2733c3",
+      "lines": 206,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/materials/MeshStandardMaterial.js",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/src/materials/MeshStandardMaterial.js",
+      "sha256": "60d854c4c7f4506e8e0fd5951a2e631aa3d1dfce5c2d632084cb7cf8b27cbb68",
+      "lines": 466,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/renderers/WebGLRenderer.js",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/src/renderers/WebGLRenderer.js",
+      "sha256": "5c7dbc0dbcf72c242557e3fa56c242a350ce6079f8753005c7009aa69071945c",
+      "lines": 3803,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/renderers/webgl/WebGLGeometries.js",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/src/renderers/webgl/WebGLGeometries.js",
+      "sha256": "7fac2d1a6754c98d1c85342dfe226d0b13148275a2e00ebea0056f982934a6c3",
+      "lines": 214,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/UnitTests.html",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/test/unit/UnitTests.html",
+      "sha256": "402ec9ea13856e31255461fe6451373f9d05406e83dee658f82a9abc7e1a27a7",
+      "lines": 40,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/puppeteer.unit.js",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/test/unit/puppeteer.unit.js",
+      "sha256": "98b2858f47cc26e3b6c89f706e8a2a2aacc9f760afb3548b44b72229e7327694",
+      "lines": 210,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/three.source.unit.js",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/test/unit/three.source.unit.js",
+      "sha256": "6eeb378c3353a52e61e2b096c1186330149eef732a4a9d077020d9c2643f9462",
+      "lines": 314,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/utils/qunit-utils.js",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/test/unit/utils/qunit-utils.js",
+      "sha256": "0e08b1632cdfc8d4cbfa8bee1deb955764c8f172b606f402cabf82e8923e0989",
+      "lines": 299,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/utils/console-wrapper.js",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/test/unit/utils/console-wrapper.js",
+      "sha256": "376e02588efc3e84c34fb694b2d1b096c2f8b28baafc241fd7e87b623aa3ae05",
+      "lines": 62,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/src/cameras/PerspectiveCamera.tests.js",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/test/unit/src/cameras/PerspectiveCamera.tests.js",
+      "sha256": "5b29eefe9e5ef7da40db61624865194b60bfcf330bb8840abe53c381a3c8adc9",
+      "lines": 127,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/src/geometries/TorusKnotGeometry.tests.js",
+      "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/test/unit/src/geometries/TorusKnotGeometry.tests.js",
+      "sha256": "c22cee54b4cd1fbac38fb954766f3d82973ac78f18512dffcaa84d309911b637",
+      "lines": 72,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    }
+  ]
+}

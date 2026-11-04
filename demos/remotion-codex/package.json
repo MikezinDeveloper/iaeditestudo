@@ -28,6 +28,7 @@
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "remotion": "4.0.540",
+    "three": "0.187.0",
     "two.js": "0.8.24"
   },
   "devDependencies": {
@@ -35,6 +36,7 @@
     "@types/node": "24.10.0",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
+    "@types/three": "0.187.0",
     "typescript": "5.9.3"
   }
 }
