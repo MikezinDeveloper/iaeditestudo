@@ -128,3 +128,5 @@ O workflow `.github/workflows/validate.yml` descreve instalação, testes e expo
 `CablesStudy` executa um patch JSON com Sine/Multiply originais do Cables: `npm run render:study -- cables`. O runtime selecionado, licença e hashes estão versionados em `public/vendor/cables`; [estudo e receita de rebuild](../../estudo/cables/README.md).
 
 `TaichiStudy` reproduz uma simulação de tecido com cache gerado por kernels Taichi CPU: `npm run render:study -- taichi`. [Receita Python, critérios físicos e limites](../../estudo/taichi/README.md). Python não é necessário para reproduzir o cache versionado.
+
+`SplishsplashStudy` reproduz fluido calculado pelo núcleo C++ DFSPH: `npm run render:study -- splishsplash`. [Build nativo, bake e limitações](../../estudo/splishsplash/README.md). O wheel Python falhou no ambiente; a integração final usa fonte C++ compilada e cache versionado.

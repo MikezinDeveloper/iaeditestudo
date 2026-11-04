@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="sph_kernel_tests" errors="0" failures="0" tests="24" hostname="tbd" time="0.029" timestamp="2026-11-04T13:15:00Z">
+    <testcase classname="sph_kernel_tests.global" name="3D Kernel is normalized, positive - CubicKernel" time="0.002" status="run"/>
+    <testcase classname="sph_kernel_tests.global" name="3D Kernel is normalized, positive - Poly6Kernel" time="0.002" status="run"/>
+    <testcase classname="sph_kernel_tests.global" name="3D Kernel is normalized, positive - SpikyKernel" time="0.004" status="run"/>
+    <testcase classname="sph_kernel_tests.global" name="3D Kernel is normalized, positive - WendlandQuinticC2Kernel" time="0.009" status="run"/>
+    <testcase classname="sph_kernel_tests.global" name="3D Kernel is normalized, positive - PrecomputedKernel&lt;CubicKernel>" time="0.011" status="run"/>
+    <testcase classname="sph_kernel_tests.global" name="2D Kernel is normalized, positive - CubicKernel2D" time="0.000" status="run"/>
+    <testcase classname="sph_kernel_tests.global" name="2D Kernel is normalized, positive - WendlandQuinticC2Kernel2D" time="0.000" status="run"/>
+    <testcase classname="sph_kernel_tests.global" name="2D Kernel is normalized, positive - PrecomputedKernel&lt;CubicKernel2D>" time="0.001" status="run"/>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>

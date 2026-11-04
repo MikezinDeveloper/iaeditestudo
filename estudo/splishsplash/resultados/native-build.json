@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "generator": "Unix Makefiles",
+  "cmake": "3.31.6",
+  "compiler": "c++ (Debian 14.2.0-19) 14.2.0",
+  "sourceBuild": "Core only via SPH_LIBS_ONLY; original upstream sources unchanged",
+  "flags": {
+    "precision": "double",
+    "explicitAvxPath": false,
+    "compilerArchitecture": "-march=native (upstream default, matched in wrapper)",
+    "cppStandard": 11,
+    "pythonBindings": false,
+    "thirdPartyMethods": false,
+    "OpenMP": true,
+    "runtimeThreads": 1
+  },
+  "dependencies": {
+    "CompactNSearch": "b40afcf47fe1963b363eba2371f04b42720fcb1d",
+    "GenericParameters": "a4e2744eea526270cfe38b826440d09f66473316",
+    "Discregrid": "ddf20dc0480874bf02e0bdc6ded76c1f101b17fb"
+  },
+  "NinjaAttempt": "Not used: upstream ExternalProject static library lacks a Ninja byproduct rule. Switched generator; did not edit upstream CMake.",
+  "wrapperInitializationFixes": [
+    "Explicit 2D cubic kernel/gradient selected before boundary volume",
+    "Followed SimulatorBase ordering and registered fluid sets only once"
+  ]
+}

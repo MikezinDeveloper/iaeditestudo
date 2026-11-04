@@ -1,0 +1,6 @@
+AVX is only supported for single precision.
+-- Build type: Release
+-- Use neighborhood search: CompactNSearch
+-- Configuring done (1.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /workspace/research-cache/splish-build-make

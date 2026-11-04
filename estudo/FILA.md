@@ -8,7 +8,7 @@ Preservar a numeração enviada pelo usuário. Estudar, delimitar a aplicação,
 | --- | --- | --- | --- |
 | 11 | [cables-gl/cables_electron](https://github.com/cables-gl/cables_electron) / cables.gl | Concluída | [Patch JSON, portas e runtime numérico real](cables/README.md) |
 | 12 | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | Concluída | [Kernels CPU, tecido e cache com proveniência](taichi/README.md) |
-| 13 | [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | Na fila | Simulação de fluido e integração por resultados reproduzíveis |
+| 13 | [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | Concluída | [DFSPH C++ nativo, fluido e cache validado](splishsplash/README.md) |
 | 14 | [FarazzShaikh/THREE-CustomShaderMaterial](https://github.com/FarazzShaikh/THREE-CustomShaderMaterial) | Na fila | Material customizado preservando o pipeline de iluminação Three |
 | 15 | [opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) | Na fila | Animação desenhada, exposição de quadros e interoperabilidade com a composição |
 
@@ -16,7 +16,9 @@ O anexo `anime-master.zip` foi comparado ao Anime.js já estudado: mesma revisã
 
 Checkpoint do item 11: 34 testes locais, schema de 1.821 metadados, export e dez regressões aprovados. Este arquivo integra seu commit de publicação; publicação confirmada em `88f6e651bc51ab7692cb61b114f4589615143eae`. Item atual: 12, Taichi.
 
-Checkpoint do item 12: verificação física e reset, 8 testes CPU upstream, 36 locais, export e onze regressões aprovados; GPU não testada. Este arquivo integra o checkpoint de publicação do Taichi.
+Checkpoint do item 12: verificação física e reset, 8 testes CPU upstream, 36 locais, export e onze regressões aprovados; GPU não testada. Publicação Taichi confirmada: `ba56372f4810cddf0bebb3edda393258a9378e39`. Item atual: 13, SPlisHSPlasH.
+
+Checkpoint do item 13: núcleo compilado, 8 casos/24 assertions de kernel, bake físico, 38 testes locais, export e doze regressões aprovados. Wheel Python falhou; a integração usa o C++ nativo. Este arquivo integra seu checkpoint de publicação.
 
 ## Lote anterior — oito integrações concluídas
 

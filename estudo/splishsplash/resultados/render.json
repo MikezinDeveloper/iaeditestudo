@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "study": "splishsplash",
+  "composition": "SplishsplashStudy",
+  "chromiumGl": "angle",
+  "frames": 90,
+  "fps": 30,
+  "durationSeconds": 3.008,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "repeatedFrameAfterEnd": true,
+  "regionMeanPixelChange": 21.065227272727274,
+  "regressions": {
+    "CodexStudy": "passed",
+    "AnimeMotionStudy": "passed",
+    "MojsStudy": "passed",
+    "TheatreStudy": "passed",
+    "TwoStudy": "passed",
+    "D3Study": "passed",
+    "ThreeStudy": "passed",
+    "BabylonStudy": "passed",
+    "DreiStudy": "passed",
+    "SparkStudy": "passed",
+    "CablesStudy": "passed",
+    "TaichiStudy": "passed"
+  },
+  "elapsedSeconds": 86.762,
+  "hashes": {
+    "video": "97e6bbe01ced7af3657908ea8393d1e28faa8e08ee4273dcb378bd6fc8786950",
+    "frame30": "48564137962175bc2520522d7ab64ff6070c797e715ca29bf886139d5644a3da"
+  }
+}

@@ -52,5 +52,10 @@
     "composition": "TaichiStudy",
     "frames": 90,
     "fps": 30
+  },
+  "splishsplash": {
+    "composition": "SplishsplashStudy",
+    "frames": 90,
+    "fps": 30
   }
 }

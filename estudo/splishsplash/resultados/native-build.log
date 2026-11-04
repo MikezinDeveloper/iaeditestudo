@@ -1,0 +1,198 @@
+[  1%] Built target tinyexpr
+[  2%] Built target MD5
+[ 15%] Built target zlib
+[ 30%] Built target partio
+[ 31%] Performing update step for 'Ext_Discregrid'
+[ 32%] Performing update step for 'Ext_GenericParameters'
+[ 32%] Performing update step for 'Ext_NeighborhoodSearch'
+-- Already at requested ref: a4e2744eea526270cfe38b826440d09f66473316
+[ 34%] Built target Utilities
+-- Already at requested ref: ddf20dc0480874bf02e0bdc6ded76c1f101b17fb
+[ 35%] No patch step for 'Ext_GenericParameters'
+[ 35%] No patch step for 'Ext_Discregrid'
+-- Already at requested ref: b40afcf47fe1963b363eba2371f04b42720fcb1d
+[ 37%] Performing configure step for 'Ext_GenericParameters'
+[ 36%] No patch step for 'Ext_NeighborhoodSearch'
+[ 38%] Performing configure step for 'Ext_Discregrid'
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+[ 39%] Performing configure step for 'Ext_NeighborhoodSearch'
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/research-cache/splish-build-make/extern/GenericParameters/src/Ext_GenericParameters-build
+[ 39%] Performing build step for 'Ext_GenericParameters'
+-- Configuring done (0.1s)
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/research-cache/splish-build-make/extern/CompactNSearch/src/Ext_NeighborhoodSearch-build
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/research-cache/splish-build-make/extern/Discregrid/src/Ext_Discregrid-build
+[ 40%] Performing build step for 'Ext_NeighborhoodSearch'
+[ 41%] Performing build step for 'Ext_Discregrid'
+[100%] Built target CompactNSearch
+[ 43%] Performing install step for 'Ext_NeighborhoodSearch'
+[ 44%] Performing install step for 'Ext_GenericParameters'
+Install the project...
+[100%] Built target CompactNSearch
+-- Install configuration: "Release"
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include/VectorParameter.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include/NumericParameter.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include/EnumParameter.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include/Parameter.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include/FunctionParameter.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include/ParameterObject.h
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/NeighborhoodSearch/include/CompactNSearch
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/NeighborhoodSearch/include/Config.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/NeighborhoodSearch/include/CompactNSearch.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/NeighborhoodSearch/include/PointSet.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/NeighborhoodSearch/include/DataStructures.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/NeighborhoodSearch/lib/libCompactNSearch.a
+[ 45%] Completed 'Ext_GenericParameters'
+[ 45%] Completed 'Ext_NeighborhoodSearch'
+[ 46%] Built target Ext_GenericParameters
+[ 47%] Built target Ext_NeighborhoodSearch
+[100%] Built target Discregrid
+[ 48%] Performing install step for 'Ext_Discregrid'
+[100%] Built target Discregrid
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/lib/libDiscregrid.a
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/mesh
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/mesh/triangle_mesh.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/mesh/halfedge.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/mesh/entity_iterators.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/mesh/entity_containers.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/geometry
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/geometry/TriangleMeshDistance.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/utility
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/utility/lru_cache.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/utility/serialize.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/All
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/cubic_lagrange_discrete_grid.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/discrete_grid.hpp
+[ 48%] Completed 'Ext_Discregrid'
+[ 49%] Built target Ext_Discregrid
+[ 98%] Built target SPlisHSPlasH
+[100%] Building CXX object CMakeFiles/bake_fluid.dir/bake_fluid.cpp.o
+[100%] Linking CXX executable bin/bake_fluid
+[100%] Built target bake_fluid
+[  1%] Built target MD5
+[  2%] Built target tinyexpr
+[ 15%] Built target zlib
+[ 30%] Built target partio
+[ 30%] Performing update step for 'Ext_NeighborhoodSearch'
+[ 31%] Performing update step for 'Ext_Discregrid'
+[ 32%] Performing update step for 'Ext_GenericParameters'
+-- Already at requested ref: b40afcf47fe1963b363eba2371f04b42720fcb1d
+-- Already at requested ref: ddf20dc0480874bf02e0bdc6ded76c1f101b17fb
+[ 32%] No patch step for 'Ext_Discregrid'
+[ 33%] No patch step for 'Ext_NeighborhoodSearch'
+[ 35%] Built target Utilities
+-- Already at requested ref: a4e2744eea526270cfe38b826440d09f66473316
+[ 36%] No patch step for 'Ext_GenericParameters'
+[ 37%] Performing configure step for 'Ext_Discregrid'
+[ 38%] Performing configure step for 'Ext_NeighborhoodSearch'
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+[ 39%] Performing configure step for 'Ext_GenericParameters'
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Configuring done (0.0s)
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/research-cache/splish-build-make/extern/CompactNSearch/src/Ext_NeighborhoodSearch-build
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/research-cache/splish-build-make/extern/Discregrid/src/Ext_Discregrid-build
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/research-cache/splish-build-make/extern/GenericParameters/src/Ext_GenericParameters-build
+[ 40%] Performing build step for 'Ext_NeighborhoodSearch'
+[ 40%] Performing build step for 'Ext_GenericParameters'
+[ 41%] Performing build step for 'Ext_Discregrid'
+[ 43%] Performing install step for 'Ext_GenericParameters'
+[100%] Built target CompactNSearch
+[ 44%] Performing install step for 'Ext_NeighborhoodSearch'
+[100%] Built target Discregrid
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include/VectorParameter.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include/NumericParameter.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include/EnumParameter.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include/Parameter.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include/FunctionParameter.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/GenericParameters/include/ParameterObject.h
+[ 45%] Performing install step for 'Ext_Discregrid'
+[ 46%] Completed 'Ext_GenericParameters'
+[100%] Built target CompactNSearch
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/NeighborhoodSearch/include/CompactNSearch
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/NeighborhoodSearch/include/Config.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/NeighborhoodSearch/include/CompactNSearch.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/NeighborhoodSearch/include/PointSet.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/NeighborhoodSearch/include/DataStructures.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/NeighborhoodSearch/lib/libCompactNSearch.a
+[100%] Built target Discregrid
+[ 47%] Built target Ext_GenericParameters
+[ 47%] Completed 'Ext_NeighborhoodSearch'
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/lib/libDiscregrid.a
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/mesh
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/mesh/triangle_mesh.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/mesh/halfedge.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/mesh/entity_iterators.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/mesh/entity_containers.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/geometry
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/geometry/TriangleMeshDistance.h
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/utility
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/utility/lru_cache.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/utility/serialize.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/All
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/cubic_lagrange_discrete_grid.hpp
+-- Up-to-date: /workspace/research-cache/splish-build-make/extern/install/Discregrid/./include/Discregrid/discrete_grid.hpp
+[ 48%] Built target Ext_NeighborhoodSearch
+[ 48%] Completed 'Ext_Discregrid'
+[ 49%] Built target Ext_Discregrid
+[ 98%] Built target SPlisHSPlasH
+[ 98%] Building CXX object CMakeFiles/sph_kernel_tests.dir/workspace/research-cache/splishsplash/Tests/Kernel/KernelTests.cpp.o
+[100%] Linking CXX executable bin/sph_kernel_tests
+[100%] Built target sph_kernel_tests

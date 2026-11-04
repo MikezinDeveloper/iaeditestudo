@@ -1,0 +1,245 @@
+{
+  "source": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH",
+  "revision": "dba6b26b9387ab6bdd187d6df0a7c9d490d03500",
+  "consultedAt": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/README.md",
+      "sha256": "bc824e314f028c8ea7d5d5140e29087e31819c1b2af16fb70d476e25861320d1",
+      "lines": 120,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/LICENSE",
+      "sha256": "608181acd95c1b672b984157254568d581b6d9eafc3e5785899ce1ac85dc9c29",
+      "lines": 22,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "version.txt",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/version.txt",
+      "sha256": "c34879fd1e8d68b7b45a1fc4e306dbf2ee68527da98c8599961cbfd46940a581",
+      "lines": 1,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "CMakeLists.txt",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/CMakeLists.txt",
+      "sha256": "1e3eade07078b83c357991791f2b308a1abbea099bc0df6e472031795f4bbf2b",
+      "lines": 69,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "CMake/Common.cmake",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/CMake/Common.cmake",
+      "sha256": "5573b0ca000294cd0feeed14a03025b524bbdff8dbdb158898008a93b9af3e02",
+      "lines": 136,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "CMake/NeighborhoodSearch.cmake",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/CMake/NeighborhoodSearch.cmake",
+      "sha256": "9805d7e4a8b1bc2a323b78f5d237504d35ad4e72c4e8dac5989f0704b43c11a4",
+      "lines": 83,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "CMake/SetUpExternalProjects.cmake",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/CMake/SetUpExternalProjects.cmake",
+      "sha256": "62fc76316dd6354fb445118ee811da228849083b74ed9671c7aae7d1efc1e10b",
+      "lines": 99,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "SPlisHSPlasH/CMakeLists.txt",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/SPlisHSPlasH/CMakeLists.txt",
+      "sha256": "fad07fdd54609c8ce891e7c920512e43d43c82f53abff9c3436d8b2cfb2c80a2",
+      "lines": 346,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "SPlisHSPlasH/Simulation.h",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/SPlisHSPlasH/Simulation.h",
+      "sha256": "11b319bc275771509aee50ee8d62d9d9fe7f411f1850b47b75f7be458e556275",
+      "lines": 497,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "SPlisHSPlasH/Simulation.cpp",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/SPlisHSPlasH/Simulation.cpp",
+      "sha256": "00432c136175186b8bd79b7a9a78de1437c1f6351aa60ede3cc29c623325d8c8",
+      "lines": 794,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "SPlisHSPlasH/TimeStep.cpp",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/SPlisHSPlasH/TimeStep.cpp",
+      "sha256": "a41933ddb79940fbed3cea224d57341a70647d2541e11e63f4401561b8d21f5d",
+      "lines": 554,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "SPlisHSPlasH/TimeManager.h",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/SPlisHSPlasH/TimeManager.h",
+      "sha256": "eccc13c0538efaf19d2d1de035f7c5dbdb1d74f091ac43ec0c4baa0a0f4dcd4f",
+      "lines": 45,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "SPlisHSPlasH/NeighborhoodSearch.h",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/SPlisHSPlasH/NeighborhoodSearch.h",
+      "sha256": "098aa375585acbbfacc848598b93a82572aa6300317b471db8920113352785b3",
+      "lines": 266,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "SPlisHSPlasH/DFSPH/TimeStepDFSPH.cpp",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/SPlisHSPlasH/DFSPH/TimeStepDFSPH.cpp",
+      "sha256": "46197aff646e70c3e2e5533d8fc76b995477b4499b19a9976a21130675ac361b",
+      "lines": 1424,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "SPlisHSPlasH/FluidModel.h",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/SPlisHSPlasH/FluidModel.h",
+      "sha256": "22406cd58080a706d9ca06021ac6d669fbba43a5f4d49793c6e763c582f18577",
+      "lines": 409,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "SPlisHSPlasH/FluidModel.cpp",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/SPlisHSPlasH/FluidModel.cpp",
+      "sha256": "12a1c8dd0101f04f8496eae1226a10c2a858c4154f0f87263ebc00f3b2074b56",
+      "lines": 767,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "SPlisHSPlasH/BoundaryModel.h",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/SPlisHSPlasH/BoundaryModel.h",
+      "sha256": "bae175eb4030b52eb204c4d6dc47996c257725662d89ba4afa1f04e612a9f028",
+      "lines": 98,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "SPlisHSPlasH/BoundaryModel_Akinci2012.cpp",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/SPlisHSPlasH/BoundaryModel_Akinci2012.cpp",
+      "sha256": "dcd289c26ed31608a9932e71330beb0d3e69f40c2c9a0636ef8e6f7e2dcdb172",
+      "lines": 153,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "SPlisHSPlasH/StaticRigidBody.h",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/SPlisHSPlasH/StaticRigidBody.h",
+      "sha256": "c517ee3aa89d0d60547f426c1a4254c621486e259452d23cff65c987c0cb0151",
+      "lines": 86,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "Simulator/SimulatorBase.cpp",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/Simulator/SimulatorBase.cpp",
+      "sha256": "208763cb71d41650da98fe61a64ac904f8c9e4016e88384fb3fa578787cc7aec",
+      "lines": 3120,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "Simulator/StaticBoundarySimulator.cpp",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/Simulator/StaticBoundarySimulator.cpp",
+      "sha256": "95fc4d9c289d315a0a9ec989641edfb0d480663f4bf0a15884025308f57e6dff",
+      "lines": 247,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "pySPlisHSPlasH/main.cpp",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/pySPlisHSPlasH/main.cpp",
+      "sha256": "ec0353c9e78c1cc870128c97ba50f714b18c8e7e7df40a38b57d8f494ffccaa0",
+      "lines": 82,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "pySPlisHSPlasH/SimulationModule.cpp",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/pySPlisHSPlasH/SimulationModule.cpp",
+      "sha256": "c449ead3060d3365dc89a151033a480bf838eb162c92a411226dbc362c48a734",
+      "lines": 394,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "pySPlisHSPlasH/ParameterObjectModule.cpp",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/pySPlisHSPlasH/ParameterObjectModule.cpp",
+      "sha256": "068edd687c952580aaf077b3bfc34ec01bd254b96c04304f03c71caf683f7d68",
+      "lines": 91,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "pySPlisHSPlasH/TimeModule.cpp",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/pySPlisHSPlasH/TimeModule.cpp",
+      "sha256": "f9fd0e96b866379f8eff7c193893b5346a7031186378a647ffadc70716dc6494",
+      "lines": 46,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "pySPlisHSPlasH/examples/minimal_no_gui.py",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/pySPlisHSPlasH/examples/minimal_no_gui.py",
+      "sha256": "1416ad47610a091b044cac3d4ecb7be5905ea83dd0aea7c67b63566782feeeed",
+      "lines": 12,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "pySPlisHSPlasH/examples/custom_scene.py",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/pySPlisHSPlasH/examples/custom_scene.py",
+      "sha256": "5fb5d4af735498939e6ade1d6a1c18bd559dafe3b825e7c05609a5992dd104a3",
+      "lines": 25,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "pySPlisHSPlasH/examples/custom_exporter.py",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/pySPlisHSPlasH/examples/custom_exporter.py",
+      "sha256": "e283182d9cc0777a9ff2bb09ed3ee8feae1a61a1e961dea9ba1d49502e3428b9",
+      "lines": 86,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "Tests/Kernel/KernelTests.cpp",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/Tests/Kernel/KernelTests.cpp",
+      "sha256": "7d0bfdb7eabd5c6dff3bd77b66154d8bbd33f5a6992a01639d22f7fcdb34ab3b",
+      "lines": 233,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "Tests/Kernel/CMakeLists.txt",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/Tests/Kernel/CMakeLists.txt",
+      "sha256": "9ac97cc695006998badb1b09228702df6abec9085fd49777afe3ae87e91d2b3b",
+      "lines": 11,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "doc/architecture.md",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/doc/architecture.md",
+      "sha256": "41855b3e637bc23c3c08007366d9c57473ca674cc6212e8274015ade4f0a8647",
+      "lines": 63,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "doc/cmake_options.md",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/doc/cmake_options.md",
+      "sha256": "1d39eda744aaa28d6ba5f8b295ac7d998cabb5221dfe7bb47aa911cecaaeca35",
+      "lines": 38,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "doc/py_restrictions.md",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/doc/py_restrictions.md",
+      "sha256": "36a31ed990c56b4f8b896256b0717c124d69087b054e6c1fb21ddf54ce783967",
+      "lines": 12,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "data/Scenes/DamBreakModel_2D.json",
+      "url": "https://github.com/InteractiveComputerGraphics/SPlisHSPlasH/blob/dba6b26b9387ab6bdd187d6df0a7c9d490d03500/data/Scenes/DamBreakModel_2D.json",
+      "sha256": "fb49e975935043fcd5ae5ef3bbe8c265d1cb17a3cc233ae5546a15a803bde9c0",
+      "lines": 71,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    }
+  ]
+}

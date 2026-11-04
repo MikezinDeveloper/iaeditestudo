@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scope": "Original Tests/Kernel/KernelTests.cpp; no modifications to test file",
+  "cases": 8,
+  "assertions": 24,
+  "failures": 0,
+  "errors": 0,
+  "precision": "double",
+  "sourceRevision": "dba6b26b9387ab6bdd187d6df0a7c9d490d03500"
+}

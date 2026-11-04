@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "sourceRevision": "dba6b26b9387ab6bdd187d6df0a7c9d490d03500",
+  "runtime": "native C++ source build, double precision, CPU, OMP_NUM_THREADS=1",
+  "solver": "DFSPH",
+  "frames": 90,
+  "fps": 30,
+  "particles": 168,
+  "sameFreshRuns": true,
+  "initialMass": 420.00000000000006,
+  "finalMass": 420.00000000000006,
+  "maxNativeTimeError": 4.218847493575595e-14,
+  "extent": [
+    -1.122305,
+    0.027713,
+    1.121845,
+    1.540006
+  ],
+  "widthAtStart": 0.5499999999999999,
+  "widthAtOneSecond": 2.233522,
+  "centerYAtStart": 0.42500000000000004,
+  "centerYAtOneSecond": 0.18059411904761904,
+  "maxObservedDensity": 1028.6165379438337,
+  "cacheSha256": "37aa0dd799cb84750fcf5e5f9b27ff3f1f673c0be6382e19b1ab25c9f386c429",
+  "generatorHashes": {
+    "CMakeLists.txt": "b197855b0f3d3eef838f2d9b19f08861c1fa68c74d12e17daa7f912247d6b7f7",
+    "bake_fluid.cpp": "fe0f14f2c7a639a66d6cb8aa4cfdda23a246a3ed137a5d10240cd7d6766962fd",
+    "bake_verify.py": "12b409ceff721e895555bce47817e0805770e370ab16df1078f66bc6ad0acc12"
+  },
+  "binarySha256": "8b949d8dcb718a486655ac382b547a8a1922f02b1affdd46f115f3e5ba1166f3",
+  "wheelStatus": "2.19.1 failed to import in Python 3.12 and 3.11; native build used instead"
+}

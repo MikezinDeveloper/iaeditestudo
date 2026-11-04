@@ -18,6 +18,7 @@ Os repositórios de edição serão enviados pelo usuário. Este índice disting
 | SRC-012 | [sparkjsdev/spark](https://github.com/sparkjsdev/spark) | Packing, ordenação e Gaussian splats | `ffe210dc0a45d0515a06c9235878108112827d61`, 2.4.0 | 88 testes upstream selecionados; packing real e export com worker/WASM | [Estudo](spark/README.md) |
 | SRC-013 | [cables-gl/cables_electron](https://github.com/cables-gl/cables_electron) e runtime vinculado | Grafo, portas e export de patch | Electron `bde458db4ccd1de8621dd8f99a3c59b14c8b3c25`; revisões core/shared no estudo | Kernel real, dois operadores originais, 34 testes locais; schema upstream 1.821/1.821 | [Estudo](cables/README.md) |
 | SRC-014 | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | Kernels numéricos e bake de tecido | `ba0e81dce559fb63a5958bf82feb1d00c55c02fe`, fonte 1.8.0, wheel 1.7.4 | CPU real, reset reprodutível, 8 upstream; cache e export | [Estudo](taichi/README.md) |
+| SRC-015 | [SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | DFSPH nativo e cache de partículas | `dba6b26b9387ab6bdd187d6df0a7c9d490d03500`, 2.19.1 | Build C++ executado; 8 casos/24 asserts upstream, 38 locais e export; falha do wheel registrada | [Estudo](splishsplash/README.md) |
 
 ## Fila de entrada
 
