@@ -9,7 +9,7 @@ Este guia é próprio do `iaeditestudo`; não é o plugin oficial do Remotion.
 
 ## Contexto
 
-Leia `estudo/remotion/README.md` e `estudo/remotion/INTEGRACAO-CODEX.md`, relativos à raiz do repositório. Use o checkout existente; não crie worktrees sem solicitação explícita.
+Leia `estudo/INTEGRACOES.md`, `estudo/AMBIENTE.md`, `estudo/remotion/README.md` e `estudo/remotion/INTEGRACAO-CODEX.md`, relativos à raiz do repositório. Use o checkout existente; não crie worktrees sem solicitação explícita.
 
 O motor estudado é Remotion 4.0.540. Não atualize só um pacote Remotion: as versões do demo devem permanecer alinhadas. Não atribua ao produto funcionalidades que só foram descritas pela documentação.
 
@@ -46,3 +46,5 @@ Anime.js avalia objetos numéricos novos por quadro e React aplica os valores. N
 O lote atual segue `estudo/FILA.md` em sequência. Os estudos registrados em `scripts/studies.json` do demo usam `npm run render:study -- <chave>`. Leia o estudo correspondente antes de modificar a ponte. Publique e confirme o checkpoint do item atual antes de iniciar o próximo.
 
 Informe o que foi alterado e o que os relatórios comprovam. Separe render aprovado, inspeção visual, preview interativo e integração com IA. Não conclua que um MP4 válido demonstra qualidade estética ou edição inteligente.
+
+Para os estudos 3D, respeite o backend `swangle` registrado e as regras de readiness/cleanup de cada ponte. R3F usa raiz sem loop e aguarda layout; Spark aguarda sort. Não use o scratch object de `getSplat` como snapshot persistente. Avisos e limitações ficam no estudo correspondente.

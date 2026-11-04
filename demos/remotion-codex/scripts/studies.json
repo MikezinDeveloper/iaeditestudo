@@ -36,5 +36,11 @@
     "frames": 90,
     "fps": 30,
     "gl": "swangle"
+  },
+  "spark": {
+    "composition": "SparkStudy",
+    "frames": 90,
+    "fps": 30,
+    "gl": "swangle"
   }
 }

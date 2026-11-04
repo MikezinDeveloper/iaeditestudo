@@ -6,7 +6,9 @@ Base de pesquisa para projetar e construir uma IA de edição com apoio do Codex
 
 ## Por onde começar
 
-- [Fila sequencial dos oito repositórios](estudo/FILA.md)
+- [Fila sequencial e checkpoints no GitHub](estudo/FILA.md)
+- [Capacidades integradas e escolha das pontes](estudo/INTEGRACOES.md)
+- [Operar o ambiente no Codex](estudo/AMBIENTE.md)
 - [Escopo e critérios de sucesso](estudo/ESCOPO.md)
 - [Mapa técnico e perguntas de pesquisa](estudo/MAPA-TECNICO.md)
 - [Método de análise e engenharia reversa](estudo/METODO.md)
@@ -27,14 +29,16 @@ O Codex poderá consultar estes arquivos em tarefas futuras. Esta base fornece c
 
 ## Estado atual
 
-- Estrutura de pesquisa criada em 3 de novembro de 2026.
-- Primeira leitura documental do repositório oficial do Codex registrada com revisão fixa.
-- [Primeiro material enviado pelo usuário](estudo/analises/SRC-002-material-chesny.md) registrado; leitura bloqueada pelo acesso de rede ao X.
-- Remotion 4.0.540 analisado em revisão fixa; 53 arquivos de origem registrados com hashes, sem alegação de auditoria integral.
-- Demo com vídeo, áudio, motion e exportação executado; seis testes do contrato, checagem de tipos, inspeção audiovisual e smoke do Studio aprovados.
-- Sem benchmark de produção, interpretação de linguagem natural implementada ou escolha final da arquitetura do produto.
-- Anime.js 4.5.0 estudado com 38 arquivos inventariados; nova composição de motion exportada. O projeto agora tem 14 testes aprovados. A suíte Node upstream teve 10 aprovações e 2 falhas, registradas separadamente.
+A base de Remotion e Anime.js foi ampliada, na ordem solicitada, com mo.js, Theatre.js, Two.js, D3, Three.js, Babylon.js, Drei e Spark. Cada estudo possui revisão fixa, explicação dos mecanismos, licença, ponte executável, validações e limites. A [fila](estudo/FILA.md) registra os checkpoints de publicação.
 
-O demo tem dependências travadas e comandos documentados. A receita [scripts/setup-remotion.sh](scripts/setup-remotion.sh) foi executada com instalação pelo lockfile. Consulte os [resultados e limites](estudo/remotion/EXPERIMENTO.md) antes de generalizar o experimento.
+- Dez composições: edição audiovisual base, Anime.js e os oito estudos.
+- Instalação pelo lockfile, geração de assets, checagem de tipos e **32 testes locais** aprovados.
+- Exports por estudo com H.264/AAC, inspeção de movimento, repetição de frame e regressões; relatórios em cada estudo.
+- Testes upstream, falhas observadas e suites não executadas são registrados separadamente; não há alegação de auditoria integral.
+- O material do X permanece [pendente de conteúdo acessível](estudo/analises/SRC-002-material-chesny.md).
 
-A base e os checkpoints deste lote são publicados em [MikezinDeveloper/iaeditestudo](https://github.com/MikezinDeveloper/iaeditestudo), branch `main`. O andamento e os limites estão na fila. O código inclui mo.js com uma composição de Shape/Burst e comandos para exportar cada estudo registrado.
+O protótipo ainda não tem planejador por linguagem natural, histórico de edição completo, timeline multifaixa geral ou benchmark de produção. O [catálogo de integrações](estudo/INTEGRACOES.md) explica como o estudo prepara essas próximas capacidades.
+
+A receita [scripts/setup-remotion.sh](scripts/setup-remotion.sh) instala e verifica o projeto. Os clones de pesquisa não são necessários para executar o demo. Leia [o guia do demo](demos/remotion-codex/README.md) para preview e export.
+
+O código e os checkpoints são publicados em [MikezinDeveloper/iaeditestudo](https://github.com/MikezinDeveloper/iaeditestudo), branch `main`. O workflow GitHub Actions está versionado; sua execução remota não foi confirmada nesta sessão.

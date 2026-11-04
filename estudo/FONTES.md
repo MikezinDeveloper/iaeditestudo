@@ -15,12 +15,13 @@ Os repositórios de edição serão enviados pelo usuário. Este índice disting
 | SRC-009 | [mrdoob/three.js](https://github.com/mrdoob/three.js) | Cena 3D, câmera, materiais e recursos WebGL | `c6a4b78be1a3d7839399410cc157950c5fd6e58b`, 0.187.0 | 163 testes upstream selecionados; ponte e export por quadro | [Estudo](three/README.md) |
 | SRC-010 | [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) | Engine, cena e AnimationGroup com seek | `fff529b3cd08c5e1f62a9e10335611b4f69b1b7c`, runtime 9.33.2 | 1.231 testes upstream selecionados; 28 locais, export e regressões aprovados | [Estudo](babylon/README.md) |
 | SRC-011 | [pmndrs/drei](https://github.com/pmndrs/drei) | Helpers declarativos e readiness R3F | `bf6f4addf47467d3885de272d94ca5127f6ef68f`, runtime 10.7.9 | 30 testes locais; helpers reais e export por frame; e2e upstream não executado | [Estudo](drei/README.md) |
+| SRC-012 | [sparkjsdev/spark](https://github.com/sparkjsdev/spark) | Packing, ordenação e Gaussian splats | `ffe210dc0a45d0515a06c9235878108112827d61`, 2.4.0 | 88 testes upstream selecionados; packing real e export com worker/WASM | [Estudo](spark/README.md) |
 
 ## Fila de entrada
 
 Recebido `remotion-main.zip`; o usuário confirmou que é o Remotion oficial, sem alterações. O ZIP excedeu o limite de transferência; a análise usou o repositório público, sem confirmar igualdade de revisão com o anexo.
 
-Prioridade mais recente: SRC-004 e sua integração com a base de Remotion. SRC-002 permanece pendente de conteúdo acessível e não bloqueia esses estudos.
+O lote mais recente está em [FILA.md](FILA.md), com SRC-005 a SRC-012. SRC-002 permanece pendente de conteúdo acessível; nenhum conteúdo lhe foi atribuído.
 
 ## Regras do índice
 

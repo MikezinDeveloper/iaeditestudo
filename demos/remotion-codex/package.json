@@ -25,6 +25,7 @@
     "@remotion/bundler": "4.0.540",
     "@remotion/cli": "4.0.540",
     "@remotion/renderer": "4.0.540",
+    "@sparkjsdev/spark": "2.4.0",
     "@theatre/core": "0.7.2",
     "animejs": "4.5.0",
     "d3": "7.9.2",

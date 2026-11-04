@@ -1,0 +1,17 @@
+{
+  "status": "saved",
+  "requiresPublish": true,
+  "changed": [
+    "start_skill"
+  ],
+  "preserved": [
+    "install_script",
+    "repositories",
+    "network",
+    "secrets",
+    "environment_variables"
+  ],
+  "activation": "Review, save and publish in environment settings; not applied by saving draft.",
+  "instructions": "estudo/AMBIENTE.md",
+  "freshTaskRestoration": "not-verified"
+}

@@ -11,9 +11,9 @@ Ordem enviada pelo usuário em 3 de novembro de 2026. Esta é a fila oficial des
 | 5 | [mrdoob/three.js](https://github.com/mrdoob/three.js) | Concluída | [Cena, câmera, PBR e recursos WebGL](three/README.md) |
 | 6 | [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) | Concluída | [Engine, cena e keyframes por seek](babylon/README.md) |
 | 7 | [pmndrs/drei](https://github.com/pmndrs/drei) | Concluída | [RoundedBox, Center e render R3F manual](drei/README.md) |
-| 8 | [sparkjsdev/spark](https://github.com/sparkjsdev/spark) | Na fila | Investigar render de Gaussian splats e requisitos de assets/GPU |
+| 8 | [sparkjsdev/spark](https://github.com/sparkjsdev/spark) | Concluída | [Packing, worker/WASM e ordenação antes da captura](spark/README.md) |
 
-Os objetivos são hipóteses de triagem, não conclusões sobre os repositórios ainda não consultados.
+Os oito objetivos foram delimitados e verificados nos estudos vinculados. O critério de conclusão abaixo continua valendo para novos lotes.
 
 ## Plano aplicado a cada repositório
 
@@ -39,16 +39,24 @@ A etapa só recebe “Concluída” quando o escopo de integração definido dur
 - Não incluir dependências instaladas, caches ou mídia de teste volumosa nos commits. Incluir receitas, lockfiles, código, verificações e relatórios que permitam reproduzi-los.
 - Uma retomada deve ler esta fila, o checkpoint atual e o estado do Git antes de continuar.
 
-## Checkpoint atual
+## Checkpoints de publicação
 
-Base publicada em `ed066313be69369e142bb69e5ba28286fb095431`; mo.js em `13c9a63e9397cb0da80897b5e4b1b230a921075a`; Theatre.js em `c87f03f448183829aa6331545d7ff28effb66862`; Two.js em `2770f086fd57216efbe1f9aa450c9720b5b2b846`. D3 passou pelo escopo de gráfico SVG, 24 testes locais, export e regressões; sua suíte upstream está não executada conforme o estudo. Este arquivo integra o checkpoint de publicação D3. Publicação D3 confirmada: `5e5af875ecba690c8f9f904c50cad5e090f2f98e`. Item atual: Three.js. Confirmar o SHA remoto depois de cada envio.
+Cada checkpoint anterior foi confirmado no remoto antes de começar o item seguinte.
 
-Three.js: 26 testes locais, 163 testes upstream selecionados, export de 90 frames e seis regressões aprovados. Este arquivo integra seu checkpoint; confirmar o SHA remoto após envio antes de iniciar Babylon.js.
+| Etapa | SHA confirmado em `main` |
+| --- | --- |
+| Base e fila | `ed066313be69369e142bb69e5ba28286fb095431` |
+| mo.js | `13c9a63e9397cb0da80897b5e4b1b230a921075a` |
+| Theatre | `c87f03f448183829aa6331545d7ff28effb66862` |
+| Two.js | `2770f086fd57216efbe1f9aa450c9720b5b2b846` |
+| D3 | `5e5af875ecba690c8f9f904c50cad5e090f2f98e` |
+| Three.js | `3d45a40e23f7765ca9bc3f422b77cbc4dd68ef2e` |
+| Babylon.js | `7632a6f8822f87810982fd6543ce836561bc2998` |
+| Drei | `7953a648f25d878c39b31165350022345fb54d48` |
+| Spark | Integra este checkpoint; registrar SHA após confirmar envio. |
 
-Publicação Three.js confirmada: `3d45a40e23f7765ca9bc3f422b77cbc4dd68ef2e`. Item atual: Babylon.js.
+## Fechamento do lote
 
-Babylon.js: 28 testes locais, 1.231 oficiais selecionados, export e sete regressões aprovados. Este arquivo integra seu checkpoint de publicação.
+Os oito escopos de integração estão implementados, com exports aprovados e limites registrados. A instalação final pelo lockfile aprovou tipos e 32 testes. O último export aprovou 90 frames H.264/AAC, repetição após o fim e nove regressões anteriores. Há [síntese das capacidades](INTEGRACOES.md), [instruções operacionais](AMBIENTE.md) e [relatórios finais](resultados/lote-final.json).
 
-Publicação Babylon.js confirmada: `7632a6f8822f87810982fd6543ce836561bc2998`. Item atual: Drei.
-
-Drei: 30 testes locais, export, repetição e oito regressões aprovados. E2e upstream não executado; avisos de compatibilidade registrados. Este arquivo integra seu checkpoint.
+Não há próximo repositório neste lote. Os aprofundamentos e o contrato de edição proposto estão na síntese. As suites upstream não executadas/falhas observadas continuam registradas; a conclusão não certifica todo o código externo ou o produto de IA inteiro. GitHub Actions não foi observado remotamente. O rascunho de instruções do ambiente foi salvo, mas depende de salvar/publicar nas configurações para ativação.

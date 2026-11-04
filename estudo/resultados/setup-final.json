@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "command": "bash scripts/setup-remotion.sh",
+  "node": "v24.22.1",
+  "steps": [
+    "npm ci --no-audit --no-fund",
+    "npm run assets",
+    "npm run typecheck",
+    "npm test"
+  ],
+  "tests": 32,
+  "failed": 0,
+  "notes": [
+    "This proves setup in the current image; fresh-task restoration and remote GitHub Actions not independently verified.",
+    "Mojs engine-range warning and Three Clock/CommonJS deprecation warnings remain documented."
+  ],
+  "npm": "11.9.0"
+}

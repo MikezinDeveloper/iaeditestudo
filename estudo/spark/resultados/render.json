@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "study": "spark",
+  "composition": "SparkStudy",
+  "chromiumGl": "swangle",
+  "frames": 90,
+  "fps": 30,
+  "durationSeconds": 3.008,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "repeatedFrameAfterEnd": true,
+  "regionMeanPixelChange": 29.09133049242424,
+  "regressions": {
+    "CodexStudy": "passed",
+    "AnimeMotionStudy": "passed",
+    "MojsStudy": "passed",
+    "TheatreStudy": "passed",
+    "TwoStudy": "passed",
+    "D3Study": "passed",
+    "ThreeStudy": "passed",
+    "BabylonStudy": "passed",
+    "DreiStudy": "passed"
+  },
+  "elapsedSeconds": 226.879,
+  "hashes": {
+    "video": "4c3e67fb7d09fe1117b306fdf0b86db30e5d31fbc39be6eed12aa21237903e10",
+    "frame30": "db24f4e78a76a4b04426e4748aed79be3cf214c0406738ba3c5b6bb129061b61"
+  }
+}

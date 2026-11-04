@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "numTotalTests": 88,
+  "numPassedTests": 88,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "startTime": 1793793127003,
+  "scope": [
+    {
+      "file": "PackedSplats.test.ts",
+      "status": "passed",
+      "tests": 2
+    },
+    {
+      "file": "SparkRenderer.test.ts",
+      "status": "passed",
+      "tests": 17
+    },
+    {
+      "file": "SplatMesh.test.ts",
+      "status": "passed",
+      "tests": 4
+    },
+    {
+      "file": "SplatWorker.test.ts",
+      "status": "passed",
+      "tests": 1
+    },
+    {
+      "file": "utils.test.ts",
+      "status": "passed",
+      "tests": 64
+    }
+  ],
+  "wasm": "Stubbed by unchanged official unit setup; actual packaged worker and WASM validated separately by Chromium export",
+  "initialAttempt": {
+    "passed": 64,
+    "collectionFailures": 4,
+    "cause": "External harness aliased wasm JS and binary to same ID, colliding mocks; separated aliases, assertions unchanged."
+  }
+}

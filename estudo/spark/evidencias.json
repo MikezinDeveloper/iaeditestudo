@@ -1,0 +1,187 @@
+{
+  "source": "https://github.com/sparkjsdev/spark",
+  "revision": "ffe210dc0a45d0515a06c9235878108112827d61",
+  "consultedAt": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/README.md",
+      "sha256": "2024838879230ccb23d6069d329ab674445047066a5a53805e99f23517c3d530",
+      "lines": 217,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/LICENSE",
+      "sha256": "51829693e5dccd9ca1daa093991faac3aaa93238eb8fd5f5cb4130af85791d64",
+      "lines": 21,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/package.json",
+      "sha256": "35d66bbe837cd8961e2b1a016a65e3934804bbe82ba5ef8a6dd5f59a7a34907b",
+      "lines": 76,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "vite.config.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/vite.config.ts",
+      "sha256": "9bcb19fa447e8fb74c9d405c9b6e3d017aacdf31ff282d7651e4b1a10b0ae8f2",
+      "lines": 149,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "docs/docs/system-design.md",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/docs/docs/system-design.md",
+      "sha256": "74a84984c47432cd73124dd8f166c9b7251594064681f23f26d1ff9402eb698d",
+      "lines": 29,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "docs/docs/on-demand-rendering.md",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/docs/docs/on-demand-rendering.md",
+      "sha256": "81d9596ff8d87b2c811eeffed5a7e03a6ae987b21eecc4f44be5e818a09319e1",
+      "lines": 110,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "docs/docs/procedural-splats.md",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/docs/docs/procedural-splats.md",
+      "sha256": "b23e5badf2cf64349abf190e25118792ec7faca597422c753f68d11c9b06f6af",
+      "lines": 290,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "docs/docs/packed-splats.md",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/docs/docs/packed-splats.md",
+      "sha256": "69755719629c5d9b52c219020276eea348d83c6c9496f18d74896028c87334fe",
+      "lines": 226,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/PackedSplats.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/src/PackedSplats.ts",
+      "sha256": "6822448ca796cad61a98e61d067a29d30ebd6f7d299e3bef61f9e95e992b39ea",
+      "lines": 1296,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/SplatMesh.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/src/SplatMesh.ts",
+      "sha256": "2fcb6dddd8cd087a87b89eb92c53d4aaa3e35205ced195307d04653d4d7ef0fe",
+      "lines": 1305,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/SparkRenderer.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/src/SparkRenderer.ts",
+      "sha256": "f3cec577d536b71171be6ba3aa459e6d88883dd77e9c21346a8d4fb1d637e322",
+      "lines": 2248,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/SplatWorker.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/src/SplatWorker.ts",
+      "sha256": "a4aed583e76b5e9ba99bc85f57d3b09d95a50af4e528b66be9e465189aa1b40e",
+      "lines": 169,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/worker.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/src/worker.ts",
+      "sha256": "8f42401f70220b34015288a8a23d13ee7139990e3d42e86f2e7295903848f85a",
+      "lines": 890,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/wasm.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/src/wasm.ts",
+      "sha256": "6f798a1594b7404d22e824f3384cce4b455ebd7d817c9c967eba666c7627593f",
+      "lines": 24,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/utils.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/src/utils.ts",
+      "sha256": "9a5e49c631ae02c7817ed555e03143d035a105985387c18efb34df183b6e3e7c",
+      "lines": 1724,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/hooks.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/src/hooks.ts",
+      "sha256": "eb0b759dd2a834e68762b19953ea4d7fad5ca42fa6a5a284fe60de1fb4106f9e",
+      "lines": 31,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/shaders/splatFragment.glsl",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/src/shaders/splatFragment.glsl",
+      "sha256": "d1ba1bfb9dee652fe751975407af4db81bccc8bb60f864baae9582b425281c94",
+      "lines": 67,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/setup.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/test/unit/setup.ts",
+      "sha256": "485a6eef9ce6cca4f22a47a457a39def4a721235d1c253763999d0a758d09128",
+      "lines": 15,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/utils.test.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/test/unit/utils.test.ts",
+      "sha256": "18613accbf279b2941a980d94b812dd13ec60ddd23903e7992d7eacc72871e14",
+      "lines": 83,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/PackedSplats.test.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/test/unit/PackedSplats.test.ts",
+      "sha256": "831a5a83609dd09d9d0643b71999dc0ccc12bc465cbcb1073ef2ac26ed9da0dd",
+      "lines": 31,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/SparkRenderer.test.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/test/unit/SparkRenderer.test.ts",
+      "sha256": "522ab14a848896f3c39c9b9611a0dbd3afbf01fffad15291179de914129c5559",
+      "lines": 399,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/SplatMesh.test.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/test/unit/SplatMesh.test.ts",
+      "sha256": "eb12ac1a37c60f6406d3d55aa48922f8cb5242096e1a3c88dde243c4b0df5e14",
+      "lines": 43,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/unit/SplatWorker.test.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/test/unit/SplatWorker.test.ts",
+      "sha256": "76d94d60e100713f025e02e39612d77069e8065ad52fbf5e751c9e925a739023",
+      "lines": 30,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/browser/playwright.config.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/test/browser/playwright.config.ts",
+      "sha256": "1da35c4b47b5fb01ebaaba49a30c7f832fe212f33168e3c22243429876741544",
+      "lines": 68,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "test/browser/harness.ts",
+      "url": "https://github.com/sparkjsdev/spark/blob/ffe210dc0a45d0515a06c9235878108112827d61/test/browser/harness.ts",
+      "sha256": "3127ee238a0306722a11a42bcb8805c5bd2f22eb8fa0e8f73ec3bca4b3bee19c",
+      "lines": 310,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    }
+  ],
+  "distributedRuntime": {
+    "version": "2.4.0",
+    "path": "dist/spark.module.js",
+    "sha256": "5ae86ab35d4ceb655db486dcc336299775bb314c280d7e5b39f64e4539f8e0e9"
+  }
+}

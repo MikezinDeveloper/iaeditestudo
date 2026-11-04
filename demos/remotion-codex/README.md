@@ -103,7 +103,7 @@ REMOTION_BROWSER_EXECUTABLE=/usr/bin/chromium npm run render:anime
 
 O comando captura frames fora de ordem, compara o frame 30 após visitar o fim, exporta H.264/AAC e verifica os metadados e a região animada. Quando há baseline local da composição original, compara seu frame 30 e registra o resultado. Saídas em `out/anime/`; relatório em `out/anime/report.json`.
 
-São 14 testes no projeto: seis do contrato original e oito da ponte de motion. A timeline é reconstruída para cada amostra porque o teste com instância reutilizada encontrou valores incorretos ao voltar do fim. Leia o [estudo do Anime.js](../../estudo/animejs/README.md) e a [decisão de integração](../../estudo/decisoes/DEC-001-animejs-por-quadro.md) antes de generalizar o mecanismo.
+O experimento original somou 14 testes: seis do contrato e oito da ponte de motion. A suíte foi ampliada pelos estudos seguintes; execute `npm test` para a contagem atual. A timeline é reconstruída para cada amostra porque o teste com instância reutilizada encontrou valores incorretos ao voltar do fim. Leia o [estudo do Anime.js](../../estudo/animejs/README.md) e a [decisão de integração](../../estudo/decisoes/DEC-001-animejs-por-quadro.md) antes de generalizar o mecanismo.
 
 ## Estudos registrados da fila
 
@@ -122,3 +122,5 @@ O workflow `.github/workflows/validate.yml` descreve instalação, testes e expo
 `BabylonStudy` avalia keyframes de um AnimationGroup pausado: `npm run render:study -- babylon`. [Estudo, testes e limites](../../estudo/babylon/README.md). O `NullEngine` valida estado; o export usa WebGL real por software.
 
 `DreiStudy` combina RoundedBox/Center e uma raiz R3F com relógio manual: `npm run render:study -- drei`. [Mecanismo e verificações](../../estudo/drei/README.md).
+
+`SparkStudy` renderiza splats procedurais após aguardar sua ordenação: `npm run render:study -- spark`. [Estudo, quantização e worker/WASM](../../estudo/spark/README.md). A operação completa do ambiente está em [AMBIENTE.md](../../estudo/AMBIENTE.md).

@@ -2,9 +2,9 @@
 
 ## Lote atual: oito repositórios em sequência
 
-A ordem, os critérios de conclusão e o checkpoint estão em [FILA.md](FILA.md). O usuário autorizou commits e envio a `MikezinDeveloper/iaeditestudo`. O primeiro item é mo.js; só depois de sua conclusão e publicação começa Theatre.js.
+A ordem, os critérios de conclusão e o checkpoint estão em [FILA.md](FILA.md). O usuário autorizou commits e envio a `MikezinDeveloper/iaeditestudo`. Cada item é estudado, integrado, validado e publicado antes de iniciar o seguinte. A síntese das capacidades está em [INTEGRACOES.md](INTEGRACOES.md).
 
-## Etapa atual: Anime.js integrado à base de Remotion
+## Histórico: Anime.js integrado à base de Remotion
 
 - [x] Registrar SRC-004 em revisão fixa e estudar o motor, targets, timelines, easings, stagger e contratos temporais.
 - [x] Investigar a divergência manifest/lockfile do upstream sem alterar arquivos rastreados.
@@ -35,7 +35,7 @@ A ordem, os critérios de conclusão e o checkpoint estão em [FILA.md](FILA.md)
 - [x] Abrir Studio em Chromium e verificar montagem e recorte do primeiro clipe.
 - [x] Preservar análises, inventário de fontes e relatórios do experimento.
 
-O pedido mais recente adiciona Anime.js (SRC-004) à base de Remotion (SRC-003). O post SRC-002 continua pendente de conteúdo acessível; nenhuma tese lhe foi atribuída.
+Esta etapa histórica adicionou Anime.js (SRC-004) à base de Remotion (SRC-003); o lote posterior é controlado pela fila. O post SRC-002 continua pendente de conteúdo acessível; nenhuma tese lhe foi atribuída.
 
 ## Próxima etapa: ampliar os mecanismos do editor
 
