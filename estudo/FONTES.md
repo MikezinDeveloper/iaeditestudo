@@ -15,6 +15,8 @@ Os repositórios de edição serão enviados pelo usuário. Este índice disting
 
 | SRC-009 | [mrdoob/three.js](https://github.com/mrdoob/three.js) | Cena 3D, câmera, materiais e recursos WebGL | `c6a4b78be1a3d7839399410cc157950c5fd6e58b`, 0.187.0 | 163 testes upstream selecionados; ponte e export por quadro | [Estudo](three/README.md) |
 
+| SRC-010 | [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) | Engine, cena e AnimationGroup com seek | `fff529b3cd08c5e1f62a9e10335611b4f69b1b7c`, runtime 9.33.2 | 1.231 testes upstream selecionados; 28 locais, export e regressões aprovados | [Estudo](babylon/README.md) |
+
 ## Fila de entrada
 
 Recebido `remotion-main.zip`; o usuário confirmou que é o Remotion oficial, sem alterações. O ZIP excedeu o limite de transferência; a análise usou o repositório público, sem confirmar igualdade de revisão com o anexo.

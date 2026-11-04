@@ -24,5 +24,11 @@
     "frames": 90,
     "fps": 30,
     "gl": "swangle"
+  },
+  "babylon": {
+    "composition": "BabylonStudy",
+    "frames": 90,
+    "fps": 30,
+    "gl": "swangle"
   }
 }

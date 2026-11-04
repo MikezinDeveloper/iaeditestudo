@@ -1,0 +1,40 @@
+import type {AbstractEngine} from '@babylonjs/core/Engines/abstractEngine.js';
+import {Scene} from '@babylonjs/core/scene.js';
+import {FreeCamera} from '@babylonjs/core/Cameras/freeCamera.js';
+import {Vector3} from '@babylonjs/core/Maths/math.vector.js';
+import {Color3, Color4} from '@babylonjs/core/Maths/math.color.js';
+import {HemisphericLight} from '@babylonjs/core/Lights/hemisphericLight.js';
+import {CreateBox} from '@babylonjs/core/Meshes/Builders/boxBuilder.js';
+import {StandardMaterial} from '@babylonjs/core/Materials/standardMaterial.js';
+import {Animation} from '@babylonjs/core/Animations/animation.js';
+import {AnimationGroup} from '@babylonjs/core/Animations/animationGroup.js';
+
+export const createBabylonScene = (engine: AbstractEngine) => {
+  const scene = new Scene(engine);
+  scene.clearColor = new Color4(0.063, 0.098, 0.137, 1);
+  const camera = new FreeCamera('camera', new Vector3(0, 0.8, -6), scene);
+  camera.setTarget(Vector3.Zero());
+  scene.activeCamera = camera;
+  const light = new HemisphericLight('sky', new Vector3(0.3, 1, -0.5), scene);
+  light.intensity = 1.3;
+  const mesh = CreateBox('card', {width: 2, height: 1.35, depth: 0.7}, scene);
+  mesh.rotation.z = 0.2;
+  const material = new StandardMaterial('mint', scene);
+  material.diffuseColor = Color3.FromHexString('#ad9bff');
+  material.specularColor = new Color3(0.5, 0.5, 0.5);
+  mesh.material = material;
+  const track = new Animation('turn', 'rotation.y', 30, Animation.ANIMATIONTYPE_FLOAT, Animation.ANIMATIONLOOPMODE_CONSTANT);
+  track.setKeys([{frame: 0, value: 0}, {frame: 45, value: Math.PI}, {frame: 90, value: 2 * Math.PI}]);
+  const group = new AnimationGroup('motion', scene);
+  group.addTargetedAnimation(track, mesh);
+  group.start(false, 1, 0, 90);
+  group.pause();
+  let disposed = false;
+  const seek = (timeMs: number) => {
+    if (disposed || !Number.isFinite(timeMs) || timeMs < 0) throw new Error('Tempo ou cena Babylon inválido');
+    group.goToFrame(Math.min(90, timeMs * 30 / 1000));
+    mesh.computeWorldMatrix(true);
+  };
+  seek(0);
+  return {scene, mesh, group, seek, dispose: () => {if (!disposed) {disposed = true; scene.dispose();}}};
+};

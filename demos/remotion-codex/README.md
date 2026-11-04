@@ -118,3 +118,5 @@ O runner verifica frames, codecs, duração, movimento numa região sem contador
 O workflow `.github/workflows/validate.yml` descreve instalação, testes e exports sequenciais no GitHub Actions, com upload dos resultados como artifacts. A existência do workflow não comprova uma execução remota aprovada; os resultados citados nos estudos são das execuções locais registradas.
 
 `ThreeStudy` adiciona uma cena procedural com câmera, PBR e luz. Execute `npm run render:study -- three` com o override de Chromium do ambiente. O catálogo usa `swangle` para WebGL por software; o runner preserva o backend de cada composição nas regressões. Consulte [mecanismos, licença e limites](../../estudo/three/README.md).
+
+`BabylonStudy` avalia keyframes de um AnimationGroup pausado: `npm run render:study -- babylon`. [Estudo, testes e limites](../../estudo/babylon/README.md). O `NullEngine` valida estado; o export usa WebGL real por software.

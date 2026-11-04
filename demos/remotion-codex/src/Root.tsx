@@ -9,6 +9,7 @@ import {TheatreStudy} from './studies/TheatreStudy';
 import {TwoStudy} from './studies/TwoStudy';
 import {D3Study} from './studies/D3Study';
 import {ThreeStudy} from './studies/ThreeStudy';
+import {BabylonStudy} from './studies/BabylonStudy';
 
 export const Root: React.FC = () => (
   <>
@@ -31,5 +32,6 @@ export const Root: React.FC = () => (
   <Composition id="TwoStudy" component={TwoStudy} width={640} height={360} fps={30} durationInFrames={90} />
   <Composition id="D3Study" component={D3Study} width={640} height={360} fps={30} durationInFrames={90} />
   <Composition id="ThreeStudy" component={ThreeStudy} width={640} height={360} fps={30} durationInFrames={90} />
+  <Composition id="BabylonStudy" component={BabylonStudy} width={640} height={360} fps={30} durationInFrames={90} />
   </>
 );

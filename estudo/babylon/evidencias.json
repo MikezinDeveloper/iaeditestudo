@@ -1,0 +1,184 @@
+{
+  "source": "https://github.com/BabylonJS/Babylon.js",
+  "revision": "fff529b3cd08c5e1f62a9e10335611b4f69b1b7c",
+  "consultedAt": "2026-11-03",
+  "files": [
+    {
+      "path": "readme.md",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/readme.md",
+      "sha256": "26d07948acd808d5e28e409d5925355d9cb7e18f9c608c360c2ca9b6407c5ce6",
+      "lines": 135,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "dae9a1a73cd3250f9b616b1b81af46801eebe65f"
+    },
+    {
+      "path": "license.md",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/license.md",
+      "sha256": "9362ea9ea17cb221a20cbbd63f404710834cc273d2a9a7b60314fd68ab702cd6",
+      "lines": 71,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "7853ac1b7b32819fb9b2182d65649e3f7d488566"
+    },
+    {
+      "path": ".npmrc",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/.npmrc",
+      "sha256": "958b174eedddbc333f07a35d706922234155858dda207aa3373214bf8bd20cdf",
+      "lines": 9,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "7b057b346b1aaf1a302f26dbc29d55c09bec00c3"
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/package.json",
+      "sha256": "bf7e25a781cddb3a88920114829ff8ffe89ed9e1b4bd5ea1105bf6826f2b9793",
+      "lines": 169,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "a3c9367a04dfea6cac89e646aa04b2f85a9e3748"
+    },
+    {
+      "path": "vitest.config.mts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/vitest.config.mts",
+      "sha256": "868535487018685dbffc32afa3b2d2bf7c4a2e50e8f4795cb925cb1af2798cbc",
+      "lines": 133,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "d0b3a07320aefd1c02046e793ba94a33649c2a8a"
+    },
+    {
+      "path": "vitest.setup.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/vitest.setup.ts",
+      "sha256": "4f36bf2f05d98837d8ec89ff5bdc614766b090896b53075043fcf95ac4e0fdd4",
+      "lines": 14,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "b1a7b63e2bc0261caef9b9e49fd4313c301abc68"
+    },
+    {
+      "path": "packages/dev/core/package.json",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/package.json",
+      "sha256": "6840bb8c03cd184ee3bf478f0ba77e385c0435cffa78b091ae24bdfd17cefabb",
+      "lines": 40,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "4bbf40b7f78f61c529b3dbaf43c29212d0be25af"
+    },
+    {
+      "path": "packages/dev/core/readme.md",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/readme.md",
+      "sha256": "09e0e7ae87456539379b0632aa73bd1be66cdf112d87112a815c7dcfad43dc2d",
+      "lines": 9,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "743e58dcd226c410292952316f97398b3496561e"
+    },
+    {
+      "path": "packages/dev/core/src/scene.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/src/scene.ts",
+      "sha256": "46ab8552e085599e2acf613167f88fe6b79d7b869eed9184a449b8cf99034af0",
+      "lines": 8,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "4ef14f51198f44c50c284a6693539c70fd6fa6b7"
+    },
+    {
+      "path": "packages/dev/core/src/scene.pure.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/src/scene.pure.ts",
+      "sha256": "dac58739acd2af581a8f005aa2656ff7f55bdb82ef28f71fa78c7823c705f028",
+      "lines": 7155,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "e9053787fd7049a9848e63415920a30a514cb9ef"
+    },
+    {
+      "path": "packages/dev/core/src/Engines/engine.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/src/Engines/engine.ts",
+      "sha256": "b1a1b768ffda18fe3b688d8a954a302b598a58176fccde701480b69bc1f5754e",
+      "lines": 22,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "d2e6c56ea1cf888a05b3358273bcc07e5a9bc084"
+    },
+    {
+      "path": "packages/dev/core/src/Engines/nullEngine.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/src/Engines/nullEngine.ts",
+      "sha256": "fe488405afcec640d9a26059f12ab92aa30444f448b4d577a63d17ea4e603f61",
+      "lines": 6,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "853ca8ccd6b2d1b1eba9ff01c2296af3a8f897b3"
+    },
+    {
+      "path": "packages/dev/core/src/Engines/abstractEngine.pure.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/src/Engines/abstractEngine.pure.ts",
+      "sha256": "27c301895e782115874aa20eea924a7570ecf5937a130dcc88f6c289a8b94512",
+      "lines": 2953,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "01b57d48e92c57735a4cf3acdf628a642141b013"
+    },
+    {
+      "path": "packages/dev/core/src/Animations/animationGroup.pure.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/src/Animations/animationGroup.pure.ts",
+      "sha256": "07b34506259d09b63c09536affa03df13547f3a0e98a5aedd393e63e5df70174",
+      "lines": 1554,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "27b3c4f36489aa86a4768b5924eab39b48a39a9f"
+    },
+    {
+      "path": "packages/dev/core/src/Animations/animatable.core.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/src/Animations/animatable.core.ts",
+      "sha256": "71d49120ff103293389a532819e9fb786bcee57dcdbec2b6f74143e313058633",
+      "lines": 1160,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "900ec17b114dff9032782938fcbe186b97f81a98"
+    },
+    {
+      "path": "packages/dev/core/src/Animations/runtimeAnimation.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/src/Animations/runtimeAnimation.ts",
+      "sha256": "4e7a421d5a3f35194b75c31a312b2c1fa49547f7a268c8219ad213fd6ae3572c",
+      "lines": 925,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "f0a520dac9d5fb96c3ad9dd4a68fa43cf16906a1"
+    },
+    {
+      "path": "packages/dev/core/src/Animations/animation.pure.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/src/Animations/animation.pure.ts",
+      "sha256": "a48aed7e7f04e5b1892ff38abe626dd8dedef59c1e4b8a16826f62f124317fd4",
+      "lines": 1722,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "7ab0775523c3c10546df151780a814b3ffaa84e3"
+    },
+    {
+      "path": "packages/dev/core/src/Meshes/Builders/boxBuilder.pure.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/src/Meshes/Builders/boxBuilder.pure.ts",
+      "sha256": "777754a2d6635f3800704e2e305026ae474cb04389ab4b634379d1d0a0443093",
+      "lines": 300,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "1b5f56f2d652f7631116273426a232ba91114353"
+    },
+    {
+      "path": "packages/dev/core/src/Cameras/freeCamera.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/src/Cameras/freeCamera.ts",
+      "sha256": "389ee75b96092490a2385631d609990cd9b0105071f6d965126672ca292ea8bf",
+      "lines": 8,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "fe1bc55084b242f1dbae404cd22b7fce63c7a9be"
+    },
+    {
+      "path": "packages/dev/core/src/Materials/standardMaterial.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/src/Materials/standardMaterial.ts",
+      "sha256": "f8738ec5614222a47fb3118ca73eb7076a7720b42502e8eb5ab5ebcbe8d0070e",
+      "lines": 8,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "7a74915e7e2d183640ebaf9e26d7b29d3883ae5e"
+    },
+    {
+      "path": "packages/dev/core/test/unit/Math/babylon.math.vector.test.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/test/unit/Math/babylon.math.vector.test.ts",
+      "sha256": "519b87befe6d8c485fa3d550272dce66f10331412665018df196648dfa1f0be4",
+      "lines": 2465,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "3ada0e3f0e757d8e19892e54c4a3521a1ac3a7b3"
+    },
+    {
+      "path": "packages/dev/core/test/unit/Animations/babylon.animation.test.ts",
+      "url": "https://github.com/BabylonJS/Babylon.js/blob/fff529b3cd08c5e1f62a9e10335611b4f69b1b7c/packages/dev/core/test/unit/Animations/babylon.animation.test.ts",
+      "sha256": "d9988412606feceb14af4d00fdf709325c386c0f9f430f5bd5cb615fdc12e7a9",
+      "lines": 51,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas.",
+      "gitBlobVerified": "9b80259e1a2c1dea346d7d70925fb229290a157c"
+    }
+  ],
+  "retrieval": "Initial partial clone; missing core files obtained from codeload archive of same SHA; listed blobs verified against Git tree."
+}

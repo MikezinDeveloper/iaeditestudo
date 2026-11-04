@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "study": "babylon",
+  "composition": "BabylonStudy",
+  "chromiumGl": "swangle",
+  "frames": 90,
+  "fps": 30,
+  "durationSeconds": 3.008,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "repeatedFrameAfterEnd": true,
+  "regionMeanPixelChange": 12.51231534090909,
+  "regressions": {
+    "CodexStudy": "passed",
+    "AnimeMotionStudy": "passed",
+    "MojsStudy": "passed",
+    "TheatreStudy": "passed",
+    "TwoStudy": "passed",
+    "D3Study": "passed",
+    "ThreeStudy": "passed"
+  },
+  "elapsedSeconds": 116.032,
+  "hashes": {
+    "video": "29764e53eb645899945582b0c4714d2d8bf45220bca6b4d8762fd4d86e9b9df8",
+    "frame30": "ae10dfaccba001105e88f36428d4121cbe04186871b7d315084106924eb65368"
+  }
+}

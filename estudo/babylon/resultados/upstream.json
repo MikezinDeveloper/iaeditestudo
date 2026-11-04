@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "numTotalTests": 1231,
+  "numPassedTests": 1231,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "startTime": 1793751224856,
+  "scope": [
+    {
+      "file": "babylon.animation.test.ts",
+      "status": "passed",
+      "tests": 1
+    },
+    {
+      "file": "babylon.math.vector.test.ts",
+      "status": "passed",
+      "tests": 1230
+    }
+  ],
+  "initialAttempt": {
+    "testsCollected": 0,
+    "cause": "Harness omitted upstream TC39 decorator transform; fixed using source Vitest configuration; assertions unchanged."
+  },
+  "tools": {
+    "vitest": "5.0.3",
+    "esbuild": "0.28.2"
+  }
+}
