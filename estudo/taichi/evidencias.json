@@ -1,0 +1,91 @@
+{
+  "source": "https://github.com/taichi-dev/taichi",
+  "revision": "ba0e81dce559fb63a5958bf82feb1d00c55c02fe",
+  "consultedAt": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/taichi-dev/taichi/blob/ba0e81dce559fb63a5958bf82feb1d00c55c02fe/README.md",
+      "sha256": "ac3801e070f6b2c3965ed45b3f9ec986df003fc28436df97f17c4050a3e0c941",
+      "lines": 209,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/taichi-dev/taichi/blob/ba0e81dce559fb63a5958bf82feb1d00c55c02fe/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "lines": 201,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "version.txt",
+      "url": "https://github.com/taichi-dev/taichi/blob/ba0e81dce559fb63a5958bf82feb1d00c55c02fe/version.txt",
+      "sha256": "7eeea52d4b80909b004dc28b062d38f525d18ce5cf74c152674a1ad2c72d3c05",
+      "lines": 1,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "setup.py",
+      "url": "https://github.com/taichi-dev/taichi/blob/ba0e81dce559fb63a5958bf82feb1d00c55c02fe/setup.py",
+      "sha256": "5af4af2468dfecbd015edd36b7618acb32b2146ef85b353b0535bacfc24fdca2",
+      "lines": 248,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "python/taichi/lang/kernel_impl.py",
+      "url": "https://github.com/taichi-dev/taichi/blob/ba0e81dce559fb63a5958bf82feb1d00c55c02fe/python/taichi/lang/kernel_impl.py",
+      "sha256": "b825ef83a33f78a2a563fce6a70ee4f224415c7e60e4dce15a532e1a1b7afb5c",
+      "lines": 1245,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "python/taichi/lang/impl.py",
+      "url": "https://github.com/taichi-dev/taichi/blob/ba0e81dce559fb63a5958bf82feb1d00c55c02fe/python/taichi/lang/impl.py",
+      "sha256": "8f37367a7ff7cb7cba9f7834f7c9bc9621efaa4a9edbc16116ea0acc4cc6b97b",
+      "lines": 1208,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "python/taichi/lang/field.py",
+      "url": "https://github.com/taichi-dev/taichi/blob/ba0e81dce559fb63a5958bf82feb1d00c55c02fe/python/taichi/lang/field.py",
+      "sha256": "138d24188d68140a2684c9634f65d11a874880d95a64767cc83d570f39693890",
+      "lines": 462,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "python/taichi/lang/ast/ast_transformer.py",
+      "url": "https://github.com/taichi-dev/taichi/blob/ba0e81dce559fb63a5958bf82feb1d00c55c02fe/python/taichi/lang/ast/ast_transformer.py",
+      "sha256": "b731489b8b2a9eb2b211059a13bdf37c9660687a22c16a6488f4727f89d0a574",
+      "lines": 1723,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "taichi/transforms/compile_to_offloads.cpp",
+      "url": "https://github.com/taichi-dev/taichi/blob/ba0e81dce559fb63a5958bf82feb1d00c55c02fe/taichi/transforms/compile_to_offloads.cpp",
+      "sha256": "0ca54f3a91f047cf4ddd1435ae9574c4d5178484943007f8f6ed8d905810c28d",
+      "lines": 416,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/test_utils.py",
+      "url": "https://github.com/taichi-dev/taichi/blob/ba0e81dce559fb63a5958bf82feb1d00c55c02fe/tests/test_utils.py",
+      "sha256": "b703bd08b8cee7d0119a170b39a33b32a7ef078fd54057cb8e71c288f2c1138c",
+      "lines": 328,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/python/conftest.py",
+      "url": "https://github.com/taichi-dev/taichi/blob/ba0e81dce559fb63a5958bf82feb1d00c55c02fe/tests/python/conftest.py",
+      "sha256": "452f393054243f648183528231a8ea5e079b66a6f20d18e05800f405778bc952",
+      "lines": 69,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "tests/python/test_basics.py",
+      "url": "https://github.com/taichi-dev/taichi/blob/ba0e81dce559fb63a5958bf82feb1d00c55c02fe/tests/python/test_basics.py",
+      "sha256": "15eae8a5b51d675bf60004df3b2d90789f1b1a306869d17134151399793c1353",
+      "lines": 139,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    }
+  ]
+}

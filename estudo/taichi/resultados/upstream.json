@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "sourceRevision": "ba0e81dce559fb63a5958bf82feb1d00c55c02fe",
+  "sourceManifest": "1.8.0",
+  "executedRuntime": "1.7.4",
+  "arch": "cpu",
+  "command": "TI_WANTED_ARCHS=cpu PYTHONPATH=/workspace/research-cache/taichi python -m pytest tests/python/test_basics.py -q",
+  "initialAttempt": "Collection stopped for missing pytest_rerunfailures; installed pinned pytest plugins, left source unchanged.",
+  "gpu": "not-run"
+}

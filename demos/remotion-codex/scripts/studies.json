@@ -47,5 +47,10 @@
     "composition": "CablesStudy",
     "frames": 90,
     "fps": 30
+  },
+  "taichi": {
+    "composition": "TaichiStudy",
+    "frames": 90,
+    "fps": 30
   }
 }

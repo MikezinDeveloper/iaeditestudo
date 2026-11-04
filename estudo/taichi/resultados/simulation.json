@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "backend": "cpu-x64",
+  "gpuValidation": "not-run: no GPU device in this executor",
+  "taichiVersion": "1.7.4",
+  "numpyVersion": "1.26.4",
+  "frames": 90,
+  "fps": 30,
+  "particles": 120,
+  "substepsPerFrame": 8,
+  "dt": 0.004166666666666667,
+  "sameResetBitwise": true,
+  "initialFreeFallError": 6.0932530918596825e-09,
+  "maxDisplacementAtFrame30": 0.17596185207366943,
+  "maxNeighborLength": 0.14491316676139832,
+  "cacheSha256": "7d815e8e7d77ed0e939f2805b1f211325afc3101dea5be4949c6df926dfdefa1",
+  "parameters": {
+    "spacing": 0.06,
+    "gravity": 0.8,
+    "stiffness": 240.0,
+    "damping": 2.5
+  },
+  "generatorSha256": "41b084356428becadb1f44c9abc0825ce4ed1806f3e172eff231ae22b363832e"
+}

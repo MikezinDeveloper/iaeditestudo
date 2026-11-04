@@ -1,0 +1,9 @@
+........                                                                 [100%]
+=============================== warnings summary ===============================
+../taichi-venv/lib/python3.12/site-packages/taichi/_lib/utils.py:70
+  /workspace/research-cache/taichi-venv/lib/python3.12/site-packages/taichi/_lib/utils.py:70: DeprecationWarning: 'locale.getdefaultlocale' is deprecated and slated for removal in Python 3.15. Use setlocale(), getencoding() and getlocale() instead.
+    return path.encode(locale.getdefaultlocale()[1])
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+--- generated xml file: /workspace/research-cache/taichi-runner/upstream.xml ---
+8 passed, 1 warning in 3.89s

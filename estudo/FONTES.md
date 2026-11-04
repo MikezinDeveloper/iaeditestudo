@@ -17,6 +17,7 @@ Os repositórios de edição serão enviados pelo usuário. Este índice disting
 | SRC-011 | [pmndrs/drei](https://github.com/pmndrs/drei) | Helpers declarativos e readiness R3F | `bf6f4addf47467d3885de272d94ca5127f6ef68f`, runtime 10.7.9 | 30 testes locais; helpers reais e export por frame; e2e upstream não executado | [Estudo](drei/README.md) |
 | SRC-012 | [sparkjsdev/spark](https://github.com/sparkjsdev/spark) | Packing, ordenação e Gaussian splats | `ffe210dc0a45d0515a06c9235878108112827d61`, 2.4.0 | 88 testes upstream selecionados; packing real e export com worker/WASM | [Estudo](spark/README.md) |
 | SRC-013 | [cables-gl/cables_electron](https://github.com/cables-gl/cables_electron) e runtime vinculado | Grafo, portas e export de patch | Electron `bde458db4ccd1de8621dd8f99a3c59b14c8b3c25`; revisões core/shared no estudo | Kernel real, dois operadores originais, 34 testes locais; schema upstream 1.821/1.821 | [Estudo](cables/README.md) |
+| SRC-014 | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | Kernels numéricos e bake de tecido | `ba0e81dce559fb63a5958bf82feb1d00c55c02fe`, fonte 1.8.0, wheel 1.7.4 | CPU real, reset reprodutível, 8 upstream; cache e export | [Estudo](taichi/README.md) |
 
 ## Fila de entrada
 

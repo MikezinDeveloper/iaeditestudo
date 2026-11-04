@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "study": "taichi",
+  "composition": "TaichiStudy",
+  "chromiumGl": "angle",
+  "frames": 90,
+  "fps": 30,
+  "durationSeconds": 3.008,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "repeatedFrameAfterEnd": true,
+  "regionMeanPixelChange": 52.74585700757576,
+  "regressions": {
+    "CodexStudy": "passed",
+    "AnimeMotionStudy": "passed",
+    "MojsStudy": "passed",
+    "TheatreStudy": "passed",
+    "TwoStudy": "passed",
+    "D3Study": "passed",
+    "ThreeStudy": "passed",
+    "BabylonStudy": "passed",
+    "DreiStudy": "passed",
+    "SparkStudy": "passed",
+    "CablesStudy": "passed"
+  },
+  "elapsedSeconds": 60.815,
+  "hashes": {
+    "video": "01019721e251f787109a2e5591f69efd13b465a025524fb0118a565c90363414",
+    "frame30": "a11a6f6abbedd6a19c2a3c50a5d6582c06d39dff23f38a4b34c9465da11d558c"
+  }
+}
