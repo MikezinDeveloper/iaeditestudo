@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "command": "gulp --cwd /workspace/research-cache/cables-core --gulpfile /workspace/research-cache/cables-runner/gulpfile.js",
+  "schemaFilesPassed": 1821,
+  "schemaFilesTotal": 1821,
+  "scope": "Official op metadata schema validation; not 1821 runtime tests",
+  "runnerGulpfileSha256": "31ac525c6fcbf81ad22b6136e1d3b9d50bbac6f278c98b0b76061d953fb313b8",
+  "originalGulpfileSha256": "31ac525c6fcbf81ad22b6136e1d3b9d50bbac6f278c98b0b76061d953fb313b8",
+  "fullElectronBuild": "not-run"
+}

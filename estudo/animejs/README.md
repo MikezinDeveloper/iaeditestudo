@@ -30,3 +30,7 @@ Foi adicionada a composição **AnimeMotionStudy**, com uma timeline pausada, se
 Não foram auditados nem integrados integralmente WAAPI, drag, scroll, layout, splitText, morfismo SVG e adapters 3D. O teste do nosso desenho numérico não comprova que essas APIs tenham o mesmo comportamento em exportação.
 
 Na suíte Node oficial executada sem alterar as asserções, houve **10 aprovações e 2 falhas** em verificações do estado de otimização do V8. O setup pelo lockfile upstream também falhou por divergência com o manifest. Esses resultados estão separados dos testes da nossa integração.
+
+## Anexo recebido em 4/11/2026
+
+O ZIP `anime-master.zip` identifica a revisão `01b81be1df6843ccfe0a71c0699a746bf740dd77` no comentário do arquivo e contém Anime.js 4.5.0. Seus 70 arquivos `src/` foram comparados byte a byte com o checkout já estudado: nenhuma diferença. [Recibo com SHA-256 e resultado](anexo-2026-11-04.json). O anexo confirma esta fonte; não introduz uma nova versão ou instruções adicionais para o projeto.

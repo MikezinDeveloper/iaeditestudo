@@ -124,3 +124,5 @@ O workflow `.github/workflows/validate.yml` descreve instalação, testes e expo
 `DreiStudy` combina RoundedBox/Center e uma raiz R3F com relógio manual: `npm run render:study -- drei`. [Mecanismo e verificações](../../estudo/drei/README.md).
 
 `SparkStudy` renderiza splats procedurais após aguardar sua ordenação: `npm run render:study -- spark`. [Estudo, quantização e worker/WASM](../../estudo/spark/README.md). A operação completa do ambiente está em [AMBIENTE.md](../../estudo/AMBIENTE.md).
+
+`CablesStudy` executa um patch JSON com Sine/Multiply originais do Cables: `npm run render:study -- cables`. O runtime selecionado, licença e hashes estão versionados em `public/vendor/cables`; [estudo e receita de rebuild](../../estudo/cables/README.md).

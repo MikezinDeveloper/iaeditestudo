@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "study": "cables",
+  "composition": "CablesStudy",
+  "chromiumGl": "angle",
+  "frames": 90,
+  "fps": 30,
+  "durationSeconds": 3.008,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "repeatedFrameAfterEnd": true,
+  "regionMeanPixelChange": 12.339322916666667,
+  "regressions": {
+    "CodexStudy": "passed",
+    "AnimeMotionStudy": "passed",
+    "MojsStudy": "passed",
+    "TheatreStudy": "passed",
+    "TwoStudy": "passed",
+    "D3Study": "passed",
+    "ThreeStudy": "passed",
+    "BabylonStudy": "passed",
+    "DreiStudy": "passed",
+    "SparkStudy": "passed"
+  },
+  "elapsedSeconds": 141.911,
+  "hashes": {
+    "video": "5a92eaa029eea6b8d1f8d9e8de462c0d48add85b3f4b5a6c9c96037b01d505c9",
+    "frame30": "d54cef4f4500b7d4c9c129f13732406034555ff7ae92b619a2ea78b9e2a4ce5a"
+  }
+}

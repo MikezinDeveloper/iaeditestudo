@@ -6,7 +6,7 @@ Construir uma base de conhecimento verificável para uma IA de edição de víde
 
 ## Continuidade
 
-- O lote de oito repositórios segue estritamente `estudo/FILA.md`. Feche estudo, integração, testes e publicação do item atual antes de estudar o próximo. Não delegue estudos paralelos desse lote.
+- Os lotes seguem estritamente `estudo/FILA.md`, incluindo os novos itens 11–15. Feche estudo, integração, testes e publicação do item atual antes de estudar o próximo. Não delegue estudos paralelos desses lotes.
 - Trabalhe no checkout existente. Cada tarefa na nuvem já é isolada; não crie worktrees sem pedido explícito.
 - Priorize os repositórios enviados pelo usuário. Registre novas fontes em `estudo/FONTES.md` e mantenha o estado da análise atualizado.
 - Navegue pelo índice e leia as análises relevantes à tarefa; não carregue todo o acervo indiscriminadamente.

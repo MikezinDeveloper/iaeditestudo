@@ -15,6 +15,7 @@ Este catálogo reúne os mecanismos implementados no protótipo após o estudo s
 | Cena 3D procedural | [Three](three/README.md), `ThreeStudy` | Transformações absolutas + render único | Geometria/material/renderer/contexto precisam de descarte; câmera/aspect e cor fazem parte do contrato. |
 | Keyframes nativos de uma engine | [Babylon](babylon/README.md), `BabylonStudy` | AnimationGroup iniciado/pausado + goToFrame | Ignorar avanço automático no render. Física, blending e eventos não estão validados por esse ensaio. |
 | Helpers declarativos 3D | [Drei](drei/README.md), `DreiStudy` | R3F sem loop, efeitos de layout, advance explícito | Alguns helpers usam aleatoriedade/tempo ou loaders. RoundedBox/Center foram verificados, não o catálogo inteiro. |
+| Grafo serializado de motion | [Cables](cables/README.md), `CablesStudy` | Portas e links do kernel com tempo externo | O preset incorpora o runtime numérico selecionado; interface desktop, CGL e patches arbitrários não estão integrados. |
 | Representação por Gaussian splats | [Spark](spark/README.md), `SparkStudy` | Dados locais + transformação + update/sort aguardado | Readiness envolve workers/WASM/GPU. Streaming e LoD precisam de protocolo adicional; getSplat retorna scratch reutilizado. |
 
 Cada linha é um preset separado. Não há conversão automática de objetos Three para Babylon nem um formato universal de keyframes entre Theatre, Anime e Babylon. Preservar fronteiras permite escolher o mecanismo conforme a capacidade desejada.

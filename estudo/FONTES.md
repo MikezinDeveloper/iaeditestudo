@@ -16,6 +16,7 @@ Os repositórios de edição serão enviados pelo usuário. Este índice disting
 | SRC-010 | [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) | Engine, cena e AnimationGroup com seek | `fff529b3cd08c5e1f62a9e10335611b4f69b1b7c`, runtime 9.33.2 | 1.231 testes upstream selecionados; 28 locais, export e regressões aprovados | [Estudo](babylon/README.md) |
 | SRC-011 | [pmndrs/drei](https://github.com/pmndrs/drei) | Helpers declarativos e readiness R3F | `bf6f4addf47467d3885de272d94ca5127f6ef68f`, runtime 10.7.9 | 30 testes locais; helpers reais e export por frame; e2e upstream não executado | [Estudo](drei/README.md) |
 | SRC-012 | [sparkjsdev/spark](https://github.com/sparkjsdev/spark) | Packing, ordenação e Gaussian splats | `ffe210dc0a45d0515a06c9235878108112827d61`, 2.4.0 | 88 testes upstream selecionados; packing real e export com worker/WASM | [Estudo](spark/README.md) |
+| SRC-013 | [cables-gl/cables_electron](https://github.com/cables-gl/cables_electron) e runtime vinculado | Grafo, portas e export de patch | Electron `bde458db4ccd1de8621dd8f99a3c59b14c8b3c25`; revisões core/shared no estudo | Kernel real, dois operadores originais, 34 testes locais; schema upstream 1.821/1.821 | [Estudo](cables/README.md) |
 
 ## Fila de entrada
 

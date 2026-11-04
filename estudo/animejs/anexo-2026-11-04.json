@@ -1,0 +1,10 @@
+{
+  "file": "anime-master.zip",
+  "sizeBytes": 4289511,
+  "sha256": "35c47bcf96eea16c76103b1b4156d5aa358a0a982ad9dcef7cab6b0a090acba9",
+  "archiveComment": "01b81be1df6843ccfe0a71c0699a746bf740dd77",
+  "sourceRevisionCompared": "01b81be1df6843ccfe0a71c0699a746bf740dd77",
+  "sourceFilesCompared": 70,
+  "mismatches": [],
+  "result": "All source files byte-identical to previously studied checkout; no new integration required for this duplicate revision."
+}

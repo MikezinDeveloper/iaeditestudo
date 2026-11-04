@@ -1,0 +1,70 @@
+{
+  "source": "https://github.com/cables-gl/cables_dev",
+  "revision": "9513b65ee409ab1c356e24845f838c9858a287fb",
+  "consultedAt": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/cables-gl/cables_dev/blob/9513b65ee409ab1c356e24845f838c9858a287fb/README.md",
+      "sha256": "1d70f4f3250a0361c95ded1dabb60ed2e0b35a4a63278dedf33a726667ac1f83",
+      "lines": 85,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "LICENCE",
+      "url": "https://github.com/cables-gl/cables_dev/blob/9513b65ee409ab1c356e24845f838c9858a287fb/LICENCE",
+      "sha256": "d4fe57f8e94a0da125eac4c75e81a9806f7ba02ab0d62df85e3805f24ecf50f2",
+      "lines": 21,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "shared/client/package.json",
+      "url": "https://github.com/cables-gl/cables_dev/blob/9513b65ee409ab1c356e24845f838c9858a287fb/shared/client/package.json",
+      "sha256": "b6156f48f950b7255ac3e23e24179d73696cd778fbd0e430e1f58e617077e213",
+      "lines": 19,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "shared/client/index.js",
+      "url": "https://github.com/cables-gl/cables_dev/blob/9513b65ee409ab1c356e24845f838c9858a287fb/shared/client/index.js",
+      "sha256": "cc5abd826cadb6731f306a45105cc17f8c33f0db478f9e00f95113d49ff1692c",
+      "lines": 498,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "shared/client/src/eventtarget.js",
+      "url": "https://github.com/cables-gl/cables_dev/blob/9513b65ee409ab1c356e24845f838c9858a287fb/shared/client/src/eventtarget.js",
+      "sha256": "59fc24b8207527b9a15989320dae4f20c0d7dd0f0b91747452b6454dc59c0a8f",
+      "lines": 222,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "shared/client/src/eventlistener.js",
+      "url": "https://github.com/cables-gl/cables_dev/blob/9513b65ee409ab1c356e24845f838c9858a287fb/shared/client/src/eventlistener.js",
+      "sha256": "d2a38428b092b3c75b3dba1a1ca82f73a8c3eab487684381239d53698f373cd1",
+      "lines": 22,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "shared/client/src/helper.js",
+      "url": "https://github.com/cables-gl/cables_dev/blob/9513b65ee409ab1c356e24845f838c9858a287fb/shared/client/src/helper.js",
+      "sha256": "0232b8e290a3ee589622661f9abf5c6d76f49e4dc2f00eb23dbeb0865a3f2f70",
+      "lines": 131,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "shared/client/src/logger.js",
+      "url": "https://github.com/cables-gl/cables_dev/blob/9513b65ee409ab1c356e24845f838c9858a287fb/shared/client/src/logger.js",
+      "sha256": "0004b382c00111b0af26863b2c7d9b6c99a5eb7fef921f6b4b868cb1f6dc1cf8",
+      "lines": 138,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "shared/client/client_contstants.js",
+      "url": "https://github.com/cables-gl/cables_dev/blob/9513b65ee409ab1c356e24845f838c9858a287fb/shared/client/client_contstants.js",
+      "sha256": "1481a29991b900c8d88d15349b94c68689da51241b7062f2d76e221a4fedbfe6",
+      "lines": 5,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    }
+  ]
+}

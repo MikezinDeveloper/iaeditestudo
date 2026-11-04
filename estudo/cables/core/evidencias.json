@@ -1,0 +1,147 @@
+{
+  "source": "https://github.com/cables-gl/cables",
+  "revision": "93c81a30abf811f5e2421040dba1ba0ae4f34c8e",
+  "consultedAt": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/README.md",
+      "sha256": "511260342415ad45817af3c9d212ba37aa2a6cf5db6885c49bebf258b9466710",
+      "lines": 23,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/package.json",
+      "sha256": "f8ecfe4f57429d3de51c1ac9c32e37b31901970b6e3875262aaa0dbb9b538544",
+      "lines": 49,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "webpack.config.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/webpack.config.js",
+      "sha256": "762b396e9f8090e2ab65f02dc9aeb761d482af8e9297b3a218e69153dcc4dc99",
+      "lines": 73,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "gulpfile_tests.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/gulpfile_tests.js",
+      "sha256": "31ac525c6fcbf81ad22b6136e1d3b9d50bbac6f278c98b0b76061d953fb313b8",
+      "lines": 19,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "op.schema.json",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/op.schema.json",
+      "sha256": "0ae74178a80c9f0f5ac0f4a687ad3d0c9e5a4d7d4c6845e7e25ec3907f04c08b",
+      "lines": 12,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/index.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/core/index.js",
+      "sha256": "723ca936cb7254063d5a74cf2b25488266f68ce759e3723968c8c59ae4152325",
+      "lines": 110,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/core_patch.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/core/core_patch.js",
+      "sha256": "a4ad0700a264e7bbcbe28c5f40457f4cd177b934d6efc8fbfc54bb7a71f0450f",
+      "lines": 1994,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/core_op.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/core/core_op.js",
+      "sha256": "1fc22d21c3e4c2773c0e0d3c05cb98c640d55343ffc4b3aebc20da7d75f9555d",
+      "lines": 2328,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/core_port.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/core/core_port.js",
+      "sha256": "3a9f26d5af12e79c11b4bd0d38f5c4639d46b94bf4cb6382898c3f4fe87a8e44",
+      "lines": 1242,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/core_link.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/core/core_link.js",
+      "sha256": "b42f7fb9421e7032cf84ee0e063e2979dac7048fd0b2c842912dd55cdc9d79e7",
+      "lines": 273,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/timer.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/core/timer.js",
+      "sha256": "60e99ac5577c4443c1f70f50121c5646dde5ae6ca5b98eaa4b71238eaf6e8749",
+      "lines": 196,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/loadingstatus.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/core/loadingstatus.js",
+      "sha256": "943411b161bdbf76d354d06566ea21a123f9d62ddeab3fafbf2044fa21e0bd38",
+      "lines": 262,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/core/memprofiler.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/core/memprofiler.js",
+      "sha256": "d30703711a36d1854c5824418f1dbac902df4825595072b33055052268b4ec66",
+      "lines": 108,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/corelibs/cgl/index.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/corelibs/cgl/index.js",
+      "sha256": "b08ee92fcfa849fcf5f471df424bdd51de8fddcec1ad4d1f25f6f69138563e20",
+      "lines": 127,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/corelibs/cgl/cgl_renderloop.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/corelibs/cgl/cgl_renderloop.js",
+      "sha256": "a58a1f70107262345b454f14aa857fbd75ed127d06e6760f3340618f1a28f8f6",
+      "lines": 156,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/ops/base/Ops.Math.Sine/Ops.Math.Sine.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/ops/base/Ops.Math.Sine/Ops.Math.Sine.js",
+      "sha256": "2b54ad2963692d89f0a3efd52a8d4db75ad20d9dcf0c649ac8cc2ea199e90cef",
+      "lines": 25,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/ops/base/Ops.Math.Sine/Ops.Math.Sine.json",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/ops/base/Ops.Math.Sine/Ops.Math.Sine.json",
+      "sha256": "2e3df6ffcd7f0ff5382b8b479175984821b568a9e9b4acb0d13c3cfe26cce5d1",
+      "lines": 55,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/ops/base/Ops.Math.Multiply/Ops.Math.Multiply.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/ops/base/Ops.Math.Multiply/Ops.Math.Multiply.js",
+      "sha256": "d53456f6cef3dba04b0a4df3b7e5034ba90b527b28b6f6c70850d94756ac85cb",
+      "lines": 17,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/ops/base/Ops.Math.Multiply/Ops.Math.Multiply.json",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/ops/base/Ops.Math.Multiply/Ops.Math.Multiply.json",
+      "sha256": "55def900be391e2a3aa5b273533a6fef54f6bf5430ab1dd0e90ab4e352c843ae",
+      "lines": 53,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/ops/base/Ops.Anim.Timer_v2/Ops.Anim.Timer_v2.js",
+      "url": "https://github.com/cables-gl/cables/blob/93c81a30abf811f5e2421040dba1ba0ae4f34c8e/src/ops/base/Ops.Anim.Timer_v2/Ops.Anim.Timer_v2.js",
+      "sha256": "c9c15fa50f8f17189082a93ecb577df3601d05aa14d75f99484be3c2c7722d80",
+      "lines": 85,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    }
+  ]
+}

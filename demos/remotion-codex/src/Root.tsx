@@ -12,6 +12,7 @@ import {ThreeStudy} from './studies/ThreeStudy';
 import {BabylonStudy} from './studies/BabylonStudy';
 import {DreiStudy} from './studies/DreiStudy';
 import {SparkStudy} from './studies/SparkStudy';
+import {CablesStudy} from './studies/CablesStudy';
 
 export const Root: React.FC = () => (
   <>
@@ -37,5 +38,6 @@ export const Root: React.FC = () => (
   <Composition id="BabylonStudy" component={BabylonStudy} width={640} height={360} fps={30} durationInFrames={90} />
   <Composition id="DreiStudy" component={DreiStudy} width={640} height={360} fps={30} durationInFrames={90} />
   <Composition id="SparkStudy" component={SparkStudy} width={640} height={360} fps={30} durationInFrames={90} />
+  <Composition id="CablesStudy" component={CablesStudy} width={640} height={360} fps={30} durationInFrames={90} />
   </>
 );

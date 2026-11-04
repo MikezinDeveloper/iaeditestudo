@@ -1,0 +1,184 @@
+{
+  "revisions": {
+    "core": "93c81a30abf811f5e2421040dba1ba0ae4f34c8e",
+    "shared": "9513b65ee409ab1c356e24845f838c9858a287fb"
+  },
+  "sources": {
+    "core": "https://github.com/cables-gl/cables",
+    "shared": "https://github.com/cables-gl/cables_dev"
+  },
+  "files": [
+    {
+      "source": "shared",
+      "path": "shared/client/src/eventlistener.js",
+      "sha256": "d2a38428b092b3c75b3dba1a1ca82f73a8c3eab487684381239d53698f373cd1"
+    },
+    {
+      "source": "shared",
+      "path": "shared/shared_constants.json",
+      "sha256": "a345352227a564d852f816e6c44ba818f293d1eb97decbd6d3720eb4032cb745"
+    },
+    {
+      "source": "shared",
+      "path": "shared/client/client_contstants.js",
+      "sha256": "1481a29991b900c8d88d15349b94c68689da51241b7062f2d76e221a4fedbfe6"
+    },
+    {
+      "source": "shared",
+      "path": "shared/client/src/helper.js",
+      "sha256": "0232b8e290a3ee589622661f9abf5c6d76f49e4dc2f00eb23dbeb0865a3f2f70"
+    },
+    {
+      "source": "shared",
+      "path": "shared/client/src/logger.js",
+      "sha256": "0004b382c00111b0af26863b2c7d9b6c99a5eb7fef921f6b4b868cb1f6dc1cf8"
+    },
+    {
+      "source": "shared",
+      "path": "shared/client/src/eventtarget.js",
+      "sha256": "59fc24b8207527b9a15989320dae4f20c0d7dd0f0b91747452b6454dc59c0a8f"
+    },
+    {
+      "source": "core",
+      "path": "src/core/extendjs.js",
+      "sha256": "11a7025ddbb00be8798b170a60579feb76d869c58a94fa14d917d4b54ac66cff"
+    },
+    {
+      "source": "core",
+      "path": "src/core/loadingstatus.js",
+      "sha256": "943411b161bdbf76d354d06566ea21a123f9d62ddeab3fafbf2044fa21e0bd38"
+    },
+    {
+      "source": "core",
+      "path": "src/core/core_variable.js",
+      "sha256": "f10282e76873fa3ee23e901e44aee2ef34e2553b06c8f4755a5b67a6c01039f4"
+    },
+    {
+      "source": "core",
+      "path": "src/core/timer.js",
+      "sha256": "60e99ac5577c4443c1f70f50121c5646dde5ae6ca5b98eaa4b71238eaf6e8749"
+    },
+    {
+      "source": "core",
+      "path": "src/core/renderloop.js",
+      "sha256": "a4c6b49ba68150f222bfb1edd732f9839835eaa541ffd119559d8f74a9ae5562"
+    },
+    {
+      "source": "core",
+      "path": "src/core/perfprofiler.js",
+      "sha256": "237780a684c67ce7178ea6c44f4af963cda80e4f974c0f7897cd7a6860cf5a02"
+    },
+    {
+      "source": "core",
+      "path": "src/core/core_patch.js",
+      "sha256": "a4ad0700a264e7bbcbe28c5f40457f4cd177b934d6efc8fbfc54bb7a71f0450f"
+    },
+    {
+      "source": "core",
+      "path": "src/core/core_link.js",
+      "sha256": "b42f7fb9421e7032cf84ee0e063e2979dac7048fd0b2c842912dd55cdc9d79e7"
+    },
+    {
+      "source": "core",
+      "path": "src/core/anim_key.js",
+      "sha256": "624d6c65235327ccb8226909404196d57d7acd3173db6f27a57984f58b57917b"
+    },
+    {
+      "source": "core",
+      "path": "src/core/anim.js",
+      "sha256": "544eb1b3f6314404167c7a0b95b93dd8fec6c5b72b56f0b3a594b32dc3401e9e"
+    },
+    {
+      "source": "core",
+      "path": "src/core/core_port.js",
+      "sha256": "3a9f26d5af12e79c11b4bd0d38f5c4639d46b94bf4cb6382898c3f4fe87a8e44"
+    },
+    {
+      "source": "core",
+      "path": "src/core/core_port_switch.js",
+      "sha256": "3fd928aa0673eddd1a0df0ee47dc11bdb7547e9835c84f4d7960bf63b7e55371"
+    },
+    {
+      "source": "core",
+      "path": "src/core/core_port_multi.js",
+      "sha256": "d8e71b1101626ba67c836a0c9745290b57f609a4539d023aa01135ef59f21e07"
+    },
+    {
+      "source": "core",
+      "path": "src/core/core_port_multi2.js",
+      "sha256": "ee369673d0d8d0265537cfcfd52bc1c42bad12a909bb64741fbab4c3fc69057f"
+    },
+    {
+      "source": "core",
+      "path": "src/core/uierrors.js",
+      "sha256": "ef72f061b427a5bb9c46b82c155c4e266ee446c708ec569a098f71a8f52ae4eb"
+    },
+    {
+      "source": "core",
+      "path": "src/core/core_op.js",
+      "sha256": "1fc22d21c3e4c2773c0e0d3c05cb98c640d55343ffc4b3aebc20da7d75f9555d"
+    },
+    {
+      "source": "core",
+      "path": "src/core/utils.js",
+      "sha256": "3344adcc52033429f7efddcaccb262f6081b29719bc6409059a3ddae12d37603"
+    },
+    {
+      "source": "core",
+      "path": "src/core/embedding.js",
+      "sha256": "9f9434b744f92856e459d3faaedbfa2cacebc765a939a6e342129162541ea2e1"
+    },
+    {
+      "source": "core",
+      "path": "src/core/core_op_profiler.js",
+      "sha256": "adcf34c9c4a02c8e1a8db822ea76e15e08a0ddfd9b80a87a89a7511af7e6bc3e"
+    },
+    {
+      "source": "core",
+      "path": "src/core/sessionvar.js",
+      "sha256": "0485614ac2b04ebbba95a2f20cc25cf0d7fa4d99f28ac3781ddec978ad2d5787"
+    },
+    {
+      "source": "core",
+      "path": "src/core/constants.js",
+      "sha256": "1c0ae08238fa64ccca6b58ce213b153a3652648366ec872a10c71642a16e4013"
+    },
+    {
+      "source": "core",
+      "path": "src/core/stack.js",
+      "sha256": "8467cdf40282accaf0e56ede20b73a6edecc37155fa95a4bc3c88f9c06e5bd1c"
+    },
+    {
+      "source": "core",
+      "path": "src/core/memprofiler.js",
+      "sha256": "d30703711a36d1854c5824418f1dbac902df4825595072b33055052268b4ec66"
+    },
+    {
+      "source": "core",
+      "path": "src/core/index.js",
+      "sha256": "723ca936cb7254063d5a74cf2b25488266f68ce759e3723968c8c59ae4152325"
+    },
+    {
+      "source": "core",
+      "path": "src/ops/base/Ops.Math.Sine/Ops.Math.Sine.js",
+      "sha256": "2b54ad2963692d89f0a3efd52a8d4db75ad20d9dcf0c649ac8cc2ea199e90cef"
+    },
+    {
+      "source": "core",
+      "path": "src/ops/base/Ops.Math.Sine/Ops.Math.Sine.json",
+      "sha256": "2e3df6ffcd7f0ff5382b8b479175984821b568a9e9b4acb0d13c3cfe26cce5d1"
+    },
+    {
+      "source": "core",
+      "path": "src/ops/base/Ops.Math.Multiply/Ops.Math.Multiply.js",
+      "sha256": "d53456f6cef3dba04b0a4df3b7e5034ba90b527b28b6f6c70850d94756ac85cb"
+    },
+    {
+      "source": "core",
+      "path": "src/ops/base/Ops.Math.Multiply/Ops.Math.Multiply.json",
+      "sha256": "55def900be391e2a3aa5b273533a6fef54f6bf5430ab1dd0e90ab4e352c843ae"
+    }
+  ],
+  "runtimeSha256": "a26384ea54b6465c2b3271c8c950003b96dd8fb0dffb8707dc5778f9ddae9002",
+  "build": "esbuild 0.28.2; selected original core, Events/Logger and two original ops; generated registrations and FrameTime are ours"
+}

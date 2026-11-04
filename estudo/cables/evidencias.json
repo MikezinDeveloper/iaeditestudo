@@ -1,0 +1,84 @@
+{
+  "source": "https://github.com/cables-gl/cables_electron",
+  "revision": "bde458db4ccd1de8621dd8f99a3c59b14c8b3c25",
+  "consultedAt": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/cables-gl/cables_electron/blob/bde458db4ccd1de8621dd8f99a3c59b14c8b3c25/README.md",
+      "sha256": "afcaa3658858afe5325d0efa2a0a2541ff6ec9912c6c65c998aef492c0c84d3b",
+      "lines": 117,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "LICENCE",
+      "url": "https://github.com/cables-gl/cables_electron/blob/bde458db4ccd1de8621dd8f99a3c59b14c8b3c25/LICENCE",
+      "sha256": "04e007d010663c197754c8edaf781fac66fa81a5bb94d1bcd37c5f4ec2d105d1",
+      "lines": 21,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/cables-gl/cables_electron/blob/bde458db4ccd1de8621dd8f99a3c59b14c8b3c25/package.json",
+      "sha256": "800ddbb57845844ae844d73b733d15d17d5e35731e203533efc2cb4f2375dcc5",
+      "lines": 206,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "cables_defaults.json",
+      "url": "https://github.com/cables-gl/cables_electron/blob/bde458db4ccd1de8621dd8f99a3c59b14c8b3c25/cables_defaults.json",
+      "sha256": "7f24eb237d3a7d288b0a4c3c3e91ccecb19308c33fbd3d754762aadfebdb2d38",
+      "lines": 29,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "gulpfile.js",
+      "url": "https://github.com/cables-gl/cables_electron/blob/bde458db4ccd1de8621dd8f99a3c59b14c8b3c25/gulpfile.js",
+      "sha256": "daf8569cbaa86e269a1b184768176c04a7f330046bc4bd5c22df2743830bacd6",
+      "lines": 338,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/cables.js",
+      "url": "https://github.com/cables-gl/cables_electron/blob/bde458db4ccd1de8621dd8f99a3c59b14c8b3c25/src/cables.js",
+      "sha256": "047ae8a45ecabde47be4c8ce848bcd2dd79d390d19a431b3fac4486844a11528",
+      "lines": 165,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/export/export_html_electron.js",
+      "url": "https://github.com/cables-gl/cables_electron/blob/bde458db4ccd1de8621dd8f99a3c59b14c8b3c25/src/export/export_html_electron.js",
+      "sha256": "a51f8efe83384bedc8ed8b8e5d86ecc4193f0536c6c1fe1118a127cef54a028e",
+      "lines": 230,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/export/export_patch_electron.js",
+      "url": "https://github.com/cables-gl/cables_electron/blob/bde458db4ccd1de8621dd8f99a3c59b14c8b3c25/src/export/export_patch_electron.js",
+      "sha256": "f1e1bc5b1e1aa48c850576f8538f2272b85243625ca5fd0738838a86dabed743",
+      "lines": 55,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "views/patchview/patchview_export.html",
+      "url": "https://github.com/cables-gl/cables_electron/blob/bde458db4ccd1de8621dd8f99a3c59b14c8b3c25/views/patchview/patchview_export.html",
+      "sha256": "742f621647bf296f8a490f670a9a33961367e2e700f2d2d7d6a49b7ce96847ab",
+      "lines": 87,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src_client/cables_electron.js",
+      "url": "https://github.com/cables-gl/cables_electron/blob/bde458db4ccd1de8621dd8f99a3c59b14c8b3c25/src_client/cables_electron.js",
+      "sha256": "e7ecfd39fe95bc45a71e4f1ca7a3ddb9feb761a97fe586ec68182ffb52e5e525",
+      "lines": 348,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "src/electron/main.js",
+      "url": "https://github.com/cables-gl/cables_electron/blob/bde458db4ccd1de8621dd8f99a3c59b14c8b3c25/src/electron/main.js",
+      "sha256": "126d02f5a4992990e4ca8880d776fddad3e315b496f77ca8dd2aaec1933a6b6b",
+      "lines": 1621,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    }
+  ]
+}

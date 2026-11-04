@@ -1,0 +1,8 @@
+[12:35:57] Working directory changed to /workspace/research-cache/cables-core
+[12:35:57] Using gulpfile /workspace/research-cache/cables-runner/gulpfile.js
+[12:35:57] Starting 'default'...
+[12:35:57] Starting '_validateOpDocs'...
+[12:36:02] gulplog v1 is deprecated. Please help your plugins update!
+[12:36:02] Schema validation passed for 1821 file(s) / 1821 file(s)
+[12:36:02] Finished '_validateOpDocs' after 4.51 s
+[12:36:02] Finished 'default' after 4.51 s

@@ -42,5 +42,10 @@
     "frames": 90,
     "fps": 30,
     "gl": "swangle"
+  },
+  "cables": {
+    "composition": "CablesStudy",
+    "frames": 90,
+    "fps": 30
   }
 }

@@ -1,0 +1,8 @@
+{
+  "name": "Codex absolute-time motion graph",
+  "ops": [
+    {"id": "time", "opId": "codex-frame-time", "portsOut": [{"name": "Time", "links": [{"objIn": "sine", "objOut": "time", "portIn": "value", "portOut": "Time"}]}]},
+    {"id": "sine", "opId": "d24da018-9f3d-428b-85c9-6ff14d77548b", "portsIn": [{"name": "frequency", "value": 2}], "portsOut": [{"name": "result", "links": [{"objIn": "scale", "objOut": "sine", "portIn": "number1", "portOut": "result"}]}]},
+    {"id": "scale", "opId": "1bbdae06-fbb2-489b-9bcc-36c9d65bd441", "portsIn": [{"name": "number2", "value": 100}]}
+  ]
+}
