@@ -6,6 +6,8 @@ Base de pesquisa para projetar e construir uma IA de edição com apoio do Codex
 
 ## Por onde começar
 
+- [Transferir o contexto para outro GPT](CONTEXTO-PARA-OUTRO-GPT.md)
+
 - [Fila sequencial e checkpoints no GitHub](estudo/FILA.md)
 - [Capacidades integradas e escolha das pontes](estudo/INTEGRACOES.md)
 - [Operar o ambiente no Codex](estudo/AMBIENTE.md)
