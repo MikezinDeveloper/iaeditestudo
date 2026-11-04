@@ -39,6 +39,19 @@ try {
   if (first.length !== 320 * 220 * 3 || later.length !== first.length) throw new Error('Região visual vazia');
   const pixelChange = first.reduce((sum, value, index) => sum + Math.abs(value - later[index]), 0) / first.length;
   if (pixelChange < 0.1) throw new Error('Movimento não demonstrado na região visual');
+  const variants = {};
+  for (const variant of target.variants ?? []) {
+    const inputProps = variant.inputProps;
+    const cfg = await selectComposition({...options, id: target.composition, inputProps});
+    const file = `${folder}/variant-${variant.key}.png`;
+    await renderStill({...options, composition: cfg, inputProps, frame: 30, imageFormat: 'png', output: resolve(file)});
+    const pixels = (path) => run('ffmpeg', ['-v', 'error', '-i', path, '-vf', 'crop=320:220:160:80,format=rgb24', '-frames:v', '1', '-threads', '1', '-f', 'rawvideo', 'pipe:1']);
+    const a = pixels(`${folder}/frame-30.png`), b = pixels(file);
+    if (a.length !== 320 * 220 * 3 || b.length !== a.length) throw new Error('Região da variante inválida');
+    const change = a.reduce((sum, value, i) => sum + Math.abs(value - b[i]), 0) / a.length;
+    if (change < 0.1) throw new Error(`Variante ${variant.key} não alterou a região visual`);
+    variants[variant.key] = {inputProps, regionMeanPixelChange: change, status: 'passed'};
+  }
   const regressions = {};
   const previousStudies = Object.entries(catalogue).slice(0, Object.keys(catalogue).indexOf(key)).map(([previousKey, previous]) => [previous.composition, `out/studies/${previousKey}/frame-30.png`, {}, previous.gl ?? 'angle']);
   for (const [id, baseline, inputProps, gl] of [['CodexStudy', 'out/frame-30.png', JSON.parse(readFileSync('project.json', 'utf8')), 'angle'], ['AnimeMotionStudy', 'out/anime/frame-30.png', {}, 'angle'], ...previousStudies]) {
@@ -51,7 +64,7 @@ try {
     if (hash(file) !== hash(baseline)) throw new Error(`Regressão na composição ${id}`);
     regressions[id] = 'passed';
   }
-  const report = {status: 'passed', study: key, composition: composition.id, chromiumGl: target.gl ?? 'angle', frames: target.frames, fps: target.fps, durationSeconds: Number(probe.format.duration), codecs: [v.codec_name, a.codec_name], repeatedFrameAfterEnd: true, regionMeanPixelChange: pixelChange, regressions, elapsedSeconds: (Date.now() - started) / 1000, hashes: {video: hash(video), frame30: hash(`${folder}/frame-30.png`)}};
+  const report = {status: 'passed', study: key, composition: composition.id, chromiumGl: target.gl ?? 'angle', frames: target.frames, fps: target.fps, durationSeconds: Number(probe.format.duration), codecs: [v.codec_name, a.codec_name], repeatedFrameAfterEnd: true, regionMeanPixelChange: pixelChange, variants, regressions, elapsedSeconds: (Date.now() - started) / 1000, hashes: {video: hash(video), frame30: hash(`${folder}/frame-30.png`)}};
   writeFileSync(`${folder}/report.json`, JSON.stringify(report, null, 2) + '\n');
   console.log(JSON.stringify(report, null, 2));
 } finally {for (const instance of browsers.values()) await instance.close({silent: true});}

@@ -33,6 +33,7 @@
     "react-dom": "19.2.0",
     "remotion": "4.0.540",
     "three": "0.187.0",
+    "three-custom-shader-material": "6.4.0",
     "two.js": "0.8.24"
   },
   "devDependencies": {

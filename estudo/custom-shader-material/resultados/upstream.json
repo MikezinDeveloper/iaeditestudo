@@ -1,0 +1,5 @@
+{
+  "status": "not-run",
+  "reason": "No dedicated test script or test files found in the inspected package; full workspace/example build not executed. Application typecheck, public API tests and actual browser shader export performed separately.",
+  "sourceRevision": "cf86e956715bd6cd97e7ae61ffdf459e4a4c822e"
+}

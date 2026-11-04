@@ -57,5 +57,19 @@
     "composition": "SplishsplashStudy",
     "frames": 90,
     "fps": 30
+  },
+  "custom-shader-material": {
+    "composition": "CustomShaderMaterialStudy",
+    "frames": 90,
+    "fps": 30,
+    "gl": "swangle",
+    "variants": [
+      {
+        "key": "directional-light-off",
+        "inputProps": {
+          "lightIntensity": 0
+        }
+      }
+    ]
   }
 }

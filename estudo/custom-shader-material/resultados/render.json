@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "study": "custom-shader-material",
+  "composition": "CustomShaderMaterialStudy",
+  "chromiumGl": "swangle",
+  "frames": 90,
+  "fps": 30,
+  "durationSeconds": 3.008,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "repeatedFrameAfterEnd": true,
+  "regionMeanPixelChange": 28.144015151515152,
+  "variants": {
+    "directional-light-off": {
+      "inputProps": {
+        "lightIntensity": 0
+      },
+      "regionMeanPixelChange": 36.86780303030303,
+      "status": "passed"
+    }
+  },
+  "regressions": {
+    "CodexStudy": "passed",
+    "AnimeMotionStudy": "passed",
+    "MojsStudy": "passed",
+    "TheatreStudy": "passed",
+    "TwoStudy": "passed",
+    "D3Study": "passed",
+    "ThreeStudy": "passed",
+    "BabylonStudy": "passed",
+    "DreiStudy": "passed",
+    "SparkStudy": "passed",
+    "CablesStudy": "passed",
+    "TaichiStudy": "passed",
+    "SplishsplashStudy": "passed"
+  },
+  "elapsedSeconds": 193.867,
+  "hashes": {
+    "video": "3b9f3b91a361393e9db0b32f3a34476d3c7bf9ab45a8449b3bd946a03ad33226",
+    "frame30": "845df1f9d89dbcdae536192f1ea7352245e764e59dffde4753e7d9d26975b9ce"
+  }
+}

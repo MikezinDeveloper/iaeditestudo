@@ -1,0 +1,93 @@
+{
+  "source": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial",
+  "revision": "cf86e956715bd6cd97e7ae61ffdf459e4a4c822e",
+  "consultedAt": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial/blob/cf86e956715bd6cd97e7ae61ffdf459e4a4c822e/README.md",
+      "sha256": "3e3b5977272f3078c777229bb50475732d2a2f7d01f36c870d679bc62c1916ff",
+      "lines": 337,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "LICENSE.md",
+      "url": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial/blob/cf86e956715bd6cd97e7ae61ffdf459e4a4c822e/LICENSE.md",
+      "sha256": "744d31317cde4fd4e1a690ed6c4b2418a68e0a896fa6298a14cee7d6c2c2cbba",
+      "lines": 21,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial/blob/cf86e956715bd6cd97e7ae61ffdf459e4a4c822e/package.json",
+      "sha256": "b601993fe1f8fd6bbe1b32f04e3dca32825eff3c4034d25d665a61eb09297e91",
+      "lines": 21,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package/package.json",
+      "url": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial/blob/cf86e956715bd6cd97e7ae61ffdf459e4a4c822e/package/package.json",
+      "sha256": "e64859bc71a447b2e3e8ab4b097c66bd5c7ecd76cbb80a4bca6cb50d01688df0",
+      "lines": 60,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package/src/index.ts",
+      "url": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial/blob/cf86e956715bd6cd97e7ae61ffdf459e4a4c822e/package/src/index.ts",
+      "sha256": "dd841c87062e4eacabbad4e6e554354ffe45db05fe4db807471a7d2d10c4cce8",
+      "lines": 406,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package/src/defaults.ts",
+      "url": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial/blob/cf86e956715bd6cd97e7ae61ffdf459e4a4c822e/package/src/defaults.ts",
+      "sha256": "d4c6897ae3d3c0ab8584165e06befd2238d32a9ad1651a79cbe2dabc64d4fcfb",
+      "lines": 156,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package/src/maps/patchMap.ts",
+      "url": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial/blob/cf86e956715bd6cd97e7ae61ffdf459e4a4c822e/package/src/maps/patchMap.ts",
+      "sha256": "3d7e1ce0cebf776802d1ce92a88b9a523a6c59aeeafecb947850ef40198e86e4",
+      "lines": 122,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package/src/maps/keywordMap.ts",
+      "url": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial/blob/cf86e956715bd6cd97e7ae61ffdf459e4a4c822e/package/src/maps/keywordMap.ts",
+      "sha256": "1311f99d8c4ce72f54b5102852c749b086d7b109113d01b5d664503d8e8457a7",
+      "lines": 26,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package/src/maps/availabilityMap.ts",
+      "url": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial/blob/cf86e956715bd6cd97e7ae61ffdf459e4a4c822e/package/src/maps/availabilityMap.ts",
+      "sha256": "6221ac570c847bc40eeaef4acaffb82d0641293c720ba2682c78dc52ed28c542",
+      "lines": 36,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package/src/maps/requiredPropsMap.ts",
+      "url": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial/blob/cf86e956715bd6cd97e7ae61ffdf459e4a4c822e/package/src/maps/requiredPropsMap.ts",
+      "sha256": "eec7df0ed159aa8163c4e1ee50b8cc1d197bcf5ad6c438bef4ad0fe6a7db5166",
+      "lines": 18,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "package/src/React/index.tsx",
+      "url": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial/blob/cf86e956715bd6cd97e7ae61ffdf459e4a4c822e/package/src/React/index.tsx",
+      "sha256": "b8e9b843fc91fa6a85941d24517f1b63c822adf2f4cd4a79dd76ab58fa246812",
+      "lines": 84,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    }
+  ],
+  "runtime": {
+    "version": "6.4.0",
+    "entry": "vanilla/three-custom-shader-material.es.js",
+    "sha256": "e814dc88a98eacd3e1182520e476880d60dc580929c6f1dc3045ab9a6eadabce"
+  },
+  "auxiliarySource": {
+    "url": "https://github.com/mrdoob/three.js/blob/c6a4b78be1a3d7839399410cc157950c5fd6e58b/src/renderers/webgl/WebGLProgram.js",
+    "scope": "createProgram and onShaderError prove runtime argument is native DOM program; @types/three uses another type name."
+  }
+}

@@ -19,12 +19,13 @@ Os repositórios de edição serão enviados pelo usuário. Este índice disting
 | SRC-013 | [cables-gl/cables_electron](https://github.com/cables-gl/cables_electron) e runtime vinculado | Grafo, portas e export de patch | Electron `bde458db4ccd1de8621dd8f99a3c59b14c8b3c25`; revisões core/shared no estudo | Kernel real, dois operadores originais, 34 testes locais; schema upstream 1.821/1.821 | [Estudo](cables/README.md) |
 | SRC-014 | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | Kernels numéricos e bake de tecido | `ba0e81dce559fb63a5958bf82feb1d00c55c02fe`, fonte 1.8.0, wheel 1.7.4 | CPU real, reset reprodutível, 8 upstream; cache e export | [Estudo](taichi/README.md) |
 | SRC-015 | [SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | DFSPH nativo e cache de partículas | `dba6b26b9387ab6bdd187d6df0a7c9d490d03500`, 2.19.1 | Build C++ executado; 8 casos/24 asserts upstream, 38 locais e export; falha do wheel registrada | [Estudo](splishsplash/README.md) |
+| SRC-016 | [Custom Shader Material](https://github.com/FarazzShaikh/THREE-CustomShaderMaterial) | GLSL customizado preservando iluminação | `cf86e956715bd6cd97e7ae61ffdf459e4a4c822e`, 6.4.0 | 40 locais, compilação WebGL, variante de luz e export aprovados; suíte upstream não executada | [Estudo](custom-shader-material/README.md) |
 
 ## Fila de entrada
 
 Recebido `remotion-main.zip`; o usuário confirmou que é o Remotion oficial, sem alterações. O ZIP excedeu o limite de transferência; a análise usou o repositório público, sem confirmar igualdade de revisão com o anexo.
 
-O lote mais recente está em [FILA.md](FILA.md), com SRC-005 a SRC-012. SRC-002 permanece pendente de conteúdo acessível; nenhum conteúdo lhe foi atribuído.
+Os lotes e seus checkpoints estão em [FILA.md](FILA.md). SRC-002 permanece pendente de conteúdo acessível; nenhum conteúdo lhe foi atribuído.
 
 ## Regras do índice
 

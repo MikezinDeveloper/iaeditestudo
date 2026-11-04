@@ -15,6 +15,7 @@ import {SparkStudy} from './studies/SparkStudy';
 import {CablesStudy} from './studies/CablesStudy';
 import {TaichiStudy} from './studies/TaichiStudy';
 import {SplishsplashStudy} from './studies/SplishsplashStudy';
+import {CustomShaderMaterialStudy} from './studies/CustomShaderMaterialStudy';
 
 export const Root: React.FC = () => (
   <>
@@ -43,5 +44,6 @@ export const Root: React.FC = () => (
   <Composition id="CablesStudy" component={CablesStudy} width={640} height={360} fps={30} durationInFrames={90} />
   <Composition id="TaichiStudy" component={TaichiStudy} width={640} height={360} fps={30} durationInFrames={90} />
   <Composition id="SplishsplashStudy" component={SplishsplashStudy} width={640} height={360} fps={30} durationInFrames={90} />
+  <Composition id="CustomShaderMaterialStudy" component={CustomShaderMaterialStudy} defaultProps={{lightIntensity: 3}} width={640} height={360} fps={30} durationInFrames={90} />
   </>
 );

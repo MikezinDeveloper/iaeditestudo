@@ -130,3 +130,5 @@ O workflow `.github/workflows/validate.yml` descreve instalação, testes e expo
 `TaichiStudy` reproduz uma simulação de tecido com cache gerado por kernels Taichi CPU: `npm run render:study -- taichi`. [Receita Python, critérios físicos e limites](../../estudo/taichi/README.md). Python não é necessário para reproduzir o cache versionado.
 
 `SplishsplashStudy` reproduz fluido calculado pelo núcleo C++ DFSPH: `npm run render:study -- splishsplash`. [Build nativo, bake e limitações](../../estudo/splishsplash/README.md). O wheel Python falhou no ambiente; a integração final usa fonte C++ compilada e cache versionado.
+
+`CustomShaderMaterialStudy` deforma um plano e mantém iluminação PBR: `npm run render:study -- custom-shader-material`. O runner também compara a variante sem luz direcional. [Mecanismo, compatibilidade e limites](../../estudo/custom-shader-material/README.md).
