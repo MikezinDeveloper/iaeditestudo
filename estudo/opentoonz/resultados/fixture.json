@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "generator": "Original Pillow artwork and OCA fixture; not exported by native OpenToonz",
+  "pillowVersion": "13.0.0",
+  "sourceRevision": "572d59ac5fedfeaf7910967b439c6b8d73c9c3e1",
+  "scriptSha256": "3d59c375ecc3470e0e240a0b443ce873d2ea37cb43e0605671d27434db353d19",
+  "files": {
+    "demos/remotion-codex/public/opentoonz/walk_files/Ground.0001.png": "753a56b78aa24e687112d228ccf74c62ab4309af1528ee76312feab346c4a281",
+    "demos/remotion-codex/public/opentoonz/walk_files/Cat.0001.png": "a8b6ab8aeeac57ecc2a802cbe18d22cca2ae2d544c532e952ff9a0af0729e4cb",
+    "demos/remotion-codex/public/opentoonz/walk_files/Cat.0002.png": "81ae7a76c5fb807eb30fe0d359f1a17ec67964470d92f7d4263da87295442782",
+    "demos/remotion-codex/public/opentoonz/walk_files/Cat.0003.png": "6f6fb27d3f62365ba77454433c22488a8c040e691e81c7b30efb3824e369b487",
+    "demos/remotion-codex/public/opentoonz/walk_files/Cat.0004.png": "b1b7090cf87791bbe41d4fedd323dbd6624b5fed64726e0ff3051b71563db9ec",
+    "demos/remotion-codex/public/opentoonz/walk_files/Cat.0005.png": "38c5596e213b52d6d98a4f2d659a40f8f77387d5f2dc74bfed837268f25e7442",
+    "demos/remotion-codex/public/opentoonz/walk_files/Cat.0006.png": "7e85518d2c7b52738c3634ea49fe15e64d91706af23ba15b0f4661ccec2b54f5",
+    "demos/remotion-codex/public/opentoonz/walk_files/Cat.0007.png": "dd44308fd16a8b6feba0ae8a7c4d228a6dfe57c89f96f9ab468ab778c2b4fb98",
+    "demos/remotion-codex/public/opentoonz/walk_files/Cat.0008.png": "3478a4079d406b394273e6a6521510a52b8b0b7efa81f9a5792bfb019d96489d",
+    "demos/remotion-codex/public/opentoonz/walk.oca": "2feea78f40fb87222445895d770caafb4c747e13e21393b91688aba65a30b7ff"
+  }
+}

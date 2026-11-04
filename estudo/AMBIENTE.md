@@ -34,17 +34,23 @@ O smoke verifica a composição base e o recorte de mídia; não comprova WebMCP
 REMOTION_BROWSER_EXECUTABLE=/usr/bin/chromium npm run render
 npm run verify
 REMOTION_BROWSER_EXECUTABLE=/usr/bin/chromium npm run render:anime
-REMOTION_BROWSER_EXECUTABLE=/usr/bin/chromium npm run render:study -- spark
+REMOTION_BROWSER_EXECUTABLE=/usr/bin/chromium npm run render:study -- opentoonz
 ```
 
-O catálogo `scripts/studies.json` do demo contém, na ordem, `mojs`, `theatre`, `two`, `d3`, `three`, `babylon`, `drei`, `spark`. Troque a última chave para exportar outro estudo. Para comparar regressões, gere os baselines anteriores na mesma instalação/ambiente. Ausência de baseline é reportada como não executada, sem aprovação fictícia.
+O catálogo `scripts/studies.json` do demo contém, na ordem, `mojs`, `theatre`, `two`, `d3`, `three`, `babylon`, `drei`, `spark`, `cables`, `taichi`, `splishsplash`, `custom-shader-material`, `opentoonz`. Troque a última chave para exportar outro estudo. Para comparar regressões, gere os baselines anteriores na mesma instalação/ambiente. Ausência de baseline é reportada como não executada, sem aprovação fictícia.
 
 O runner usa `angle` para os estudos iniciais e `swangle` para os estudos WebGL. Ele mantém o backend original de cada composição durante regressões. `swangle` usa renderização por software neste ambiente. Não confunda seus tempos com performance de GPU física ou seus hashes com determinismo entre plataformas.
+
+## Regenerar dados opcionais
+
+Os arquivos vendorizados do Cables, caches Taichi/DFSPH e imagens OCA já estão versionados. A instalação npm não precisa de clones upstream, Python, compilador C++ ou OpenToonz. Para modificar os geradores, siga as receitas específicas em `estudo/cables/README.md`, `estudo/taichi/README.md`, `estudo/splishsplash/README.md` e `estudo/opentoonz/README.md`.
+
+Taichi foi executado em CPU x64; a versão de fonte e wheel diferem e estão registradas. O fluido usa o núcleo DFSPH compilado, pois os wheels Python falharam ao importar. O fixture OCA é original; não há OpenToonz/tcomposer instalado ou roundtrip nativo aprovado. Não adicione esses requisitos opcionais ao setup do demo sem necessidade de regeneração.
 
 ## Contratos e evidências
 
 Tempo de motion vem de frames/fps. Não introduza autoplay, Math.random ou estado acumulado sem provar seek fora de ordem. Readiness e cleanup são específicos: mo.js precisa de inicialização em zero; Theatre usa driver; R3F aguarda layout e avança manualmente; Spark aguarda sort. Consulte o estudo antes de generalizar uma ponte.
 
-Saídas locais em `out/`; relatórios históricos em `estudo/<biblioteca>/resultados/`. A suíte local atual tem 32 casos; os testes oficiais das fontes têm resultados e limites próprios. Os avisos de depreciação de Three/R3F e de engines do mo.js estão registrados, sem alterar o lock apenas para suprimi-los.
+Saídas locais em `out/`; relatórios históricos em `estudo/<biblioteca>/resultados/`. A suíte local atual tem 42 casos; os testes oficiais das fontes têm resultados e limites próprios. Os avisos de depreciação de Three/R3F e de engines do mo.js estão registrados, sem alterar o lock apenas para suprimi-los.
 
 O guia `.agents/skills/remotion-codex-estudo/SKILL.md` é próprio do projeto. A existência desse arquivo não instala automaticamente um plugin. A configuração de ambiente salva pelo onboarding é um rascunho até o usuário salvá-la/publicá-la nas configurações. A publicação do código em GitHub é um processo separado e tem checkpoints na fila. Não afirmamos restauração de tarefa nova ou GitHub Actions aprovado sem observação independente.

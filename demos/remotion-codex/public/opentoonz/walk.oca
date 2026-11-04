@@ -1,0 +1,545 @@
+{
+  "name": "Codex original cel fixture",
+  "frameRate": 24,
+  "width": 640,
+  "height": 360,
+  "startTime": 0,
+  "endTime": 72,
+  "colorDepth": "U8",
+  "backgroundColor": [
+    0.06274509803921569,
+    0.09803921568627451,
+    0.13725490196078433,
+    1
+  ],
+  "layers": [
+    {
+      "name": "Ground",
+      "position": [
+        320,
+        180
+      ],
+      "width": 640,
+      "height": 360,
+      "frames": [
+        {
+          "name": "Ground.0001",
+          "fileName": "walk_files/Ground.0001.png",
+          "frameNumber": 0,
+          "duration": 72,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        }
+      ],
+      "childLayers": [],
+      "type": "paintlayer",
+      "fileType": "png",
+      "blendingMode": "normal",
+      "animated": false,
+      "label": 0,
+      "opacity": 1,
+      "visible": true,
+      "passThrough": false,
+      "reference": false,
+      "inheritAlpha": false
+    },
+    {
+      "name": "Cat",
+      "position": [
+        320,
+        180
+      ],
+      "width": 640,
+      "height": 360,
+      "frames": [
+        {
+          "name": "Cat.0001",
+          "fileName": "walk_files/Cat.0001.png",
+          "frameNumber": 0,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0002",
+          "fileName": "walk_files/Cat.0002.png",
+          "frameNumber": 2,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0003",
+          "fileName": "walk_files/Cat.0003.png",
+          "frameNumber": 4,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0004",
+          "fileName": "walk_files/Cat.0004.png",
+          "frameNumber": 6,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0005",
+          "fileName": "walk_files/Cat.0005.png",
+          "frameNumber": 8,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0006",
+          "fileName": "walk_files/Cat.0006.png",
+          "frameNumber": 10,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0007",
+          "fileName": "walk_files/Cat.0007.png",
+          "frameNumber": 12,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0008",
+          "fileName": "walk_files/Cat.0008.png",
+          "frameNumber": 14,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0001",
+          "fileName": "walk_files/Cat.0001.png",
+          "frameNumber": 16,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0002",
+          "fileName": "walk_files/Cat.0002.png",
+          "frameNumber": 18,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0003",
+          "fileName": "walk_files/Cat.0003.png",
+          "frameNumber": 20,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0004",
+          "fileName": "walk_files/Cat.0004.png",
+          "frameNumber": 22,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0005",
+          "fileName": "walk_files/Cat.0005.png",
+          "frameNumber": 24,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0006",
+          "fileName": "walk_files/Cat.0006.png",
+          "frameNumber": 26,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0007",
+          "fileName": "walk_files/Cat.0007.png",
+          "frameNumber": 28,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0008",
+          "fileName": "walk_files/Cat.0008.png",
+          "frameNumber": 30,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0001",
+          "fileName": "walk_files/Cat.0001.png",
+          "frameNumber": 32,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0002",
+          "fileName": "walk_files/Cat.0002.png",
+          "frameNumber": 34,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0003",
+          "fileName": "walk_files/Cat.0003.png",
+          "frameNumber": 36,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0004",
+          "fileName": "walk_files/Cat.0004.png",
+          "frameNumber": 38,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0005",
+          "fileName": "walk_files/Cat.0005.png",
+          "frameNumber": 40,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0006",
+          "fileName": "walk_files/Cat.0006.png",
+          "frameNumber": 42,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0007",
+          "fileName": "walk_files/Cat.0007.png",
+          "frameNumber": 44,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "_blank",
+          "fileName": "",
+          "frameNumber": 46,
+          "duration": 2,
+          "width": 0,
+          "height": 0,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0001",
+          "fileName": "walk_files/Cat.0001.png",
+          "frameNumber": 48,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0002",
+          "fileName": "walk_files/Cat.0002.png",
+          "frameNumber": 50,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0003",
+          "fileName": "walk_files/Cat.0003.png",
+          "frameNumber": 52,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0004",
+          "fileName": "walk_files/Cat.0004.png",
+          "frameNumber": 54,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0005",
+          "fileName": "walk_files/Cat.0005.png",
+          "frameNumber": 56,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0006",
+          "fileName": "walk_files/Cat.0006.png",
+          "frameNumber": 58,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0007",
+          "fileName": "walk_files/Cat.0007.png",
+          "frameNumber": 60,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0008",
+          "fileName": "walk_files/Cat.0008.png",
+          "frameNumber": 62,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0001",
+          "fileName": "walk_files/Cat.0001.png",
+          "frameNumber": 64,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0002",
+          "fileName": "walk_files/Cat.0002.png",
+          "frameNumber": 66,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0003",
+          "fileName": "walk_files/Cat.0003.png",
+          "frameNumber": 68,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        },
+        {
+          "name": "Cat.0004",
+          "fileName": "walk_files/Cat.0004.png",
+          "frameNumber": 70,
+          "duration": 2,
+          "width": 640,
+          "height": 360,
+          "position": [
+            320,
+            180
+          ],
+          "opacity": 1
+        }
+      ],
+      "childLayers": [],
+      "type": "paintlayer",
+      "fileType": "png",
+      "blendingMode": "normal",
+      "animated": true,
+      "label": 0,
+      "opacity": 1,
+      "visible": true,
+      "passThrough": false,
+      "reference": false,
+      "inheritAlpha": false
+    }
+  ],
+  "originApp": "CodexStudy",
+  "originAppVersion": "1",
+  "ocaVersion": "1.1.0"
+}

@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "study": "opentoonz",
+  "composition": "OpenToonzStudy",
+  "chromiumGl": "angle",
+  "frames": 90,
+  "fps": 30,
+  "durationSeconds": 3.008,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "repeatedFrameAfterEnd": true,
+  "regionMeanPixelChange": 0.4719744318181818,
+  "pixelComparisons": [
+    {
+      "frames": [
+        0,
+        1
+      ],
+      "equal": true,
+      "regionMeanPixelChange": 0,
+      "status": "passed"
+    },
+    {
+      "frames": [
+        1,
+        2
+      ],
+      "equal": true,
+      "regionMeanPixelChange": 0,
+      "status": "passed"
+    },
+    {
+      "frames": [
+        2,
+        3
+      ],
+      "equal": false,
+      "regionMeanPixelChange": 2.9582291666666665,
+      "status": "passed"
+    },
+    {
+      "frames": [
+        58,
+        59
+      ],
+      "equal": true,
+      "regionMeanPixelChange": 0,
+      "status": "passed"
+    },
+    {
+      "frames": [
+        59,
+        60
+      ],
+      "equal": false,
+      "regionMeanPixelChange": 16.34920928030303,
+      "status": "passed"
+    }
+  ],
+  "variants": {},
+  "regressions": {
+    "CodexStudy": "passed",
+    "AnimeMotionStudy": "passed",
+    "MojsStudy": "passed",
+    "TheatreStudy": "passed",
+    "TwoStudy": "passed",
+    "D3Study": "passed",
+    "ThreeStudy": "passed",
+    "BabylonStudy": "passed",
+    "DreiStudy": "passed",
+    "SparkStudy": "passed",
+    "CablesStudy": "passed",
+    "TaichiStudy": "passed",
+    "SplishsplashStudy": "passed",
+    "CustomShaderMaterialStudy": "passed"
+  },
+  "elapsedSeconds": 168.35,
+  "hashes": {
+    "video": "3116ad175fef81a7c78cb9e681ddc93e875d06e7928afc00df45cb6988a042d4",
+    "frame30": "a388cc8f570efd69b307bde2f2e939bdec55672acc1d00e90cb2565fb535921c"
+  }
+}

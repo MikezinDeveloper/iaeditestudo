@@ -24,7 +24,7 @@ const browsers = new Map([[target.gl ?? 'angle', browser]]);
 const options = {serveUrl, puppeteerInstance: browser, inputProps: {}};
 try {
   const composition = await selectComposition({...options, id: target.composition});
-  const frames = [...new Set([0, 15, 30, Math.floor(target.frames / 2), target.frames - 1])];
+  const frames = [...new Set([0, 15, 30, Math.floor(target.frames / 2), target.frames - 1, ...(target.pixelComparisons ?? []).flatMap((c) => c.frames)])];
   for (const frame of frames) await renderStill({...options, composition, frame, imageFormat: 'png', output: resolve(`${folder}/frame-${frame}.png`)});
   await renderStill({...options, composition, frame: 30, imageFormat: 'png', output: resolve(`${folder}/frame-30-repeat.png`)});
   if (hash(`${folder}/frame-30.png`) !== hash(`${folder}/frame-30-repeat.png`)) throw new Error('Retornar ao frame mudou os pixels');
@@ -39,13 +39,22 @@ try {
   if (first.length !== 320 * 220 * 3 || later.length !== first.length) throw new Error('Região visual vazia');
   const pixelChange = first.reduce((sum, value, index) => sum + Math.abs(value - later[index]), 0) / first.length;
   if (pixelChange < 0.1) throw new Error('Movimento não demonstrado na região visual');
+  const pixels = (path) => run('ffmpeg', ['-v', 'error', '-i', path, '-vf', 'crop=320:220:160:80,format=rgb24', '-frames:v', '1', '-threads', '1', '-f', 'rawvideo', 'pipe:1']);
+  const pixelComparisons = [];
+  for (const comparison of target.pixelComparisons ?? []) {
+    const [from, to] = comparison.frames;
+    const a = pixels(`${folder}/frame-${from}.png`), b = pixels(`${folder}/frame-${to}.png`);
+    if (a.length !== 320 * 220 * 3 || b.length !== a.length) throw new Error('Região da exposição inválida');
+    const change = a.reduce((sum, value, i) => sum + Math.abs(value - b[i]), 0) / a.length;
+    if (comparison.equal ? !a.equals(b) : change < 0.1) throw new Error(`Exposição inesperada entre frames ${from} e ${to}`);
+    pixelComparisons.push({...comparison, regionMeanPixelChange: change, status: 'passed'});
+  }
   const variants = {};
   for (const variant of target.variants ?? []) {
     const inputProps = variant.inputProps;
     const cfg = await selectComposition({...options, id: target.composition, inputProps});
     const file = `${folder}/variant-${variant.key}.png`;
     await renderStill({...options, composition: cfg, inputProps, frame: 30, imageFormat: 'png', output: resolve(file)});
-    const pixels = (path) => run('ffmpeg', ['-v', 'error', '-i', path, '-vf', 'crop=320:220:160:80,format=rgb24', '-frames:v', '1', '-threads', '1', '-f', 'rawvideo', 'pipe:1']);
     const a = pixels(`${folder}/frame-30.png`), b = pixels(file);
     if (a.length !== 320 * 220 * 3 || b.length !== a.length) throw new Error('Região da variante inválida');
     const change = a.reduce((sum, value, i) => sum + Math.abs(value - b[i]), 0) / a.length;
@@ -64,7 +73,7 @@ try {
     if (hash(file) !== hash(baseline)) throw new Error(`Regressão na composição ${id}`);
     regressions[id] = 'passed';
   }
-  const report = {status: 'passed', study: key, composition: composition.id, chromiumGl: target.gl ?? 'angle', frames: target.frames, fps: target.fps, durationSeconds: Number(probe.format.duration), codecs: [v.codec_name, a.codec_name], repeatedFrameAfterEnd: true, regionMeanPixelChange: pixelChange, variants, regressions, elapsedSeconds: (Date.now() - started) / 1000, hashes: {video: hash(video), frame30: hash(`${folder}/frame-30.png`)}};
+  const report = {status: 'passed', study: key, composition: composition.id, chromiumGl: target.gl ?? 'angle', frames: target.frames, fps: target.fps, durationSeconds: Number(probe.format.duration), codecs: [v.codec_name, a.codec_name], repeatedFrameAfterEnd: true, regionMeanPixelChange: pixelChange, pixelComparisons, variants, regressions, elapsedSeconds: (Date.now() - started) / 1000, hashes: {video: hash(video), frame30: hash(`${folder}/frame-30.png`)}};
   writeFileSync(`${folder}/report.json`, JSON.stringify(report, null, 2) + '\n');
   console.log(JSON.stringify(report, null, 2));
 } finally {for (const instance of browsers.values()) await instance.close({silent: true});}

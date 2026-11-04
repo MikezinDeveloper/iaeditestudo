@@ -48,3 +48,5 @@ O lote atual segue `estudo/FILA.md` em sequência. Os estudos registrados em `sc
 Informe o que foi alterado e o que os relatórios comprovam. Separe render aprovado, inspeção visual, preview interativo e integração com IA. Não conclua que um MP4 válido demonstra qualidade estética ou edição inteligente.
 
 Para os estudos 3D, respeite o backend `swangle` registrado e as regras de readiness/cleanup de cada ponte. R3F usa raiz sem loop e aguarda layout; Spark aguarda sort. Não use o scratch object de `getSplat` como snapshot persistente. Avisos e limitações ficam no estudo correspondente.
+
+Os itens 11–15 estão documentados na fila. Preserve a proveniência dos caches Taichi/DFSPH e do runtime Cables. Reproduzir esses presets não exige seus ambientes de geração. CSM recebe tempo via uniform; OpenToonzStudy resolve exposições do subconjunto OCA/PNG, cujo fixture é original. Não descreva o editor OpenToonz nativo ou GPU física como executados. O runner verifica a variante de luz do CSM e pares de pixels das exposições OCA.

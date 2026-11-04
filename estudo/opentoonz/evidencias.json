@@ -1,0 +1,154 @@
+{
+  "source": "https://github.com/opentoonz/opentoonz",
+  "revision": "572d59ac5fedfeaf7910967b439c6b8d73c9c3e1",
+  "consultedAt": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/README.md",
+      "sha256": "c6b2bffbb2af9497ff127db2031438e306cf50e3ee13442459e4e3a32fe7d0e9",
+      "lines": 76,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "LICENSE.txt",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/LICENSE.txt",
+      "sha256": "0d25442ea242187a08fea3ef810fe702031d55f15bb81a4f4f97b148df988f59",
+      "lines": 34,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "doc/how_to_build_linux.md",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/doc/how_to_build_linux.md",
+      "sha256": "5420505265b119711c80d261dc0d6f97aba41322a6af397af49ea0d663cc5dad",
+      "lines": 199,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/CMakeLists.txt",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/CMakeLists.txt",
+      "sha256": "8bc3e87df991c1cb9f6e1c3f778717e9a66ef9dbeb3860a3bc38c7fa81d2b596",
+      "lines": 773,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/tcomposer/CMakeLists.txt",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/tcomposer/CMakeLists.txt",
+      "sha256": "70a7ffa39be87e51fdfdafe70c9062922b4d2b35f1f491f1bc8c680d5fa6094f",
+      "lines": 16,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/tcomposer/tcomposer.cpp",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/tcomposer/tcomposer.cpp",
+      "sha256": "14b35885cc062c2f2d3145fee1bd9dcc42a242d1e2a675b768529f9f6dc200b8",
+      "lines": 1041,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/tcomposer/tests.cpp",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/tcomposer/tests.cpp",
+      "sha256": "a844ea0db07f0245003763a60d9c56667a9f5c9d07e94a6af1b649d7f7566410",
+      "lines": 37,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/toonz/ocaio.h",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/toonz/ocaio.h",
+      "sha256": "0f704f65e0a540492f917a97d3ff38640831c743e580687b68036de59fab3b4d",
+      "lines": 108,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/toonz/ocaio.cpp",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/toonz/ocaio.cpp",
+      "sha256": "af88702ec2cb4f266b325b19b6aeec8c680f317760bdfe212f677a157d2f4f58",
+      "lines": 869,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/toonz/xdtsio.h",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/toonz/xdtsio.h",
+      "sha256": "9cedcf8d4f4c803e0ba269f0044588acd49ca7b7b91d3eef1ee8fecd6825a09c",
+      "lines": 247,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/toonz/xdtsio.cpp",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/toonz/xdtsio.cpp",
+      "sha256": "fd7c8bb97d61ea15e5cec790bc5ae73a680007bba66f0e1d33790ba9b0511f23",
+      "lines": 980,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/toonz/exportlevelcommand.h",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/toonz/exportlevelcommand.h",
+      "sha256": "15f69c934e6d8668918033443100b0bb7361e25772703c9326e752cbaaea9aad",
+      "lines": 153,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/toonz/exportlevelcommand.cpp",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/toonz/exportlevelcommand.cpp",
+      "sha256": "24bf035d0c55d7f617e9a1c0c214d94f125eda6a7ff3d1c51a911d8941dc935b",
+      "lines": 567,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/include/toonz/txshcell.h",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/include/toonz/txshcell.h",
+      "sha256": "f39811c49ea2cab18a6f4970186a270979f6aa8f695774adb47c1575b08dd02d",
+      "lines": 128,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/include/toonz/txshsimplelevel.h",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/include/toonz/txshsimplelevel.h",
+      "sha256": "d3cf17311ccb204c1e612dc90f4f9c5381672e59b1f7d367805a7d24722170eb",
+      "lines": 399,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/toonzlib/txshcell.cpp",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/toonzlib/txshcell.cpp",
+      "sha256": "612a3021fb55c8cdb978425046fdaa17480e2787ba7e47a9995badb5f13d2cb4",
+      "lines": 61,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/toonzlib/txshsimplelevel.cpp",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/toonzlib/txshsimplelevel.cpp",
+      "sha256": "b302d677068709456992a19a04e447fe79addf82824c755093f0fd7f04dada61",
+      "lines": 2380,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/toonzlib/txsheet.cpp",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/toonzlib/txsheet.cpp",
+      "sha256": "1cc02c115be0523b2247b8cf8c0e17293294eb07a939c4a3f7f4f3e5eda658c6",
+      "lines": 1860,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/toonzlib/toonzscene.cpp",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/toonzlib/toonzscene.cpp",
+      "sha256": "96fe2d504581099368cfd1d7fcffa5427b993d6b681c23cf8148638ec9474b90",
+      "lines": 1627,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/image/png/tiio_png.cpp",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/image/png/tiio_png.cpp",
+      "sha256": "75653b65881b2b378062a889cb0b737702c4ac28f0f5476e3cc5e53d1d2564b5",
+      "lines": 925,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    },
+    {
+      "path": "toonz/sources/include/tversion.h",
+      "url": "https://github.com/opentoonz/opentoonz/blob/572d59ac5fedfeaf7910967b439c6b8d73c9c3e1/toonz/sources/include/tversion.h",
+      "sha256": "da8506adc94f47d16f6a89eaf5d4d2b16e6f6a736e89427dfbf585c1a154a09e",
+      "lines": 72,
+      "scope": "Consulta integral ou parcial dos trechos relevantes; não é auditoria de todas as linhas."
+    }
+  ]
+}

@@ -29,12 +29,13 @@ O Codex poderá consultar estes arquivos em tarefas futuras. Esta base fornece c
 
 ## Estado atual
 
-A base de Remotion e Anime.js foi ampliada, na ordem solicitada, com mo.js, Theatre.js, Two.js, D3, Three.js, Babylon.js, Drei e Spark. Cada estudo possui revisão fixa, explicação dos mecanismos, licença, ponte executável, validações e limites. A [fila](estudo/FILA.md) registra os checkpoints de publicação.
+A base de Remotion e Anime.js foi ampliada, na ordem solicitada, com mo.js, Theatre.js, Two.js, D3, Three.js, Babylon.js, Drei, Spark e os itens 11–15: Cables, Taichi, SPlisHSPlasH, Custom Shader Material e OpenToonz/OCA. Cada estudo possui revisão fixa, explicação dos mecanismos, licença, ponte executável, validações e limites. A [fila](estudo/FILA.md) registra os checkpoints de publicação.
 
-- Dez composições: edição audiovisual base, Anime.js e os oito estudos.
-- Instalação pelo lockfile, geração de assets, checagem de tipos e **32 testes locais** aprovados.
+- Quinze composições: edição audiovisual base, Anime.js e treze estudos registrados.
+- Instalação pelo lockfile, geração de assets, checagem de tipos e **42 testes locais** aprovados.
 - Exports por estudo com H.264/AAC, inspeção de movimento, repetição de frame e regressões; relatórios em cada estudo.
 - Testes upstream, falhas observadas e suites não executadas são registrados separadamente; não há alegação de auditoria integral.
+- O lote 11–15 acrescenta grafo numérico real, tecido Taichi, fluido DFSPH C++ nativo, shader iluminado e exposição OCA/PNG. O estudo OpenToonz usa fixture próprio; aplicativo/roundtrip nativo permanecem não validados.
 - O material do X permanece [pendente de conteúdo acessível](estudo/analises/SRC-002-material-chesny.md).
 
 O protótipo ainda não tem planejador por linguagem natural, histórico de edição completo, timeline multifaixa geral ou benchmark de produção. O [catálogo de integrações](estudo/INTEGRACOES.md) explica como o estudo prepara essas próximas capacidades.

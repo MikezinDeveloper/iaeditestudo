@@ -20,6 +20,7 @@ Os repositórios de edição serão enviados pelo usuário. Este índice disting
 | SRC-014 | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | Kernels numéricos e bake de tecido | `ba0e81dce559fb63a5958bf82feb1d00c55c02fe`, fonte 1.8.0, wheel 1.7.4 | CPU real, reset reprodutível, 8 upstream; cache e export | [Estudo](taichi/README.md) |
 | SRC-015 | [SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | DFSPH nativo e cache de partículas | `dba6b26b9387ab6bdd187d6df0a7c9d490d03500`, 2.19.1 | Build C++ executado; 8 casos/24 asserts upstream, 38 locais e export; falha do wheel registrada | [Estudo](splishsplash/README.md) |
 | SRC-016 | [Custom Shader Material](https://github.com/FarazzShaikh/THREE-CustomShaderMaterial) | GLSL customizado preservando iluminação | `cf86e956715bd6cd97e7ae61ffdf459e4a4c822e`, 6.4.0 | 40 locais, compilação WebGL, variante de luz e export aprovados; suíte upstream não executada | [Estudo](custom-shader-material/README.md) |
+| SRC-017 | [OpenToonz](https://github.com/opentoonz/opentoonz) | Níveis, exposição e ponte OCA/PNG | `572d59ac5fedfeaf7910967b439c6b8d73c9c3e1`, fonte 1.8.0 | Subconjunto OCA, fixture original, 42 locais e export; aplicativo/roundtrip nativo não executados | [Estudo](opentoonz/README.md) |
 
 ## Fila de entrada
 

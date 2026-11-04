@@ -11,6 +11,7 @@ Este catálogo reúne os mecanismos implementados no protótipo após o estudo s
 | Efeitos de formas e partículas | [mo.js](mojs/README.md), `MojsStudy` | Progresso normalizado absoluto | Aplicar zero antes do progresso pedido; sem isso a primeira integração ficou estática. |
 | Keyframes persistidos | [Theatre](theatre/README.md), `TheatreStudy` | Estado JSON + sequência posicionada + driver explícito | Formato da fonte e runtime publicado diferem. Só core foi integrado; Studio tem licença distinta. |
 | Cena vetorial e grupos | [Two.js](two/README.md), `TwoStudy` | Propriedades absolutas + um update SVG | O npm fixado não possui o dispose visto no HEAD. Cleanup usa APIs disponíveis; limite de métricas de texto está registrado. |
+| Desenhos e exposições | [OpenToonz/OCA](opentoonz/README.md), `OpenToonzStudy` | PNG + duração das cels; resampling por FPS | Subconjunto plano normal validado com fixture próprio. Aplicativo/roundtrip nativo e efeitos/rig não validados. |
 | Gráficos por dados | [D3](d3/README.md), `D3Study` | Escalas, join por ID, interpolação e easing | Evitar d3-transition/timers no export; validar IDs/valores e manter dados imutáveis. |
 | Shader com iluminação | [Custom Shader Material](custom-shader-material/README.md), `CustomShaderMaterialStudy` | Uniform de tempo absoluto + normais analíticas + render | Chunks dependem do Three; bounds CPU, sombras e WebGPU exigem validações próprias. |
 | Cena 3D procedural | [Three](three/README.md), `ThreeStudy` | Transformações absolutas + render único | Geometria/material/renderer/contexto precisam de descarte; câmera/aspect e cor fazem parte do contrato. |
@@ -42,11 +43,19 @@ O catálogo executável está em `demos/remotion-codex/scripts/studies.json`; as
 
 ## Evidências e limites de comparação
 
-Todos os presets usam 640×360 e 30 fps; os oito estudos têm 90 frames cada. Exportações verificam H.264/AAC, duração, movimento em uma região sem contador e repetição depois de visitar o fim. O último estudo também compara um frame das nove composições anteriores, quando os baselines existem. Isso não equivale a reexportar todas as composições em toda mudança nem garante identidade entre drivers.
+Todos os presets usam 640×360 e 30 fps; os treze estudos do catálogo têm 90 frames cada. Exportações verificam H.264/AAC, duração, movimento em uma região sem contador e repetição depois de visitar o fim. O último estudo também compara um frame das quatorze composições anteriores, quando os baselines existem. Isso não equivale a reexportar todas as composições em toda mudança nem garante identidade entre drivers.
 
-Os estudos registram separadamente testes do nosso projeto, subconjuntos oficiais e suítes não executadas. Há falhas/limites upstream em Anime e Two, e instalação upstream recusada no D3. Nenhum desses resultados foi convertido em aprovação fictícia. Os relatórios históricos conservam a contagem da etapa; a suíte local final tem 32 casos. A existência do workflow GitHub Actions não prova execução remota aprovada.
+Os estudos registram separadamente testes do nosso projeto, subconjuntos oficiais e suítes não executadas. Há falhas/limites upstream em Anime e Two, e instalação upstream recusada no D3. Nenhum desses resultados foi convertido em aprovação fictícia. Os relatórios históricos conservam a contagem da etapa; a suíte local atual tem 42 casos. A existência do workflow GitHub Actions não prova execução remota aprovada.
 
-Para distribuição comercial, consultar as licenças fixadas em cada estudo: mo.js/Two/Three/Drei/Spark usam MIT, D3 ISC e Babylon Apache-2.0. Theatre core é Apache-2.0 e Studio AGPL-3.0; este último não foi incorporado. Remotion tem condições próprias detalhadas no estudo. Dependências e assets também podem ter avisos próprios; a licença do repositório principal não cobre automaticamente todo arquivo externo.
+Para distribuição comercial, consultar as licenças fixadas em cada estudo: mo.js/Two/Three/Drei/Spark usam MIT, D3 ISC e Babylon Apache-2.0. Theatre core é Apache-2.0 e Studio AGPL-3.0; este último não foi incorporado. Remotion tem condições próprias detalhadas no estudo. Taichi é Apache-2.0, SPlisHSPlasH e CSM são MIT; o BSD-3-Clause principal do OpenToonz não cobre automaticamente terceiros. Cables usa MIT nos manifests e shared consultado; a ausência de LICENSE na raiz do core e a seleção vendorizada estão documentadas. Dependências e assets também podem ter avisos próprios; a licença do repositório principal não cobre automaticamente todo arquivo externo.
+
+## Lições do lote 11–15
+
+Há três contratos temporais diferentes. Cables e CSM avaliam parâmetros absolutos; Taichi e DFSPH precisam primeiro resolver uma sequência física e então fornecer snapshots; OCA mantém uma identidade de desenho durante uma duração. Reutilizar o mesmo conceito de seek para todos sem essas fronteiras produziria resultados incorretos.
+
+O browser reproduz os caches Taichi/DFSPH versionados e os PNGs OCA sem executar Python, C++ ou OpenToonz. Regenerar simulações exige o ambiente e a receita nativos de cada estudo. O tempo da simulação, sua versão, parâmetros e hashes são parte dos dados; não devem ser descartados pelo futuro planejador.
+
+A variante CSM mede uma consequência da iluminação; os pares OCA medem holds e troca de desenho. Um MP4 com metadados corretos, sozinho, não detectaria essas falhas. GPU física Taichi e roundtrip nativo OpenToonz continuam pendentes; falhas dos wheels SPlisHSPlasH foram preservadas mesmo com a alternativa C++ aprovada.
 
 ## Próximo desenvolvimento, ainda não implementado
 

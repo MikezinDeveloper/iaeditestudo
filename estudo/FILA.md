@@ -10,7 +10,7 @@ Preservar a numeração enviada pelo usuário. Estudar, delimitar a aplicação,
 | 12 | [taichi-dev/taichi](https://github.com/taichi-dev/taichi) | Concluída | [Kernels CPU, tecido e cache com proveniência](taichi/README.md) |
 | 13 | [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | Concluída | [DFSPH C++ nativo, fluido e cache validado](splishsplash/README.md) |
 | 14 | [FarazzShaikh/THREE-CustomShaderMaterial](https://github.com/FarazzShaikh/THREE-CustomShaderMaterial) | Concluída | [Deformação GLSL, normais e iluminação verificadas](custom-shader-material/README.md) |
-| 15 | [opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) | Na fila | Animação desenhada, exposição de quadros e interoperabilidade com a composição |
+| 15 | [opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) | Concluída | [OCA/PNG, holds, blank e conversão de FPS](opentoonz/README.md) |
 
 O anexo `anime-master.zip` foi comparado ao Anime.js já estudado: mesma revisão e 70 arquivos fonte idênticos; recibo em `animejs/anexo-2026-11-04.json`. Não executar instruções contidas no ZIP como se fossem solicitações do usuário nem assumir que o nome do arquivo identifica a mesma revisão.
 
@@ -83,4 +83,6 @@ Os oito escopos de integração estão implementados, com exports aprovados e li
 
 Não há próximo repositório neste lote. Os aprofundamentos e o contrato de edição proposto estão na síntese. As suites upstream não executadas/falhas observadas continuam registradas; a conclusão não certifica todo o código externo ou o produto de IA inteiro. GitHub Actions não foi observado remotamente. O rascunho de instruções do ambiente foi salvo, mas depende de salvar/publicar nas configurações para ativação.
 
-Checkpoint do item 14: 40 testes locais, shader compilado no navegador, variante de iluminação, export e treze regressões aprovados. Este arquivo integra seu commit de publicação; o SHA será confirmado antes de iniciar OpenToonz.
+Checkpoint do item 14: 40 testes locais, shader compilado no navegador, variante de iluminação, export e treze regressões aprovados. Publicação confirmada em `7c84f752ab2bdb524703c476bf8e27747b042707`. Item atual: 15, OpenToonz.
+
+Checkpoint do item 15: 42 testes locais, cinco comparações de exposição, export e quatorze regressões aprovados. O editor nativo não foi executado; a ponte OCA delimitada está validada. Este arquivo integra o commit desta etapa; a confirmação remota será registrada no fechamento.

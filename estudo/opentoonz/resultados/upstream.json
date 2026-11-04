@@ -1,0 +1,47 @@
+{
+  "status": "not-run",
+  "scope": "Native application, tcomposer and upstream suites not executed; application OCA bridge is validated separately.",
+  "sourceRevision": "572d59ac5fedfeaf7910967b439c6b8d73c9c3e1",
+  "checks": {
+    "opentoonz": {
+      "command": [
+        "bash",
+        "-c",
+        "command -v opentoonz"
+      ],
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    "tcomposer": {
+      "command": [
+        "bash",
+        "-c",
+        "command -v tcomposer"
+      ],
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    "Qt5Core": {
+      "command": [
+        "pkg-config",
+        "--modversion",
+        "Qt5Core"
+      ],
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "Package Qt5Core was not found in the pkg-config search path.\nPerhaps you should add the directory containing `Qt5Core.pc'\nto the PKG_CONFIG_PATH environment variable\nPackage 'Qt5Core', required by 'virtual:world', not found"
+    }
+  },
+  "officialReleaseConsulted": {
+    "url": "https://github.com/opentoonz/opentoonz/releases/expanded_assets/v1.8.0",
+    "sha256": "5c44afc0e51f79f8f4ac24d768602ce749afdc267eecd649d43b6dd51d3786c9",
+    "installers": [
+      "/opentoonz/opentoonz/releases/download/v1.8.0/OpenToonz.pkg",
+      "/opentoonz/opentoonz/releases/download/v1.8.0/OpenToonzSetup.exe"
+    ],
+    "linuxInstallerListed": false
+  },
+  "decision": "Use an original OCA/PNG fixture matching the inspected exporter subset. Qt-dependent native build and native roundtrip remain unvalidated, not passed."
+}

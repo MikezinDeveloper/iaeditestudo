@@ -17,6 +17,8 @@ import {TaichiStudy} from './studies/TaichiStudy';
 import {SplishsplashStudy} from './studies/SplishsplashStudy';
 import {CustomShaderMaterialStudy} from './studies/CustomShaderMaterialStudy';
 
+import {OpenToonzStudy} from './studies/OpenToonzStudy';
+
 export const Root: React.FC = () => (
   <>
   <Composition
@@ -45,5 +47,6 @@ export const Root: React.FC = () => (
   <Composition id="TaichiStudy" component={TaichiStudy} width={640} height={360} fps={30} durationInFrames={90} />
   <Composition id="SplishsplashStudy" component={SplishsplashStudy} width={640} height={360} fps={30} durationInFrames={90} />
   <Composition id="CustomShaderMaterialStudy" component={CustomShaderMaterialStudy} defaultProps={{lightIntensity: 3}} width={640} height={360} fps={30} durationInFrames={90} />
+  <Composition id="OpenToonzStudy" component={OpenToonzStudy} width={640} height={360} fps={30} durationInFrames={90} />
   </>
 );

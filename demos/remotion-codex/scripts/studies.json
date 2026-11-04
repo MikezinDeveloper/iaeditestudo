@@ -71,5 +71,47 @@
         }
       }
     ]
+  },
+  "opentoonz": {
+    "composition": "OpenToonzStudy",
+    "frames": 90,
+    "fps": 30,
+    "pixelComparisons": [
+      {
+        "frames": [
+          0,
+          1
+        ],
+        "equal": true
+      },
+      {
+        "frames": [
+          1,
+          2
+        ],
+        "equal": true
+      },
+      {
+        "frames": [
+          2,
+          3
+        ],
+        "equal": false
+      },
+      {
+        "frames": [
+          58,
+          59
+        ],
+        "equal": true
+      },
+      {
+        "frames": [
+          59,
+          60
+        ],
+        "equal": false
+      }
+    ]
   }
 }
